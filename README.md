@@ -54,18 +54,22 @@ Each narrative is crossed with a **technology-timing axis**, following the idea 
 
 | Equation in `model/core.gms` | Meaning | TIMES counterpart |
 |---|---|---|
-| `EQ_OBJ` | NPV of investment minus salvage value, fixed and variable O&M, resources | `EQ_OBJ` (investment, fixed, variable and salvage terms) |
-| `EQ_CPT` | capacity = residual capacity + vintages within technical lifetime | `EQ_CPT` |
-| `EQ_CAPACT` | activity <= capacity x availability x slice length | `EQ_CAPACT` |
-| `EQ_COMBAL` | production + supply >= consumption + demand, per slice or year | `EQ_COMBAL` |
+| `EQ_OBJ` | NPV of investment minus salvage value, fixed and variable O&M, resources | `EQ_OBJ` with `EQ_OBJINV`, `EQ_OBJFIX`, `EQ_OBJVAR`, `EQ_OBJSALV` |
+| `EQ_CPT` | capacity = residual capacity + vintages within technical lifetime | `EQE_CPT` (`eqcpt.mod`) |
+| `EQ_CAPACT` | activity <= capacity x availability x slice length | `EQL_CAPACT` (`eqcapact.mod`) |
+| `EQ_COMBAL` | production + supply >= consumption + demand, per slice or year | `EQG_COMBAL` (`eqcombal.mod`) |
 | `EQ_MUSTUSE` | all supplied waste is incinerated | bound on commodity net (`COM_BNDNET`) |
-| `EQ_CO2CAP` | captured biogenic CO2 = storage (BECCS) + CCU (e-kerosene) | `EQ_COMBAL` with `=E=` for an environmental commodity |
-| `EQ_HYDAFA`, `EQ_HYDSEAS` | hydro annual and seasonal energy | `NCAP_AF` with `ANNUAL`/`SEASON` time-slice levels |
-| `EQ_EMIS` | CO2, NOx and PM2.5 accounting per unit of activity | `ENV_ACT` / `FLO_EMIS` |
-| `EQ_CO2GROSS`, `EQ_CO2NET` | gross cap and net zero from 2045 | `COM_BNDNET` / user constraint on emissions |
+| `EQ_CO2CAP` | captured biogenic CO2 = storage (BECCS) + CCU (e-kerosene) | `EQE_COMBAL` for that commodity |
+| `EQ_HYDAFA`, `EQ_HYDSEAS` | hydro annual and seasonal energy | `NCAP_AFA` and `NCAP_AFS` at `SEASON` level |
+| `EQ_EMIS` | CO2, NOx and PM2.5 accounting | `FLO_EMIS` on `ACT` (process) and `VDA_EMCB` (fuel) |
+| `EQ_CO2GROSS`, `EQ_CO2NET` | gross cap and net zero from 2045 | `COM_BNDNET` on the emission commodity or a user constraint |
 | `EQ_SAF`, `EQ_SYN` | ReFuelEU minimum SAF and synthetic shares | user constraints (`UC_ACT`) |
 | `EQ_PEAK` | firm capacity >= peak load x (1 + margin) | `EQ_PEAK` with `NCAP_PKCNT`, `COM_PKRSV` |
-| variable bounds | supply steps, technology start year, growth limit per period | `ACT_BND` on supply processes, `NCAP_START`, `NCAP_BND` |
+| variable bounds | supply steps, technology start year, growth limit per period | `ACT_BND`, `NCAP_START`, `NCAP_BND` |
+
+Equation and parameter names were checked against the open-source TIMES code (TIMES 4.7.3, [etsap-TIMES](https://github.com/etsap-TIMES)). Parameters carry TIMES names (`PRC_ACTFLO`, `NCAP_COST`, `NCAP_FOM`, `ACT_COST`, `NCAP_TLIFE`, `NCAP_AFS`, `NCAP_AFA`, `NCAP_BND`, `NCAP_START`, `NCAP_PKCNT`, `COM_PKRSV`, `PRC_CAPACT`, `PRC_RESID`, `COM_PROJ`, `COM_FR`, `G_YRFR`, `G_DRATE`, `FLO_EMIS`, `VDA_EMCB`), but without the region and data-year indices that TIMES uses.
+
+As a first step towards the real TIMES code, [`times_extension/`](times_extension/) adds a Swedish-type gasification-FT process (jet and diesel from biomass) to the open-source TIMES demo model as a data file, without changing the TIMES source.
 
 Differences from TIMES, stated plainly: all input and output shares are fixed, so flows are expressed through `VAR_ACT` and `PRC_ACTFLO` and `VAR_FLO` is eliminated by substitution; processes operate either at slice level or at annual level (`PRC_TS`); there is no trade between regions, no elastic demand and no storage process (hydrogen is balanced annually, with a storage cost added to hydrogen turbines).
 

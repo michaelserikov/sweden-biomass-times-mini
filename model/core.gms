@@ -120,7 +120,7 @@ Sets
    RES_BIO(RES) 'forest biomass supply steps' / BIO1*BIO4 /
    PATTR 'process data columns'
          / TSL, CAPF, NEW, NCAP_COST, NCAP_FOM, ACT_COST, NCAP_TLIFE, NCAP_AF,
-           NCAP_BND, START, PEAK_CONT, NOX_EF, PM_EF, CAPACT /
+           NCAP_BND, NCAP_START, NCAP_PKCNT, NOX_EF, PM_EF, PRC_CAPACT /
    SATTR 'time-slice data columns'
          / G_YRFR, LF_ELC, LF_HET, LF_EXP, AF_NUC, AF_WON, AF_WOF, AF_SOL /
    DITEM 'demand data rows' / ELC, ELC_EXP, HET, IND, STL, DSL, AVF /
@@ -185,7 +185,7 @@ $onDelim
 $include "%DATA%policy.csv"
 $offDelim
 ;
-Parameter FLO_EMIS(COM) 'fossil CO2 factor (Mt per TWh fuel)' /
+Parameter VDA_EMCB(COM) 'fossil CO2 factor of a fuel, Mt per TWh (TIMES: VDA_EMCB)' /
 $onDelim
 $include "%DATA%fuels.csv"
 $offDelim
@@ -212,13 +212,15 @@ Scalars
    DOM_SHR   'domestic share of jet fuel uplifted in Sweden'       / 0.18 /
    RED_2025  'national GHG reduction vs 1990 reached by 2024'      / 0.33 /
    RED_2045  'national target: territorial reduction vs 1990'      / 0.85 /
-   PEAK_MARG 'peak reserve margin'                                 / 0.05 /
-   HYD_AFA   'hydro annual energy availability'                    / 0.47 /
    HYD_SEAS  'max share of annual hydro energy in one season'      / 0.32 /
    HYD_MIN   'min hydro output per slice (share of capacity)'      / 0.15 /
    DUM_COST  'cost of unserved demand (EUR/MWh)'                   / 10000 /
    CO2ON     'switch for CO2 constraints'                          / 0 /;
 $ifi "%TIMING%"=="delay" DLY_START = 2040;
+
+Parameters
+   COM_PKRSV(COM) 'peak reserve margin'                     / ELC 0.05 /
+   NCAP_AFA(PRC)  'annual availability (hydro: inflow)'     / ELC_HYD 0.47 /;
 
 Parameters
    YEAR(T)          'milestone year'
@@ -231,10 +233,10 @@ Parameters
    NCAP_TLIFE(PRC)  'technical lifetime (years)'
    NCAP_AFS(PRC,S)  'availability factor by time slice'
    NCAP_BND(PRC)    'max new capacity per period'
-   START(PRC)       'first year of availability'
-   PEAK_CONT(PRC)   'contribution of capacity to peak reserve'
-   CAPACT(PRC)      'activity per unit capacity per year'
-   ENV_ACT(PRC,EM)  'emission per unit of activity'
+   NCAP_START(PRC)       'first year of availability'
+   NCAP_PKCNT(PRC)   'contribution of capacity to peak reserve'
+   PRC_CAPACT(PRC)      'activity per unit capacity per year'
+   FLO_EMIS(PRC,EM)  'emission per unit of activity (TIMES: FLO_EMIS on ACT)'
    COM_PROJ(COM,T)  'exogenous demand'
    DEM(COM,T,S)     'demand by time slice'
    PEAK_LOAD(T)     'domestic peak load (GW)'
@@ -273,10 +275,10 @@ NCAP_FOM(PRC)   = PTAB(PRC,'NCAP_FOM');
 ACT_COST(PRC)   = PTAB(PRC,'ACT_COST');
 NCAP_TLIFE(PRC) = PTAB(PRC,'NCAP_TLIFE');
 NCAP_BND(PRC)   = PTAB(PRC,'NCAP_BND');
-START(PRC)      = PTAB(PRC,'START');
-START(PRC_DLY)  = max(START(PRC_DLY), DLY_START);
-PEAK_CONT(PRC)  = PTAB(PRC,'PEAK_CONT');
-CAPACT(PRC)     = PTAB(PRC,'CAPACT');
+NCAP_START(PRC)      = PTAB(PRC,'NCAP_START');
+NCAP_START(PRC_DLY)  = max(NCAP_START(PRC_DLY), DLY_START);
+NCAP_PKCNT(PRC)  = PTAB(PRC,'NCAP_PKCNT');
+PRC_CAPACT(PRC)     = PTAB(PRC,'PRC_CAPACT');
 
 NCAP_AFS(PRC,S)$PRC_TS(PRC,S) = PTAB(PRC,'NCAP_AF');
 NCAP_AFS('ELC_NUC',TS) = STAB(TS,'AF_NUC');
@@ -285,13 +287,13 @@ NCAP_AFS('ELC_WOF',TS) = STAB(TS,'AF_WOF');
 NCAP_AFS('ELC_SOL',TS) = STAB(TS,'AF_SOL');
 
 * emissions per unit of activity, derived from fuel inputs
-ENV_ACT(PRC,'CO2_EMIS') = sum(COM, PRC_ACTFLO(PRC,COM,'IN') * FLO_EMIS(COM));
-ENV_ACT('IND_FCS','CO2_EMIS') = 0.1 * ENV_ACT('IND_FCS','CO2_EMIS');
-ENV_ACT('AV_OIL','CO2_INTAV') = (1 - DOM_SHR) * ENV_ACT('AV_OIL','CO2_EMIS');
-ENV_ACT('AV_OIL','CO2_EMIS')  = DOM_SHR * NONCO2 * ENV_ACT('AV_OIL','CO2_EMIS');
-ENV_ACT('CCS_STG','CO2_STG')  = 1;
-ENV_ACT(PRC,'NOX')  = PTAB(PRC,'NOX_EF') * sum(COM_FUEL, PRC_ACTFLO(PRC,COM_FUEL,'IN'));
-ENV_ACT(PRC,'PM25') = PTAB(PRC,'PM_EF')  * sum(COM_FUEL, PRC_ACTFLO(PRC,COM_FUEL,'IN'));
+FLO_EMIS(PRC,'CO2_EMIS') = sum(COM, PRC_ACTFLO(PRC,COM,'IN') * VDA_EMCB(COM));
+FLO_EMIS('IND_FCS','CO2_EMIS') = 0.1 * FLO_EMIS('IND_FCS','CO2_EMIS');
+FLO_EMIS('AV_OIL','CO2_INTAV') = (1 - DOM_SHR) * FLO_EMIS('AV_OIL','CO2_EMIS');
+FLO_EMIS('AV_OIL','CO2_EMIS')  = DOM_SHR * NONCO2 * FLO_EMIS('AV_OIL','CO2_EMIS');
+FLO_EMIS('CCS_STG','CO2_STG')  = 1;
+FLO_EMIS(PRC,'NOX')  = PTAB(PRC,'NOX_EF') * sum(COM_FUEL, PRC_ACTFLO(PRC,COM_FUEL,'IN'));
+FLO_EMIS(PRC,'PM25') = PTAB(PRC,'PM_EF')  * sum(COM_FUEL, PRC_ACTFLO(PRC,COM_FUEL,'IN'));
 
 * demand
 COM_PROJ(COM,T)$COM_DEM(COM) = sum(DITEM$sameas(DITEM,COM), DTAB(DITEM,T));
@@ -337,8 +339,8 @@ Variables
 
 * availability, bounds
 VAR_NCAP.fx(PRC,T)$(not PRC_NEW(PRC)) = 0;
-VAR_NCAP.fx(PRC,T)$(YEAR(T) < START(PRC) or YEAR(T) = 2025) = 0;
-VAR_NCAP.up(PRC,T)$(PRC_NEW(PRC) and YEAR(T) >= START(PRC) and YEAR(T) > 2025) = NCAP_BND(PRC);
+VAR_NCAP.fx(PRC,T)$(YEAR(T) < NCAP_START(PRC) or YEAR(T) = 2025) = 0;
+VAR_NCAP.up(PRC,T)$(PRC_NEW(PRC) and YEAR(T) >= NCAP_START(PRC) and YEAR(T) > 2025) = NCAP_BND(PRC);
 VAR_SUP.up(RES,T) = RES_VOL(RES,T);
 VAR_SUP.lo('WST',T) = RES_VOL('WST',T);
 VAR_ACT.lo('ELC_HYD',T,TS) = HYD_MIN * G_YRFR(TS) * 8.76 * PRC_RESID('ELC_HYD',T);
@@ -384,7 +386,7 @@ EQ_CPT(PRC,T)$PRC_CAPF(PRC)..
      + sum(V$(PRC_NEW(PRC) and YEAR(V) <= YEAR(T) and YEAR(T) - YEAR(V) < NCAP_TLIFE(PRC)), VAR_NCAP(PRC,V));
 
 EQ_CAPACT(PRC,T,S)$(PRC_CAPF(PRC) and PRC_TS(PRC,S))..
-   VAR_ACT(PRC,T,S) =l= NCAP_AFS(PRC,S) * G_YRFR(S) * CAPACT(PRC) * VAR_CAP(PRC,T);
+   VAR_ACT(PRC,T,S) =l= NCAP_AFS(PRC,S) * G_YRFR(S) * PRC_CAPACT(PRC) * VAR_CAP(PRC,T);
 
 * sliced commodities: balance in each slice; annual processes deliver flat.
 * annual commodities: balance over the year, summing all slices.
@@ -408,13 +410,13 @@ EQ_CO2CAP(T)..
    =e= sum((PRC,S)$PRC_TS(PRC,S), PRC_ACTFLO(PRC,'CO2_CAP','IN') * VAR_ACT(PRC,T,S));
 
 EQ_HYDAFA(T)..
-   sum(TS, VAR_ACT('ELC_HYD',T,TS)) =l= HYD_AFA * 8.76 * VAR_CAP('ELC_HYD',T);
+   sum(TS, VAR_ACT('ELC_HYD',T,TS)) =l= NCAP_AFA('ELC_HYD') * 8.76 * VAR_CAP('ELC_HYD',T);
 
 EQ_HYDSEAS(T,SEAS)..
-   sum(TS$TS_SEAS(TS,SEAS), VAR_ACT('ELC_HYD',T,TS)) =l= HYD_SEAS * HYD_AFA * 8.76 * VAR_CAP('ELC_HYD',T);
+   sum(TS$TS_SEAS(TS,SEAS), VAR_ACT('ELC_HYD',T,TS)) =l= HYD_SEAS * NCAP_AFA('ELC_HYD') * 8.76 * VAR_CAP('ELC_HYD',T);
 
 EQ_EMIS(EM,T)..
-   VAR_EMIS(EM,T) =e= sum((PRC,S)$(PRC_TS(PRC,S) and ENV_ACT(PRC,EM)), ENV_ACT(PRC,EM) * VAR_ACT(PRC,T,S));
+   VAR_EMIS(EM,T) =e= sum((PRC,S)$(PRC_TS(PRC,S) and FLO_EMIS(PRC,EM)), FLO_EMIS(PRC,EM) * VAR_ACT(PRC,T,S));
 
 EQ_CO2GROSS(T)$(CO2ON and YEAR(T) > 2025)..
    VAR_EMIS('CO2_EMIS',T) =l= CO2_GROSS_FR(T) * E_BASE;
@@ -429,7 +431,7 @@ EQ_SYN(T)$SYN_SHR(T)..
    VAR_ACT('AV_SYN',T,'ANNUAL') =g= SYN_SHR(T) * COM_PROJ('AVF',T);
 
 EQ_PEAK(T)$(YEAR(T) > 2025)..
-   sum(PRC$PEAK_CONT(PRC), PEAK_CONT(PRC) * VAR_CAP(PRC,T)) =g= PEAK_LOAD(T) * (1 + PEAK_MARG);
+   sum(PRC$NCAP_PKCNT(PRC), NCAP_PKCNT(PRC) * VAR_CAP(PRC,T)) =g= PEAK_LOAD(T) * (1 + COM_PKRSV('ELC'));
 
 Model SWE_TIMES_MINI / all /;
 SWE_TIMES_MINI.holdfixed = 1;
