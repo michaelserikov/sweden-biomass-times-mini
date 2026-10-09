@@ -1,0 +1,51 @@
+parameter,index,value,unit,source,year,status,comment
+COM_PROJ (calibration),ELC production total,167.87,TWh,"SCB, Electricity supply 2025 (preliminary), scb.se",2025,verified,used for calibration only; hydro 68.07; nuclear 44.78; wind 38.97; solar 4.43; conventional thermal 11.62 (data/calibration.csv)
+COM_PROJ (calibration),DH supply total,60.51,TWh,"SCB district heating supply by type of plant, via Regionfakta (regionfakta.com)",2023,verified,calibration target for 2025 district heating; 2025 demand set to 60 TWh
+COM_PROJ,ELC 2025-2050,130/138/146/154/162/168,TWh,assumption informed by Energimyndigheten long-term scenarios,2025-2050,assumption,exogenous domestic electricity use excluding uses modelled endogenously (DH heat pumps; e-boilers; electrolysis; industrial electrification; H2 steel)
+COM_PROJ,ELC_EXP 2025-2050,32/25/20/15/15/15,TWh,2025 value: SCB production 167.9 TWh minus domestic use; later values assumption,2025,approximate,net exports; zero during the winter peak slice
+COM_PROJ,HET 2025-2050,60/59/58/57/56/56,TWh,SCB 2023 total 60.5 TWh; decline is an assumption (efficiency vs new connections),2023,approximate,
+COM_PROJ,IND,56,TWh/yr,"derived: black liquor 42 TWh x 0.65 + industrial biomass, fossil and electric process heat (Energimyndigheten Energiläget orders of magnitude)",2025,approximate,useful process heat; constant (pulp production assumed constant)
+COM_PROJ,STL,2.5,Mt/yr,assumption: ore-based (blast furnace) steel output in Sweden,2025,approximate,constant
+COM_PROJ,DSL 2025-2050,45/38/31/24/18/14,TWh,assumption: road and machinery diesel with exogenous electrification,2025-2050,assumption,EV electricity is part of exogenous ELC
+COM_PROJ,AVF 2025,7.5,TWh,"SCB monthly deliveries via Argus Media: about 57,550 m3 jet kerosene in Nov 2023; annualised and converted at about 9.6 MWh/m3",2023,approximate,growth AVI_G per scenario (1% or 2% per year)
+DOM_SHR,,0.18,share,assumption based on the ratio of domestic aviation to international bunker CO2 in the Swedish inventory,2023,assumption,share of jet fuel counted in the domestic target
+FLO_EMIS,NG,0.202,Mt CO2/TWh,IPCC 2006 default (56.1 t/TJ),2006,approximate,
+FLO_EMIS,OIL_JET,0.257,Mt CO2/TWh,IPCC 2006 default jet kerosene (71.5 t/TJ),2006,approximate,
+FLO_EMIS,OIL_DSL,0.267,Mt CO2/TWh,IPCC 2006 default gas/diesel oil (74.1 t/TJ),2006,approximate,
+FLO_EMIS,COA,0.340,Mt CO2/TWh,IPCC 2006 coking coal / coke order of magnitude,2006,approximate,
+FLO_EMIS,WST,0.120,Mt CO2/TWh,assumption: fossil fraction of municipal and industrial waste,2025,assumption,
+PRC_ACTFLO,biogenic CO2 of wood,0.403,Mt CO2/TWh fuel,IPCC 2006 default wood (112 t/TJ),2006,approximate,used to derive CO2_CAP flows (90% capture)
+PRC_ACTFLO,biogenic CO2 of black liquor,0.37,Mt CO2/TWh fuel,IPCC 2006 default black liquor (95.3 t/TJ = 0.343) rounded up,2006,approximate,used for IND_BLC capture flow
+PRC_ACTFLO,all conversion efficiencies,see data/flows.csv,TWh/TWh,"orders of magnitude from Danish Energy Agency Technology Data (generation, heat, renewable fuels) and literature on HEFA, FT and black liquor gasification",2024,approximate,not checked line by line; energy conservation checked by the model (heat pumps and industrial electrification excluded)
+NCAP_COST/FOM/ACT_COST,all processes,see data/processes.csv,MEUR/GW; MEUR/GW/yr; EUR/MWh,"orders of magnitude from Danish Energy Agency Technology Data, JRC and IEA",2024,approximate,not checked line by line; illustrative
+ACT_COST,HET_EB/HET_HP/IND_ELC/H2_ELZ,20/8/12/5,EUR/MWh output,assumption: grid tariffs and taxes on electricity use,2025,assumption,added to calibrate e-boiler use in 2025
+ACT_COST,GT_H2,44.5,EUR/MWh el,assumption: 5 EUR/MWh O&M + 15 EUR/MWh H2 storage x 2.63 MWh H2/MWh el,2025,assumption,annual H2 balance otherwise implies free storage
+ACT_COST,IND_FCS,14.4,EUR/MWh,assumption: 3 EUR/MWh O&M + storage of 0.227 Mt CO2/TWh at 50 EUR/t,2025,assumption,
+ACT_COST,CCS_STG,50,EUR/t CO2,assumption: transport and geological storage (North Sea),2025,assumption,
+NCAP_COST multipliers,H2_ELZ/ELC_WOF/ELC_SOL,data/policy.csv,factor,assumption: learning,2025-2050,assumption,
+PRC_RESID,ELC_HYD,16.4,GW,Swedish installed hydropower (order of magnitude),2025,approximate,constant
+PRC_RESID,ELC_NUC,6.9,GW,"six reactors in operation (Forsmark 1-3, Oskarshamn 3, Ringhals 3-4)",2025,approximate,constant to 2050: lifetime extension to 80 years assumed
+PRC_RESID,ELC_WON,17 (2025),GW,installed onshore wind order of magnitude; retirement profile assumption,2025,approximate,
+PRC_RESID,ELC_SOL,5 (2025),GW,installed solar order of magnitude,2025,approximate,
+PRC_RESID,other processes,see data/resid.csv,GW or Mt/yr,assumption calibrated to 2025 statistics,2025,assumption,DH boilers raised to cover the winter peak (17.5 GW heat)
+NCAP_AFS,ELC_WON/WOF/SOL/NUC by slice,see data/timeslices.csv,fraction,assumption calibrated to SCB 2025 annual output,2025,assumption,
+HYD_AFA,,0.47,fraction,derived: about 67.5 TWh normal-year hydro / (16.4 GW x 8760 h),2025,approximate,
+HYD_SEAS/HYD_MIN,,0.32/0.15,fraction,assumption: reservoir and minimum-flow limits,2025,assumption,
+G_YRFR/LF_ELC/LF_HET,,see data/timeslices.csv,fraction,assumption: 4 seasons x day/night + 100-hour winter peak; peak/average load about 1.8,2025,assumption,
+PEAK_CONT,ELC_WON/ELC_WOF,0.09,fraction,assumption in line with the wind capacity credit used in Swedish winter power balance assessments,2025,assumption,
+PEAK_CONT,others,see data/processes.csv,fraction,assumption,2025,assumption,
+PEAK_MARG,,0.05,fraction,assumption,2025,assumption,
+RES_VOL/RES_COST,BIO1-BIO4,30/20/15/15 TWh; 15/22/30/42 EUR/MWh,TWh/yr; EUR/MWh,assumption: stepwise supply curve for sawmill by-products; GROT; additional GROT and stumps; low-grade roundwood and imports,2025,assumption,scenario multiplier from 2030 (0.7 / 1.0 / 1.2)
+RES_VOL,BLQ,42,TWh/yr,assumption: black liquor proportional to constant pulp production (order of magnitude),2025,approximate,
+RES_VOL,WST,18,TWh/yr,assumption: waste incinerated in CHP (must be treated),2025,approximate,
+RES_VOL/RES_COST,HEFAFS,8 TWh; 85 EUR/MWh,,assumption: Swedish share of a constrained global lipid market,2025,assumption,
+RES_COST,NG/OILJ/OILD/COA,35/55/60/15,EUR/MWh,assumption,2025,assumption,constant prices; no separate carbon tax (the CO2 constraints set the CO2 price)
+RES_VOL/RES_COST,IMPHVO/IMPSAF/IMPSYN,5/1/3 TWh; 120/140/300 EUR/MWh,,assumption: limited imports of renewable diesel; bio-jet and e-kerosene,2025,assumption,IMPSYN makes the synthetic sub-quota feasible when e-kerosene is delayed
+SAF_SHR,2025/2030/2035/2040/2045/2050,0.02/0.06/0.20/0.34/0.42/0.70,share,"Regulation (EU) 2023/2405 (ReFuelEU Aviation), Annex I, EUR-Lex",2023,verified,
+SYN_SHR,2030/2035/2040/2045/2050,0.012/0.05/0.10/0.15/0.35,share,"Regulation (EU) 2023/2405 (ReFuelEU Aviation), Annex I, EUR-Lex",2023,verified,2030 value is the 2030-2031 average (yearly minimum 0.7%)
+RED_2045,,0.85,share,Swedish climate policy framework: territorial emissions at least 85% below 1990 by 2045; remainder through supplementary measures,2017,approximate,applied proportionally to the model scope
+RED_2025,,0.33,share,"Naturvårdsverket, preliminary 2024 statistics: territorial emissions about 33% below 1990",2025,verified,used to scale the 2045 gross cap to the model scope: cap = (1 - 0.85)/(1 - 0.33) x model 2025 emissions
+STG_MAX,2030-2050,2/5/8/10/10,Mt CO2/yr,assumption informed by the BECCS range discussed in SOU 2020:4,2020,assumption,
+NOX_EF/PM_EF,all combustion processes,see data/processes.csv,kt/TWh fuel,"orders of magnitude from EMEP/EEA Air Pollutant Emission Inventory Guidebook, Tier 1 (1.A.1, 1.A.2)",2023,approximate,not checked line by line; stationary combustion only; liquid-fuel GT uses gas-oil Tier 1 NOx (398 g/GJ); H2 GT assumed 30% above natural gas
+G_DRATE,,0.04,share,project specification,2026,assumption,sensitivity 0.02 and 0.07
+NONCO2,,1,factor,project specification,2026,assumption,sensitivity 2: domestic aviation CO2 weighted x2

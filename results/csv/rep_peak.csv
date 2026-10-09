@@ -1,0 +1,484 @@
+run,scenario,timing,uni,T,value
+forest_first_ontime,forest_first,ontime,peak load,2025,26.68229944004149
+forest_first_ontime,forest_first,ontime,peak load,2030,28.324287097890195
+forest_first_ontime,forest_first,ontime,peak load,2035,29.966274755738905
+forest_first_ontime,forest_first,ontime,peak load,2040,31.60826241358761
+forest_first_ontime,forest_first,ontime,peak load,2045,33.25025007143632
+forest_first_ontime,forest_first,ontime,peak load,2050,34.48174081482285
+forest_first_ontime,forest_first,ontime,required,2025,28.016414412043567
+forest_first_ontime,forest_first,ontime,required,2030,29.740501452784706
+forest_first_ontime,forest_first,ontime,required,2035,31.464588493525852
+forest_first_ontime,forest_first,ontime,required,2040,33.18867553426699
+forest_first_ontime,forest_first,ontime,required,2045,34.91276257500814
+forest_first_ontime,forest_first,ontime,required,2050,36.205827855563996
+forest_first_ontime,forest_first,ontime,firm capacity,2025,28.136000000000003
+forest_first_ontime,forest_first,ontime,firm capacity,2030,29.740501452784706
+forest_first_ontime,forest_first,ontime,firm capacity,2035,31.464588493525856
+forest_first_ontime,forest_first,ontime,firm capacity,2040,33.18867553426699
+forest_first_ontime,forest_first,ontime,firm capacity,2045,34.91276257500813
+forest_first_ontime,forest_first,ontime,firm capacity,2050,36.57360123638351
+forest_first_ontime,forest_first,ontime,of which GT,2025,1.14
+forest_first_ontime,forest_first,ontime,of which GT,2030,2.969501452784704
+forest_first_ontime,forest_first,ontime,of which GT,2035,4.702996072544359
+forest_first_ontime,forest_first,ontime,of which GT,2040,6.517083113285497
+forest_first_ontime,forest_first,ontime,of which GT,2045,8.162416988528888
+forest_first_ontime,forest_first,ontime,of which GT,2050,9.677291384730708
+forest_first_ontime,forest_first,ontime,GT_BIO capacity,2030,2.125791002931268
+forest_first_ontime,forest_first,ontime,GT_BIO capacity,2035,4.150522181625641
+forest_first_ontime,forest_first,ontime,GT_BIO capacity,2040,5.852175171605293
+forest_first_ontime,forest_first,ontime,GT_BIO capacity,2045,5.852175171605293
+forest_first_ontime,forest_first,ontime,GT_BIO capacity,2050,5.852175171605293
+forest_first_ontime,forest_first,ontime,GT_H2 capacity,2040,0.5079123160636514
+forest_first_ontime,forest_first,ontime,GT_H2 capacity,2045,2.5398427110566946
+forest_first_ontime,forest_first,ontime,GT_H2 capacity,2050,4.334447338637559
+forest_first_delay,forest_first,delay,peak load,2025,26.68229944004149
+forest_first_delay,forest_first,delay,peak load,2030,28.324287097890195
+forest_first_delay,forest_first,delay,peak load,2035,29.966274755738905
+forest_first_delay,forest_first,delay,peak load,2040,31.60826241358761
+forest_first_delay,forest_first,delay,peak load,2045,33.25025007143632
+forest_first_delay,forest_first,delay,peak load,2050,34.48174081482285
+forest_first_delay,forest_first,delay,required,2025,28.016414412043567
+forest_first_delay,forest_first,delay,required,2030,29.740501452784706
+forest_first_delay,forest_first,delay,required,2035,31.464588493525852
+forest_first_delay,forest_first,delay,required,2040,33.18867553426699
+forest_first_delay,forest_first,delay,required,2045,34.91276257500814
+forest_first_delay,forest_first,delay,required,2050,36.205827855563996
+forest_first_delay,forest_first,delay,firm capacity,2025,28.136000000000003
+forest_first_delay,forest_first,delay,firm capacity,2030,29.740501452784706
+forest_first_delay,forest_first,delay,firm capacity,2035,31.464588493525856
+forest_first_delay,forest_first,delay,firm capacity,2040,33.18867553426699
+forest_first_delay,forest_first,delay,firm capacity,2045,34.91276257500814
+forest_first_delay,forest_first,delay,firm capacity,2050,36.57367021560784
+forest_first_delay,forest_first,delay,of which GT,2025,1.14
+forest_first_delay,forest_first,delay,of which GT,2030,2.969501452784704
+forest_first_delay,forest_first,delay,of which GT,2035,4.844755783062324
+forest_first_delay,forest_first,delay,of which GT,2040,6.658842823803461
+forest_first_delay,forest_first,delay,of which GT,2045,8.316691497160441
+forest_first_delay,forest_first,delay,of which GT,2050,9.83039324654876
+forest_first_delay,forest_first,delay,GT_BIO capacity,2030,2.125791002931268
+forest_first_delay,forest_first,delay,GT_BIO capacity,2035,4.299742929539288
+forest_first_delay,forest_first,delay,GT_BIO capacity,2040,5.8962128179065
+forest_first_delay,forest_first,delay,GT_BIO capacity,2045,5.8962128179065
+forest_first_delay,forest_first,delay,GT_BIO capacity,2050,5.896212817906502
+forest_first_delay,forest_first,delay,GT_H2 capacity,2040,0.6130954176760914
+forest_first_delay,forest_first,delay,GT_H2 capacity,2045,2.658199284367649
+forest_first_delay,forest_first,delay,GT_H2 capacity,2050,4.451569546881667
+scarce_forest_ontime,scarce_forest,ontime,peak load,2025,26.68229944004149
+scarce_forest_ontime,scarce_forest,ontime,peak load,2030,28.324287097890195
+scarce_forest_ontime,scarce_forest,ontime,peak load,2035,29.966274755738905
+scarce_forest_ontime,scarce_forest,ontime,peak load,2040,31.60826241358761
+scarce_forest_ontime,scarce_forest,ontime,peak load,2045,33.25025007143632
+scarce_forest_ontime,scarce_forest,ontime,peak load,2050,34.48174081482285
+scarce_forest_ontime,scarce_forest,ontime,required,2025,28.016414412043567
+scarce_forest_ontime,scarce_forest,ontime,required,2030,29.740501452784706
+scarce_forest_ontime,scarce_forest,ontime,required,2035,31.464588493525852
+scarce_forest_ontime,scarce_forest,ontime,required,2040,33.18867553426699
+scarce_forest_ontime,scarce_forest,ontime,required,2045,34.91276257500814
+scarce_forest_ontime,scarce_forest,ontime,required,2050,36.205827855563996
+scarce_forest_ontime,scarce_forest,ontime,firm capacity,2025,28.136000000000003
+scarce_forest_ontime,scarce_forest,ontime,firm capacity,2030,29.740501452784706
+scarce_forest_ontime,scarce_forest,ontime,firm capacity,2035,31.464588493525852
+scarce_forest_ontime,scarce_forest,ontime,firm capacity,2040,33.188675534267
+scarce_forest_ontime,scarce_forest,ontime,firm capacity,2045,34.950536537005036
+scarce_forest_ontime,scarce_forest,ontime,firm capacity,2050,36.40637083345452
+scarce_forest_ontime,scarce_forest,ontime,of which GT,2025,1.14
+scarce_forest_ontime,scarce_forest,ontime,of which GT,2030,2.6210581671807667
+scarce_forest_ontime,scarce_forest,ontime,of which GT,2035,4.228145207921914
+scarce_forest_ontime,scarce_forest,ontime,of which GT,2040,6.042232248663053
+scarce_forest_ontime,scarce_forest,ontime,of which GT,2045,7.585951076207944
+scarce_forest_ontime,scarce_forest,ontime,of which GT,2050,8.913360174818669
+scarce_forest_ontime,scarce_forest,ontime,GT_BIO capacity,2030,1.7590085970323859
+scarce_forest_ontime,scarce_forest,ontime,GT_BIO capacity,2035,3.6506791662335942
+scarce_forest_ontime,scarce_forest,ontime,GT_BIO capacity,2040,3.6506791662335942
+scarce_forest_ontime,scarce_forest,ontime,GT_BIO capacity,2045,3.6506791662335942
+scarce_forest_ontime,scarce_forest,ontime,GT_BIO capacity,2050,3.6506791662335942
+scarce_forest_ontime,scarce_forest,ontime,GT_H2 capacity,2040,2.209565306043305
+scarce_forest_ontime,scarce_forest,ontime,GT_H2 capacity,2045,4.134532492932662
+scarce_forest_ontime,scarce_forest,ontime,GT_H2 capacity,2050,5.731805228312374
+scarce_forest_delay,scarce_forest,delay,peak load,2025,26.68229944004149
+scarce_forest_delay,scarce_forest,delay,peak load,2030,28.324287097890195
+scarce_forest_delay,scarce_forest,delay,peak load,2035,29.966274755738905
+scarce_forest_delay,scarce_forest,delay,peak load,2040,31.60826241358761
+scarce_forest_delay,scarce_forest,delay,peak load,2045,33.25025007143632
+scarce_forest_delay,scarce_forest,delay,peak load,2050,34.48174081482285
+scarce_forest_delay,scarce_forest,delay,required,2025,28.016414412043567
+scarce_forest_delay,scarce_forest,delay,required,2030,29.740501452784706
+scarce_forest_delay,scarce_forest,delay,required,2035,31.464588493525852
+scarce_forest_delay,scarce_forest,delay,required,2040,33.18867553426699
+scarce_forest_delay,scarce_forest,delay,required,2045,34.91276257500814
+scarce_forest_delay,scarce_forest,delay,required,2050,36.205827855563996
+scarce_forest_delay,scarce_forest,delay,firm capacity,2025,28.136000000000003
+scarce_forest_delay,scarce_forest,delay,firm capacity,2030,29.740501452784702
+scarce_forest_delay,scarce_forest,delay,firm capacity,2035,31.464588493525852
+scarce_forest_delay,scarce_forest,delay,firm capacity,2040,33.18867553426699
+scarce_forest_delay,scarce_forest,delay,firm capacity,2045,35.22993668927912
+scarce_forest_delay,scarce_forest,delay,firm capacity,2050,36.63659133932994
+scarce_forest_delay,scarce_forest,delay,of which GT,2025,1.14
+scarce_forest_delay,scarce_forest,delay,of which GT,2030,2.6590904315437722
+scarce_forest_delay,scarce_forest,delay,of which GT,2035,4.299993839113672
+scarce_forest_delay,scarce_forest,delay,of which GT,2040,6.114080879854811
+scarce_forest_delay,scarce_forest,delay,of which GT,2045,7.98574854170172
+scarce_forest_delay,scarce_forest,delay,of which GT,2050,9.249076637836044
+scarce_forest_delay,scarce_forest,delay,GT_BIO capacity,2030,1.79904255951976
+scarce_forest_delay,scarce_forest,delay,GT_BIO capacity,2035,3.7263093043301807
+scarce_forest_delay,scarce_forest,delay,GT_BIO capacity,2040,3.726309304330181
+scarce_forest_delay,scarce_forest,delay,GT_BIO capacity,2045,3.7263093043301807
+scarce_forest_delay,scarce_forest,delay,GT_BIO capacity,2050,3.726309304330181
+scarce_forest_delay,scarce_forest,delay,GT_H2 capacity,2040,2.209565306043304
+scarce_forest_delay,scarce_forest,delay,GT_H2 capacity,2045,4.479741792197946
+scarce_forest_delay,scarce_forest,delay,GT_H2 capacity,2050,6.009560840760393
+electrons_win_ontime,electrons_win,ontime,peak load,2025,26.68229944004149
+electrons_win_ontime,electrons_win,ontime,peak load,2030,28.324287097890195
+electrons_win_ontime,electrons_win,ontime,peak load,2035,29.966274755738905
+electrons_win_ontime,electrons_win,ontime,peak load,2040,31.60826241358761
+electrons_win_ontime,electrons_win,ontime,peak load,2045,33.25025007143632
+electrons_win_ontime,electrons_win,ontime,peak load,2050,34.48174081482285
+electrons_win_ontime,electrons_win,ontime,required,2025,28.016414412043567
+electrons_win_ontime,electrons_win,ontime,required,2030,29.740501452784706
+electrons_win_ontime,electrons_win,ontime,required,2035,31.464588493525852
+electrons_win_ontime,electrons_win,ontime,required,2040,33.18867553426699
+electrons_win_ontime,electrons_win,ontime,required,2045,34.91276257500814
+electrons_win_ontime,electrons_win,ontime,required,2050,36.205827855563996
+electrons_win_ontime,electrons_win,ontime,firm capacity,2025,28.136000000000003
+electrons_win_ontime,electrons_win,ontime,firm capacity,2030,29.740501452784706
+electrons_win_ontime,electrons_win,ontime,firm capacity,2035,31.464588493525856
+electrons_win_ontime,electrons_win,ontime,firm capacity,2040,33.188675534267
+electrons_win_ontime,electrons_win,ontime,firm capacity,2045,34.91276257500814
+electrons_win_ontime,electrons_win,ontime,firm capacity,2050,36.205827855563996
+electrons_win_ontime,electrons_win,ontime,of which GT,2025,1.14
+electrons_win_ontime,electrons_win,ontime,of which GT,2030,2.8306802759641374
+electrons_win_ontime,electrons_win,ontime,of which GT,2035,4.437767316705286
+electrons_win_ontime,electrons_win,ontime,of which GT,2040,6.251854357446424
+electrons_win_ontime,electrons_win,ontime,of which GT,2045,7.7371896359215375
+electrons_win_ontime,electrons_win,ontime,of which GT,2050,8.66188177527026
+electrons_win_ontime,electrons_win,ontime,GT_BIO capacity,2030,1.9796634483833027
+electrons_win_ontime,electrons_win,ontime,GT_BIO capacity,2035,1.9796634483833027
+electrons_win_ontime,electrons_win,ontime,GT_BIO capacity,2040,1.9796634483833027
+electrons_win_ontime,electrons_win,ontime,GT_BIO capacity,2045,1.9796634483833027
+electrons_win_ontime,electrons_win,ontime,GT_BIO capacity,2050,1.9796634483833027
+electrons_win_ontime,electrons_win,ontime,GT_H2 capacity,2035,1.8916705692012088
+electrons_win_ontime,electrons_win,ontime,GT_H2 capacity,2040,4.101235875244513
+electrons_win_ontime,electrons_win,ontime,GT_H2 capacity,2045,5.964746694692
+electrons_win_ontime,electrons_win,ontime,GT_H2 capacity,2050,7.138106841374865
+electrons_win_delay,electrons_win,delay,peak load,2025,26.68229944004149
+electrons_win_delay,electrons_win,delay,peak load,2030,28.324287097890195
+electrons_win_delay,electrons_win,delay,peak load,2035,29.966274755738905
+electrons_win_delay,electrons_win,delay,peak load,2040,31.60826241358761
+electrons_win_delay,electrons_win,delay,peak load,2045,33.25025007143632
+electrons_win_delay,electrons_win,delay,peak load,2050,34.48174081482285
+electrons_win_delay,electrons_win,delay,required,2025,28.016414412043567
+electrons_win_delay,electrons_win,delay,required,2030,29.740501452784706
+electrons_win_delay,electrons_win,delay,required,2035,31.464588493525852
+electrons_win_delay,electrons_win,delay,required,2040,33.18867553426699
+electrons_win_delay,electrons_win,delay,required,2045,34.91276257500814
+electrons_win_delay,electrons_win,delay,required,2050,36.205827855563996
+electrons_win_delay,electrons_win,delay,firm capacity,2025,28.136000000000003
+electrons_win_delay,electrons_win,delay,firm capacity,2030,29.740501452784702
+electrons_win_delay,electrons_win,delay,firm capacity,2035,31.464588493525852
+electrons_win_delay,electrons_win,delay,firm capacity,2040,33.188675534267
+electrons_win_delay,electrons_win,delay,firm capacity,2045,34.96851098731777
+electrons_win_delay,electrons_win,delay,firm capacity,2050,36.205827855563996
+electrons_win_delay,electrons_win,delay,of which GT,2025,1.14
+electrons_win_delay,electrons_win,delay,of which GT,2030,2.859847912394757
+electrons_win_delay,electrons_win,delay,of which GT,2035,4.475192939423766
+electrons_win_delay,electrons_win,delay,of which GT,2040,6.289279980164907
+electrons_win_delay,electrons_win,delay,of which GT,2045,7.8278124782717375
+electrons_win_delay,electrons_win,delay,of which GT,2050,8.697087940263978
+electrons_win_delay,electrons_win,delay,GT_BIO capacity,2030,2.0103662235734285
+electrons_win_delay,electrons_win,delay,GT_BIO capacity,2035,2.0103662235734285
+electrons_win_delay,electrons_win,delay,GT_BIO capacity,2040,2.0103662235734276
+electrons_win_delay,electrons_win,delay,GT_BIO capacity,2045,2.0103662235734285
+electrons_win_delay,electrons_win,delay,GT_BIO capacity,2050,2.0103662235734285
+electrons_win_delay,electrons_win,delay,GT_H2 capacity,2035,1.900363186346326
+electrons_win_delay,electrons_win,delay,GT_H2 capacity,2040,4.109928492389633
+electrons_win_delay,electrons_win,delay,GT_H2 capacity,2045,6.029436385133663
+electrons_win_delay,electrons_win,delay,GT_H2 capacity,2050,7.144463187230761
+forest_first_ontime_r02,forest_first,ontime,peak load,2025,26.68229944004149
+forest_first_ontime_r02,forest_first,ontime,peak load,2030,28.324287097890195
+forest_first_ontime_r02,forest_first,ontime,peak load,2035,29.966274755738905
+forest_first_ontime_r02,forest_first,ontime,peak load,2040,31.60826241358761
+forest_first_ontime_r02,forest_first,ontime,peak load,2045,33.25025007143632
+forest_first_ontime_r02,forest_first,ontime,peak load,2050,34.48174081482285
+forest_first_ontime_r02,forest_first,ontime,required,2025,28.016414412043567
+forest_first_ontime_r02,forest_first,ontime,required,2030,29.740501452784706
+forest_first_ontime_r02,forest_first,ontime,required,2035,31.464588493525852
+forest_first_ontime_r02,forest_first,ontime,required,2040,33.18867553426699
+forest_first_ontime_r02,forest_first,ontime,required,2045,34.91276257500814
+forest_first_ontime_r02,forest_first,ontime,required,2050,36.205827855563996
+forest_first_ontime_r02,forest_first,ontime,firm capacity,2025,28.136000000000003
+forest_first_ontime_r02,forest_first,ontime,firm capacity,2030,29.740501452784706
+forest_first_ontime_r02,forest_first,ontime,firm capacity,2035,31.464588493525856
+forest_first_ontime_r02,forest_first,ontime,firm capacity,2040,33.188675534267
+forest_first_ontime_r02,forest_first,ontime,firm capacity,2045,35.285733722759815
+forest_first_ontime_r02,forest_first,ontime,firm capacity,2050,37.299875295601716
+forest_first_ontime_r02,forest_first,ontime,of which GT,2025,1.14
+forest_first_ontime_r02,forest_first,ontime,of which GT,2030,2.969501452784704
+forest_first_ontime_r02,forest_first,ontime,of which GT,2035,4.595848777598343
+forest_first_ontime_r02,forest_first,ontime,of which GT,2040,6.409935818339482
+forest_first_ontime_r02,forest_first,ontime,of which GT,2045,8.430757744963458
+forest_first_ontime_r02,forest_first,ontime,of which GT,2050,10.309300938494095
+forest_first_ontime_r02,forest_first,ontime,GT_BIO capacity,2030,2.125791002931268
+forest_first_ontime_r02,forest_first,ontime,GT_BIO capacity,2035,2.125791002931268
+forest_first_ontime_r02,forest_first,ontime,GT_BIO capacity,2040,2.125791002931268
+forest_first_ontime_r02,forest_first,ontime,GT_BIO capacity,2045,2.125791002931268
+forest_first_ontime_r02,forest_first,ontime,GT_BIO capacity,2050,4.303204890858256
+forest_first_ontime_r02,forest_first,ontime,GT_H2 capacity,2035,1.911944552435409
+forest_first_ontime_r02,forest_first,ontime,GT_H2 capacity,2040,4.1215098584787135
+forest_first_ontime_r02,forest_first,ontime,GT_H2 capacity,2045,6.548690833872373
+forest_first_ontime_r02,forest_first,ontime,GT_H2 capacity,2050,6.548690833872372
+forest_first_ontime_r07,forest_first,ontime,peak load,2025,26.68229944004149
+forest_first_ontime_r07,forest_first,ontime,peak load,2030,28.324287097890195
+forest_first_ontime_r07,forest_first,ontime,peak load,2035,29.966274755738905
+forest_first_ontime_r07,forest_first,ontime,peak load,2040,31.60826241358761
+forest_first_ontime_r07,forest_first,ontime,peak load,2045,33.25025007143632
+forest_first_ontime_r07,forest_first,ontime,peak load,2050,34.48174081482285
+forest_first_ontime_r07,forest_first,ontime,required,2025,28.016414412043567
+forest_first_ontime_r07,forest_first,ontime,required,2030,29.740501452784706
+forest_first_ontime_r07,forest_first,ontime,required,2035,31.464588493525852
+forest_first_ontime_r07,forest_first,ontime,required,2040,33.18867553426699
+forest_first_ontime_r07,forest_first,ontime,required,2045,34.91276257500814
+forest_first_ontime_r07,forest_first,ontime,required,2050,36.205827855563996
+forest_first_ontime_r07,forest_first,ontime,firm capacity,2025,28.136000000000003
+forest_first_ontime_r07,forest_first,ontime,firm capacity,2030,29.740501452784706
+forest_first_ontime_r07,forest_first,ontime,firm capacity,2035,31.464588493525856
+forest_first_ontime_r07,forest_first,ontime,firm capacity,2040,33.18867553426699
+forest_first_ontime_r07,forest_first,ontime,firm capacity,2045,34.91276257500813
+forest_first_ontime_r07,forest_first,ontime,firm capacity,2050,36.205827855563996
+forest_first_ontime_r07,forest_first,ontime,of which GT,2025,1.14
+forest_first_ontime_r07,forest_first,ontime,of which GT,2030,2.969501452784704
+forest_first_ontime_r07,forest_first,ontime,of which GT,2035,4.862638148681274
+forest_first_ontime_r07,forest_first,ontime,of which GT,2040,6.676725189422412
+forest_first_ontime_r07,forest_first,ontime,of which GT,2045,8.267114016968295
+forest_first_ontime_r07,forest_first,ontime,of which GT,2050,9.41118754463385
+forest_first_ontime_r07,forest_first,ontime,GT_BIO capacity,2030,2.125791002931268
+forest_first_ontime_r07,forest_first,ontime,GT_BIO capacity,2035,4.318566472296078
+forest_first_ontime_r07,forest_first,ontime,GT_BIO capacity,2040,6.5281317783393815
+forest_first_ontime_r07,forest_first,ontime,GT_BIO capacity,2045,6.5281317783393815
+forest_first_ontime_r07,forest_first,ontime,GT_BIO capacity,2050,6.5281317783393815
+forest_first_ontime_r07,forest_first,ontime,GT_H2 capacity,2045,1.9740935026798763
+forest_first_ontime_r07,forest_first,ontime,GT_H2 capacity,2050,3.378381426538356
+forest_first_ontime_nonco2x2,forest_first,ontime,peak load,2025,26.68229944004149
+forest_first_ontime_nonco2x2,forest_first,ontime,peak load,2030,28.324287097890195
+forest_first_ontime_nonco2x2,forest_first,ontime,peak load,2035,29.966274755738905
+forest_first_ontime_nonco2x2,forest_first,ontime,peak load,2040,31.60826241358761
+forest_first_ontime_nonco2x2,forest_first,ontime,peak load,2045,33.25025007143632
+forest_first_ontime_nonco2x2,forest_first,ontime,peak load,2050,34.48174081482285
+forest_first_ontime_nonco2x2,forest_first,ontime,required,2025,28.016414412043567
+forest_first_ontime_nonco2x2,forest_first,ontime,required,2030,29.740501452784706
+forest_first_ontime_nonco2x2,forest_first,ontime,required,2035,31.464588493525852
+forest_first_ontime_nonco2x2,forest_first,ontime,required,2040,33.18867553426699
+forest_first_ontime_nonco2x2,forest_first,ontime,required,2045,34.91276257500814
+forest_first_ontime_nonco2x2,forest_first,ontime,required,2050,36.205827855563996
+forest_first_ontime_nonco2x2,forest_first,ontime,firm capacity,2025,28.136000000000003
+forest_first_ontime_nonco2x2,forest_first,ontime,firm capacity,2030,29.740501452784706
+forest_first_ontime_nonco2x2,forest_first,ontime,firm capacity,2035,31.464588493525856
+forest_first_ontime_nonco2x2,forest_first,ontime,firm capacity,2040,33.18867553426699
+forest_first_ontime_nonco2x2,forest_first,ontime,firm capacity,2045,34.91276257500813
+forest_first_ontime_nonco2x2,forest_first,ontime,firm capacity,2050,36.57371172277365
+forest_first_ontime_nonco2x2,forest_first,ontime,of which GT,2025,1.14
+forest_first_ontime_nonco2x2,forest_first,ontime,of which GT,2030,2.969501452784704
+forest_first_ontime_nonco2x2,forest_first,ontime,of which GT,2035,4.6944111903681485
+forest_first_ontime_nonco2x2,forest_first,ontime,of which GT,2040,6.508498231109285
+forest_first_ontime_nonco2x2,forest_first,ontime,of which GT,2045,8.153711773442721
+forest_first_ontime_nonco2x2,forest_first,ontime,of which GT,2050,9.66670790101223
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_BIO capacity,2030,2.125791002931268
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_BIO capacity,2035,4.141485463545419
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_BIO capacity,2040,6.3510507695887215
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_BIO capacity,2045,6.3510507695887215
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_BIO capacity,2050,7.242751063046607
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_H2 capacity,2045,2.0318037287720383
+forest_first_ontime_nonco2x2,forest_first,ontime,GT_H2 capacity,2050,2.9327309380188997
+scarce_forest_ontime_r02,scarce_forest,ontime,peak load,2025,26.68229944004149
+scarce_forest_ontime_r02,scarce_forest,ontime,peak load,2030,28.324287097890195
+scarce_forest_ontime_r02,scarce_forest,ontime,peak load,2035,29.966274755738905
+scarce_forest_ontime_r02,scarce_forest,ontime,peak load,2040,31.60826241358761
+scarce_forest_ontime_r02,scarce_forest,ontime,peak load,2045,33.25025007143632
+scarce_forest_ontime_r02,scarce_forest,ontime,peak load,2050,34.48174081482285
+scarce_forest_ontime_r02,scarce_forest,ontime,required,2025,28.016414412043567
+scarce_forest_ontime_r02,scarce_forest,ontime,required,2030,29.740501452784706
+scarce_forest_ontime_r02,scarce_forest,ontime,required,2035,31.464588493525852
+scarce_forest_ontime_r02,scarce_forest,ontime,required,2040,33.18867553426699
+scarce_forest_ontime_r02,scarce_forest,ontime,required,2045,34.91276257500814
+scarce_forest_ontime_r02,scarce_forest,ontime,required,2050,36.205827855563996
+scarce_forest_ontime_r02,scarce_forest,ontime,firm capacity,2025,28.136000000000003
+scarce_forest_ontime_r02,scarce_forest,ontime,firm capacity,2030,29.740501452784702
+scarce_forest_ontime_r02,scarce_forest,ontime,firm capacity,2035,31.464588493525852
+scarce_forest_ontime_r02,scarce_forest,ontime,firm capacity,2040,33.18867553426699
+scarce_forest_ontime_r02,scarce_forest,ontime,firm capacity,2045,35.849875382885735
+scarce_forest_ontime_r02,scarce_forest,ontime,firm capacity,2050,37.83045200782238
+scarce_forest_ontime_r02,scarce_forest,ontime,of which GT,2025,1.14
+scarce_forest_ontime_r02,scarce_forest,ontime,of which GT,2030,2.5287412415124932
+scarce_forest_ontime_r02,scarce_forest,ontime,of which GT,2035,4.13582828225364
+scarce_forest_ontime_r02,scarce_forest,ontime,of which GT,2040,5.949915322994778
+scarce_forest_ontime_r02,scarce_forest,ontime,of which GT,2045,8.514915322994778
+scarce_forest_ontime_r02,scarce_forest,ontime,of which GT,2050,10.32932485871678
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_BIO capacity,2030,1.6618328858026246
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_BIO capacity,2035,1.6618328858026246
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_BIO capacity,2040,1.6618328858026246
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_BIO capacity,2045,1.6618328858026246
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_BIO capacity,2050,1.6618328858026246
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_H2 capacity,2035,1.8916705692012075
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_H2 capacity,2040,4.1012358752445115
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_H2 capacity,2045,7.101235875244511
+scarce_forest_ontime_r02,scarce_forest,ontime,GT_H2 capacity,2050,9.211140649688723
+scarce_forest_ontime_r07,scarce_forest,ontime,peak load,2025,26.68229944004149
+scarce_forest_ontime_r07,scarce_forest,ontime,peak load,2030,28.324287097890195
+scarce_forest_ontime_r07,scarce_forest,ontime,peak load,2035,29.966274755738905
+scarce_forest_ontime_r07,scarce_forest,ontime,peak load,2040,31.60826241358761
+scarce_forest_ontime_r07,scarce_forest,ontime,peak load,2045,33.25025007143632
+scarce_forest_ontime_r07,scarce_forest,ontime,peak load,2050,34.48174081482285
+scarce_forest_ontime_r07,scarce_forest,ontime,required,2025,28.016414412043567
+scarce_forest_ontime_r07,scarce_forest,ontime,required,2030,29.740501452784706
+scarce_forest_ontime_r07,scarce_forest,ontime,required,2035,31.464588493525852
+scarce_forest_ontime_r07,scarce_forest,ontime,required,2040,33.18867553426699
+scarce_forest_ontime_r07,scarce_forest,ontime,required,2045,34.91276257500814
+scarce_forest_ontime_r07,scarce_forest,ontime,required,2050,36.205827855563996
+scarce_forest_ontime_r07,scarce_forest,ontime,firm capacity,2025,28.136000000000003
+scarce_forest_ontime_r07,scarce_forest,ontime,firm capacity,2030,29.740501452784702
+scarce_forest_ontime_r07,scarce_forest,ontime,firm capacity,2035,31.464588493525856
+scarce_forest_ontime_r07,scarce_forest,ontime,firm capacity,2040,33.188675534267
+scarce_forest_ontime_r07,scarce_forest,ontime,firm capacity,2045,35.23262675269093
+scarce_forest_ontime_r07,scarce_forest,ontime,firm capacity,2050,36.605399804228384
+scarce_forest_ontime_r07,scarce_forest,ontime,of which GT,2025,1.14
+scarce_forest_ontime_r07,scarce_forest,ontime,of which GT,2030,2.899365618684071
+scarce_forest_ontime_r07,scarce_forest,ontime,of which GT,2035,4.5096882595474215
+scarce_forest_ontime_r07,scarce_forest,ontime,of which GT,2040,6.364297940652707
+scarce_forest_ontime_r07,scarce_forest,ontime,of which GT,2045,8.24970359581326
+scarce_forest_ontime_r07,scarce_forest,ontime,of which GT,2050,9.45451121189333
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_BIO capacity,2030,2.0519638091411276
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_BIO capacity,2035,3.9470402732078127
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_BIO capacity,2040,6.199260990160745
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_BIO capacity,2045,6.199260990160749
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_BIO capacity,2050,6.199260990160749
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_H2 capacity,2045,2.2846375317479475
+scarce_forest_ontime_r07,scarce_forest,ontime,GT_H2 capacity,2050,3.752856074990125
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,peak load,2025,26.68229944004149
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,peak load,2030,28.324287097890195
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,peak load,2035,29.966274755738905
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,peak load,2040,31.60826241358761
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,peak load,2045,33.25025007143632
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,peak load,2050,34.48174081482285
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,required,2025,28.016414412043567
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,required,2030,29.740501452784706
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,required,2035,31.464588493525852
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,required,2040,33.18867553426699
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,required,2045,34.91276257500814
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,required,2050,36.205827855563996
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,firm capacity,2025,28.136000000000003
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,firm capacity,2030,29.740501452784702
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,firm capacity,2035,31.464588493525856
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,firm capacity,2040,33.188675534267
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,firm capacity,2045,35.35323779245842
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,firm capacity,2050,36.640241484541534
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,of which GT,2025,1.14
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,of which GT,2030,2.5998966574164637
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,of which GT,2035,4.206983698157612
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,of which GT,2040,6.025737956775363
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,of which GT,2045,8.073223924334057
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,of which GT,2050,9.192262180959787
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_BIO capacity,2030,1.7367333235962776
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_BIO capacity,2035,3.628403892797486
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_BIO capacity,2040,3.628403892797486
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_BIO capacity,2045,3.628403892797486
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_BIO capacity,2050,3.628403892797486
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_H2 capacity,2040,2.214478166966055
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_H2 capacity,2045,4.6697265538699435
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,GT_H2 capacity,2050,6.047661560844396
+electrons_win_ontime_r02,electrons_win,ontime,peak load,2025,26.68229944004149
+electrons_win_ontime_r02,electrons_win,ontime,peak load,2030,28.324287097890195
+electrons_win_ontime_r02,electrons_win,ontime,peak load,2035,29.966274755738905
+electrons_win_ontime_r02,electrons_win,ontime,peak load,2040,31.60826241358761
+electrons_win_ontime_r02,electrons_win,ontime,peak load,2045,33.25025007143632
+electrons_win_ontime_r02,electrons_win,ontime,peak load,2050,34.48174081482285
+electrons_win_ontime_r02,electrons_win,ontime,required,2025,28.016414412043567
+electrons_win_ontime_r02,electrons_win,ontime,required,2030,29.740501452784706
+electrons_win_ontime_r02,electrons_win,ontime,required,2035,31.464588493525852
+electrons_win_ontime_r02,electrons_win,ontime,required,2040,33.18867553426699
+electrons_win_ontime_r02,electrons_win,ontime,required,2045,34.91276257500814
+electrons_win_ontime_r02,electrons_win,ontime,required,2050,36.205827855563996
+electrons_win_ontime_r02,electrons_win,ontime,firm capacity,2025,28.136000000000003
+electrons_win_ontime_r02,electrons_win,ontime,firm capacity,2030,29.740501452784706
+electrons_win_ontime_r02,electrons_win,ontime,firm capacity,2035,31.464588493525856
+electrons_win_ontime_r02,electrons_win,ontime,firm capacity,2040,33.188675534267006
+electrons_win_ontime_r02,electrons_win,ontime,firm capacity,2045,35.25369536114396
+electrons_win_ontime_r02,electrons_win,ontime,firm capacity,2050,36.67887261314753
+electrons_win_ontime_r02,electrons_win,ontime,of which GT,2025,1.14
+electrons_win_ontime_r02,electrons_win,ontime,of which GT,2030,2.6654510705470846
+electrons_win_ontime_r02,electrons_win,ontime,of which GT,2035,4.272538111288233
+electrons_win_ontime_r02,electrons_win,ontime,of which GT,2040,6.086625152029383
+electrons_win_ontime_r02,electrons_win,ontime,of which GT,2045,7.818970344112229
+electrons_win_ontime_r02,electrons_win,ontime,of which GT,2050,9.036030089155732
+electrons_win_ontime_r02,electrons_win,ontime,GT_BIO capacity,2030,1.8057379689969313
+electrons_win_ontime_r02,electrons_win,ontime,GT_BIO capacity,2035,1.8057379689969313
+electrons_win_ontime_r02,electrons_win,ontime,GT_BIO capacity,2040,1.8057379689969437
+electrons_win_ontime_r02,electrons_win,ontime,GT_BIO capacity,2045,1.8057379689969313
+electrons_win_ontime_r02,electrons_win,ontime,GT_BIO capacity,2050,1.8057379689969313
+electrons_win_ontime_r02,electrons_win,ontime,GT_H2 capacity,2035,1.8916705692012084
+electrons_win_ontime_r02,electrons_win,ontime,GT_H2 capacity,2040,4.101235875244512
+electrons_win_ontime_r02,electrons_win,ontime,GT_H2 capacity,2045,6.224757130068573
+electrons_win_ontime_r02,electrons_win,ontime,GT_H2 capacity,2050,7.705872651166998
+electrons_win_ontime_r07,electrons_win,ontime,peak load,2025,26.68229944004149
+electrons_win_ontime_r07,electrons_win,ontime,peak load,2030,28.324287097890195
+electrons_win_ontime_r07,electrons_win,ontime,peak load,2035,29.966274755738905
+electrons_win_ontime_r07,electrons_win,ontime,peak load,2040,31.60826241358761
+electrons_win_ontime_r07,electrons_win,ontime,peak load,2045,33.25025007143632
+electrons_win_ontime_r07,electrons_win,ontime,peak load,2050,34.48174081482285
+electrons_win_ontime_r07,electrons_win,ontime,required,2025,28.016414412043567
+electrons_win_ontime_r07,electrons_win,ontime,required,2030,29.740501452784706
+electrons_win_ontime_r07,electrons_win,ontime,required,2035,31.464588493525852
+electrons_win_ontime_r07,electrons_win,ontime,required,2040,33.18867553426699
+electrons_win_ontime_r07,electrons_win,ontime,required,2045,34.91276257500814
+electrons_win_ontime_r07,electrons_win,ontime,required,2050,36.205827855563996
+electrons_win_ontime_r07,electrons_win,ontime,firm capacity,2025,28.136000000000003
+electrons_win_ontime_r07,electrons_win,ontime,firm capacity,2030,29.740501452784706
+electrons_win_ontime_r07,electrons_win,ontime,firm capacity,2035,31.464588493525852
+electrons_win_ontime_r07,electrons_win,ontime,firm capacity,2040,33.18867553426699
+electrons_win_ontime_r07,electrons_win,ontime,firm capacity,2045,34.91276257500813
+electrons_win_ontime_r07,electrons_win,ontime,firm capacity,2050,36.20582785556399
+electrons_win_ontime_r07,electrons_win,ontime,of which GT,2025,1.14
+electrons_win_ontime_r07,electrons_win,ontime,of which GT,2030,2.969501452784704
+electrons_win_ontime_r07,electrons_win,ontime,of which GT,2035,4.57658849352585
+electrons_win_ontime_r07,electrons_win,ontime,of which GT,2040,6.375667945316323
+electrons_win_ontime_r07,electrons_win,ontime,of which GT,2045,7.8443849164987
+electrons_win_ontime_r07,electrons_win,ontime,of which GT,2050,8.766120084240011
+electrons_win_ontime_r07,electrons_win,ontime,GT_BIO capacity,2030,2.125791002931268
+electrons_win_ontime_r07,electrons_win,ontime,GT_BIO capacity,2035,4.017461572132474
+electrons_win_ontime_r07,electrons_win,ontime,GT_BIO capacity,2040,4.017461572132474
+electrons_win_ontime_r07,electrons_win,ontime,GT_BIO capacity,2045,4.017461572132474
+electrons_win_ontime_r07,electrons_win,ontime,GT_BIO capacity,2050,4.017461572132474
+electrons_win_ontime_r07,electrons_win,ontime,GT_H2 capacity,2040,2.193767843989972
+electrons_win_ontime_r07,electrons_win,ontime,GT_H2 capacity,2045,4.039785708392474
+electrons_win_ontime_r07,electrons_win,ontime,GT_H2 capacity,2050,5.210033253383327
+electrons_win_ontime_nonco2x2,electrons_win,ontime,peak load,2025,26.68229944004149
+electrons_win_ontime_nonco2x2,electrons_win,ontime,peak load,2030,28.324287097890195
+electrons_win_ontime_nonco2x2,electrons_win,ontime,peak load,2035,29.966274755738905
+electrons_win_ontime_nonco2x2,electrons_win,ontime,peak load,2040,31.60826241358761
+electrons_win_ontime_nonco2x2,electrons_win,ontime,peak load,2045,33.25025007143632
+electrons_win_ontime_nonco2x2,electrons_win,ontime,peak load,2050,34.48174081482285
+electrons_win_ontime_nonco2x2,electrons_win,ontime,required,2025,28.016414412043567
+electrons_win_ontime_nonco2x2,electrons_win,ontime,required,2030,29.740501452784706
+electrons_win_ontime_nonco2x2,electrons_win,ontime,required,2035,31.464588493525852
+electrons_win_ontime_nonco2x2,electrons_win,ontime,required,2040,33.18867553426699
+electrons_win_ontime_nonco2x2,electrons_win,ontime,required,2045,34.91276257500814
+electrons_win_ontime_nonco2x2,electrons_win,ontime,required,2050,36.205827855563996
+electrons_win_ontime_nonco2x2,electrons_win,ontime,firm capacity,2025,28.136000000000003
+electrons_win_ontime_nonco2x2,electrons_win,ontime,firm capacity,2030,29.740501452784706
+electrons_win_ontime_nonco2x2,electrons_win,ontime,firm capacity,2035,31.464588493525856
+electrons_win_ontime_nonco2x2,electrons_win,ontime,firm capacity,2040,33.18867553426699
+electrons_win_ontime_nonco2x2,electrons_win,ontime,firm capacity,2045,34.92838511259016
+electrons_win_ontime_nonco2x2,electrons_win,ontime,firm capacity,2050,36.205827855564
+electrons_win_ontime_nonco2x2,electrons_win,ontime,of which GT,2025,1.14
+electrons_win_ontime_nonco2x2,electrons_win,ontime,of which GT,2030,2.823716059917455
+electrons_win_ontime_nonco2x2,electrons_win,ontime,of which GT,2035,4.430803100658604
+electrons_win_ontime_nonco2x2,electrons_win,ontime,of which GT,2040,6.244890141399742
+electrons_win_ontime_nonco2x2,electrons_win,ontime,of which GT,2045,7.739070152561383
+electrons_win_ontime_nonco2x2,electrons_win,ontime,of which GT,2050,8.65513019615268
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_BIO capacity,2030,1.972332694649953
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_BIO capacity,2035,1.972332694649953
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_BIO capacity,2040,1.972332694649953
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_BIO capacity,2045,1.972332694649953
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_BIO capacity,2050,1.972332694649953
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_H2 capacity,2035,1.8916705692012092
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_H2 capacity,2040,4.101235875244513
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_H2 capacity,2045,5.974056939625187
+electrons_win_ontime_nonco2x2,electrons_win,ontime,GT_H2 capacity,2050,7.13833066972129

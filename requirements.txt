@@ -1,0 +1,5 @@
+pandas>=2.0
+matplotlib>=3.7
+# GDX reading: either gamspy (bundles a GAMS system) or the GAMS API of your installation,
+# e.g. for GAMS 45: gamsapi[transfer]==45.*
+gamspy
