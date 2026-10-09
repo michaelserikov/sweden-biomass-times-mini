@@ -69,9 +69,9 @@ REP_CO2PRICE(T)$(YEAR(T) > 2025) = -(EQ_CO2GROSS.m(T) + EQ_CO2NET.m(T)) / ANNF(T
 REP_BIOPRICE(T) = EQ_COMBAL.m('BIO_SOL',T,'ANNUAL') / ANNF(T);
 
 REP_PEAK('peak load',T)       = PEAK_LOAD(T);
-REP_PEAK('required',T)        = PEAK_LOAD(T) * (1 + PEAK_MARG);
-REP_PEAK('firm capacity',T)   = sum(PRC, PEAK_CONT(PRC) * VAR_CAP.l(PRC,T));
-REP_PEAK('of which GT',T)     = sum(PRC_GT, PEAK_CONT(PRC_GT) * VAR_CAP.l(PRC_GT,T));
+REP_PEAK('required',T)        = PEAK_LOAD(T) * (1 + COM_PKRSV('ELC'));
+REP_PEAK('firm capacity',T)   = sum(PRC, NCAP_PKCNT(PRC) * VAR_CAP.l(PRC,T));
+REP_PEAK('of which GT',T)     = sum(PRC_GT, NCAP_PKCNT(PRC_GT) * VAR_CAP.l(PRC_GT,T));
 REP_PEAK('GT_BIO capacity',T) = VAR_CAP.l('GT_BIO',T);
 REP_PEAK('GT_H2 capacity',T)  = VAR_CAP.l('GT_H2',T);
 

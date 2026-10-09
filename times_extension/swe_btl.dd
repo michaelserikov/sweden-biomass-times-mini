@@ -1,0 +1,100 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+* ---------------------------------------------------------------------------
+* Swedish-type extension of the TIMES demo (REG1 only), illustrative data.
+* BTLFT01: biomass gasification + Fischer-Tropsch (biomass-to-liquids).
+* Activity = biomass input (PJ). Outputs: kerosene (jet) and diesel.
+* Efficiency 50% (liquids/biomass), output split 55% kerosene / 45% diesel.
+* Costs converted from EUR2023 to EUR2005 with a factor of about 1/1.45.
+* Not modelled here: heat co-product to district heating (no heat commodity
+* in the demo), electricity input, CO2 capture, biogenic CO2 credit.
+* ---------------------------------------------------------------------------
+SET PRC
+/
+BTLFT01
+/
+
+SET PRC_MAP
+/
+REG1.PRE.BTLFT01
+/
+
+SET PRC_TSL
+/
+REG1.BTLFT01.ANNUAL
+/
+
+SET COM_GRP
+/
+BTLFT01_NRGO
+/
+
+SET COM_GMAP
+/
+REG1.BTLFT01_NRGO.DSL
+REG1.BTLFT01_NRGO.KER
+/
+
+SET PRC_ACTUNT
+/
+REG1.BTLFT01.BIO.PJ
+/
+
+SET TOP
+/
+REG1.BTLFT01.BIO.IN
+REG1.BTLFT01.DSL.OUT
+REG1.BTLFT01.KER.OUT
+/
+
+SET PRC_DESC
+/
+ REG1.BTLFT01 'Biomass gasification + Fischer-Tropsch (jet and diesel), Swedish-type'
+/
+
+PARAMETER
+ACT_EFF ' '/
+REG1.2005.BTLFT01.ACT.ANNUAL 0.5
+/
+
+PARAMETER
+FLO_SHAR ' '/
+REG1.2005.BTLFT01.KER.BTLFT01_NRGO.ANNUAL.FX 0.55
+REG1.2005.BTLFT01.DSL.BTLFT01_NRGO.ANNUAL.FX 0.45
+/
+
+PARAMETER
+NCAP_COST ' '/
+REG1.2005.BTLFT01.MEURO05 1100
+/
+
+PARAMETER
+NCAP_FOM ' '/
+REG1.2005.BTLFT01.MEURO05 45
+/
+
+PARAMETER
+ACT_COST ' '/
+REG1.2005.BTLFT01.MEURO05 0.3
+/
+
+PARAMETER
+NCAP_TLIFE ' '/
+REG1.2005.BTLFT01 25
+/
+
+PARAMETER
+NCAP_START ' '/
+REG1.BTLFT01 2030
+/
+
+PARAMETER
+NCAP_AFA ' '/
+REG1.2005.BTLFT01.UP 0.9
+/
+
+PARAMETER
+PRC_CAPACT ' '/
+REG1.BTLFT01 31.536
+/
