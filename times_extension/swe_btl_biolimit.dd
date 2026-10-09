@@ -1,0 +1,11 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+* Biomass-limited variant: domestic biomass supply in REG1 capped at
+* 1,000 PJ/yr from 2030 (the unchanged demo uses about 630-690 PJ/yr in
+* 2030-2050). BTLFT01 now competes with the other biomass uses.
+PARAMETER
+ACT_BND ' '/
+REG1.2030.MINBIO1.ANNUAL.UP 1000
+REG1.2050.MINBIO1.ANNUAL.UP 1000
+/
