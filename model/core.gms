@@ -1,4 +1,4 @@
-﻿$title Sweden forest biomass allocation: TIMES-inspired energy system model
+$title Sweden forest biomass allocation: TIMES-inspired energy system model
 $ontext
 TIMES-inspired linear optimisation model of the Swedish energy system, built
 on the TIMES model architecture: names of sets, parameters, variables and
