@@ -142,4 +142,4 @@ Illustrative data, one region without electricity trade beyond a fixed export an
 - Naturvårdsverket: preliminary greenhouse gas statistics for 2024 (June 2025).
 - Danish Energy Agency: Technology Data catalogues; EMEP/EEA Air Pollutant Emission Inventory Guidebook; IPCC 2006 Guidelines (emission factors).
 
-Author: Mikhail Serikov, 2026. Developed with Claude Code.
+Author: Mikhail Serikov, 2026.
