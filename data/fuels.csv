@@ -1,0 +1,6 @@
+* COM,fossil CO2 emission factor (Mt CO2 per TWh fuel)
+NG,0.202
+OIL_JET,0.257
+OIL_DSL,0.267
+COA,0.340
+WST,0.120

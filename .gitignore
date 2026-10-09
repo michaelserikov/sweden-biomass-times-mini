@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.lst
+*.log
+*.lxi
+*.~gm
+225*/
+model/*.gdx
+results/*.gdx
+results/logs/
