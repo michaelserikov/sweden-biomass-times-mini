@@ -42,6 +42,15 @@ def run_label(run):
     return SCN_LABEL[s] + "\n" + ("on time" if t == "ontime" else "delayed")
 
 
+def legend_union(axes):
+    """Handles and labels of all axes, each label once (in order of appearance)."""
+    seen = {}
+    for ax in axes:
+        for h, lab in zip(*ax.get_legend_handles_labels()):
+            seen.setdefault(lab, h)
+    return list(seen.values()), list(seen.keys())
+
+
 def stacked(ax, df, cats, colors, x, width=0.75):
     """Stacked bars with a thin surface-coloured gap between segments."""
     bottom = pd.Series(0.0, index=df.index)
@@ -71,7 +80,7 @@ def fig_biomass():
             ax.set_title(f"{SCN_LABEL[s]}, technologies {TIMING_LABEL[t]}")
             if j == 0:
                 ax.set_ylabel("Forest biomass use (TWh/yr)")
-    h, lab = axes[0, 0].get_legend_handles_labels()
+    h, lab = legend_union(axes.flat)
     fig.legend(h, lab, loc="lower center", ncol=5, bbox_to_anchor=(0.5, -0.01))
     fig.suptitle("Allocation of Swedish forest biomass by use, scenario and period", x=0.01,
                  ha="left", fontsize=11)
@@ -97,8 +106,10 @@ def fig_power():
     gen = gen.reindex(CORE).fillna(0)
 
     p = load("rep_cap")
-    p = p[p.run.isin([f"{s}_ontime" for s in SCN]) & p.PRC.isin(["GT_BIO", "GT_H2", "GT_NG"])]
-    gt_lab = {"GT_BIO": "Liquid biofuel GT", "GT_H2": "Hydrogen GT", "GT_NG": "Fossil GT (existing)"}
+    p = p[p.run.isin([f"{s}_ontime" for s in SCN]) & p.PRC.isin(["GT_BIO", "GT_H2", "GT_NG", "DR_ELC"])]
+    gt_lab = {"GT_BIO": "Liquid biofuel GT", "GT_H2": "Hydrogen GT", "GT_NG": "Fossil GT (existing)",
+              "DR_ELC": "Demand response"}
+    ymax = p.groupby(["run", "T"])["value"].sum().max()
 
     fig = plt.figure(figsize=(13, 4.8))
     gs = fig.add_gridspec(1, 4, width_ratios=[2.8, 1, 1, 1], wspace=0.3)
@@ -114,18 +125,18 @@ def fig_power():
         ax = axes[k]
         sub = p[p.run == f"{s}_ontime"].pivot_table(index="T", columns="PRC", values="value")
         sub = sub.reindex(YEARS).fillna(0).rename(columns=gt_lab)
-        stacked(ax, sub, list(gt_lab.values()), [PAL[1], PAL[6], PAL[7]], range(len(YEARS)), 0.7)
+        stacked(ax, sub, list(gt_lab.values()), [PAL[1], PAL[6], PAL[7], PAL[3]], range(len(YEARS)), 0.7)
         ax.set_xticks(range(len(YEARS)), [str(y)[2:] if i else str(y) for i, y in enumerate(YEARS)])
-        ax.set_ylim(0, 11)
+        ax.set_ylim(0, ymax * 1.1)
         ax.set_title(SCN_LABEL[s], fontsize=9)
         if k == 0:
             ax.set_ylabel("GW installed")
         else:
             ax.set_yticklabels([])
-    axes[1].text(0.5, 1.13, "Gas turbines for the peak reserve (technologies on time)",
+    axes[1].text(0.5, 1.13, "Gas turbines and demand response for the peak reserve (technologies on time)",
                  transform=axes[1].transAxes, ha="center", fontsize=10)
-    h, lab = axes[0].get_legend_handles_labels()
-    axes[0].legend(h, lab, loc="upper left", bbox_to_anchor=(0, -0.1), ncol=3, fontsize=8)
+    h, lab = legend_union(axes)
+    axes[0].legend(h, lab, loc="upper left", bbox_to_anchor=(0, -0.1), ncol=4, fontsize=8)
     fig.subplots_adjust(left=0.05, right=0.99, top=0.86, bottom=0.27)
     fig.savefig(FIG / "fig2_power_and_peak_turbines.png", dpi=160)
     plt.close(fig)
