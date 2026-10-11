@@ -1,91 +1,97 @@
 run,scenario,timing,uni,value
-forest_first_ontime,forest_first,ontime,NPV total,154011.84799499885
-forest_first_ontime,forest_first,ontime,NPV investment,36398.665399794125
-forest_first_ontime,forest_first,ontime,NPV salvage,13218.762707324368
-forest_first_ontime,forest_first,ontime,NPV fixed O&M,44917.827407463
-forest_first_ontime,forest_first,ontime,NPV variable,22098.003091982224
-forest_first_ontime,forest_first,ontime,NPV resources,63816.11480308391
-forest_first_delay,forest_first,delay,NPV total,154491.7103323386
-forest_first_delay,forest_first,delay,NPV investment,35728.57736363572
-forest_first_delay,forest_first,delay,NPV salvage,13534.088112332978
-forest_first_delay,forest_first,delay,NPV fixed O&M,44781.62969363937
-forest_first_delay,forest_first,delay,NPV variable,21961.0207579433
-forest_first_delay,forest_first,delay,NPV resources,65554.57062945321
-scarce_forest_ontime,scarce_forest,ontime,NPV total,160176.19459245497
-scarce_forest_ontime,scarce_forest,ontime,NPV investment,41427.60201966821
-scarce_forest_ontime,scarce_forest,ontime,NPV salvage,13753.04154943282
-scarce_forest_ontime,scarce_forest,ontime,NPV fixed O&M,45025.199949844624
-scarce_forest_ontime,scarce_forest,ontime,NPV variable,24203.873041281862
-scarce_forest_ontime,scarce_forest,ontime,NPV resources,63272.56113109327
-scarce_forest_delay,scarce_forest,delay,NPV total,160439.72196592082
-scarce_forest_delay,scarce_forest,delay,NPV investment,40758.11598565088
-scarce_forest_delay,scarce_forest,delay,NPV salvage,13915.446834127228
-scarce_forest_delay,scarce_forest,delay,NPV fixed O&M,44783.22916852558
-scarce_forest_delay,scarce_forest,delay,NPV variable,24096.198957388326
-scarce_forest_delay,scarce_forest,delay,NPV resources,64717.62468848334
-electrons_win_ontime,electrons_win,ontime,NPV total,153567.29762570787
-electrons_win_ontime,electrons_win,ontime,NPV investment,34116.90615905024
-electrons_win_ontime,electrons_win,ontime,NPV salvage,11769.10431167182
-electrons_win_ontime,electrons_win,ontime,NPV fixed O&M,44904.99257764135
-electrons_win_ontime,electrons_win,ontime,NPV variable,22924.824098960886
-electrons_win_ontime,electrons_win,ontime,NPV resources,63389.679101727415
-electrons_win_delay,electrons_win,delay,NPV total,154345.86011704605
-electrons_win_delay,electrons_win,delay,NPV investment,33708.33619398112
-electrons_win_delay,electrons_win,delay,NPV salvage,11957.285922721305
-electrons_win_delay,electrons_win,delay,NPV fixed O&M,44620.897473166166
-electrons_win_delay,electrons_win,delay,NPV variable,22879.66145135778
-electrons_win_delay,electrons_win,delay,NPV resources,65094.25092126228
-forest_first_ontime_r02,forest_first,ontime,NPV total,191484.5243811223
-forest_first_ontime_r02,forest_first,ontime,NPV investment,51976.22072877305
-forest_first_ontime_r02,forest_first,ontime,NPV salvage,22401.780507793825
-forest_first_ontime_r02,forest_first,ontime,NPV fixed O&M,57425.20464040365
-forest_first_ontime_r02,forest_first,ontime,NPV variable,29310.855336459186
-forest_first_ontime_r02,forest_first,ontime,NPV resources,75174.0241832801
-forest_first_ontime_r07,forest_first,ontime,NPV total,115746.82825364715
-forest_first_ontime_r07,forest_first,ontime,NPV investment,21085.491680289422
-forest_first_ontime_r07,forest_first,ontime,NPV salvage,5714.393961844221
-forest_first_ontime_r07,forest_first,ontime,NPV fixed O&M,32455.918301527097
-forest_first_ontime_r07,forest_first,ontime,NPV variable,15532.142819577353
-forest_first_ontime_r07,forest_first,ontime,NPV resources,52387.669414097494
-forest_first_ontime_nonco2x2,forest_first,ontime,NPV total,154065.782631118
-forest_first_ontime_nonco2x2,forest_first,ontime,NPV investment,36326.02949588982
-forest_first_ontime_nonco2x2,forest_first,ontime,NPV salvage,13116.144930574577
-forest_first_ontime_nonco2x2,forest_first,ontime,NPV fixed O&M,44929.916548264504
-forest_first_ontime_nonco2x2,forest_first,ontime,NPV variable,22112.089543482343
-forest_first_ontime_nonco2x2,forest_first,ontime,NPV resources,63813.891974055994
-scarce_forest_ontime_r02,scarce_forest,ontime,NPV total,198618.4314735898
-scarce_forest_ontime_r02,scarce_forest,ontime,NPV investment,59416.26337323943
-scarce_forest_ontime_r02,scarce_forest,ontime,NPV salvage,23826.540163584017
-scarce_forest_ontime_r02,scarce_forest,ontime,NPV fixed O&M,58537.11916934188
-scarce_forest_ontime_r02,scarce_forest,ontime,NPV variable,32369.207362919704
-scarce_forest_ontime_r02,scarce_forest,ontime,NPV resources,72122.38173167291
-scarce_forest_ontime_r07,scarce_forest,ontime,NPV total,120502.57317362793
-scarce_forest_ontime_r07,scarce_forest,ontime,NPV investment,24555.74355284636
-scarce_forest_ontime_r07,scarce_forest,ontime,NPV salvage,6252.898130806425
-scarce_forest_ontime_r07,scarce_forest,ontime,NPV fixed O&M,32566.488782411263
-scarce_forest_ontime_r07,scarce_forest,ontime,NPV variable,16307.582290094462
-scarce_forest_ontime_r07,scarce_forest,ontime,NPV resources,53325.656679082254
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV total,160395.11366336723
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV investment,42631.84485630763
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV salvage,14121.554843358652
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV fixed O&M,45367.480576205606
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV variable,24437.042706706106
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV resources,62080.30036750669
-electrons_win_ontime_r02,electrons_win,ontime,NPV total,191014.90563745354
-electrons_win_ontime_r02,electrons_win,ontime,NPV investment,47855.9229495965
-electrons_win_ontime_r02,electrons_win,ontime,NPV salvage,19229.756928767245
-electrons_win_ontime_r02,electrons_win,ontime,NPV fixed O&M,57711.21450007893
-electrons_win_ontime_r02,electrons_win,ontime,NPV variable,30865.342538432564
-electrons_win_ontime_r02,electrons_win,ontime,NPV resources,73812.18257811292
-electrons_win_ontime_r07,electrons_win,ontime,NPV total,115597.91469679188
-electrons_win_ontime_r07,electrons_win,ontime,NPV investment,20977.775896557105
-electrons_win_ontime_r07,electrons_win,ontime,NPV salvage,5502.859568265371
-electrons_win_ontime_r07,electrons_win,ontime,NPV fixed O&M,32700.155688480994
-electrons_win_ontime_r07,electrons_win,ontime,NPV variable,16018.621470216796
-electrons_win_ontime_r07,electrons_win,ontime,NPV resources,51404.22120980236
-electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV total,153652.2864680074
-electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV investment,34172.77229230191
-electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV salvage,11728.727652136893
-electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV fixed O&M,44932.02249723681
-electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV variable,22958.539751527223
-electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV resources,63317.67957907857
+forest_first_ontime,forest_first,ontime,NPV total,153840.6141153848
+forest_first_ontime,forest_first,ontime,NPV investment,36387.971355120106
+forest_first_ontime,forest_first,ontime,NPV salvage,12472.601562893724
+forest_first_ontime,forest_first,ontime,NPV fixed O&M,45096.914067253405
+forest_first_ontime,forest_first,ontime,NPV variable,22089.59307285957
+forest_first_ontime,forest_first,ontime,NPV resources,62738.73718304541
+forest_first_delay,forest_first,delay,NPV total,154330.43005284958
+forest_first_delay,forest_first,delay,NPV investment,35797.854360969286
+forest_first_delay,forest_first,delay,NPV salvage,12805.639845022923
+forest_first_delay,forest_first,delay,NPV fixed O&M,44710.0186099952
+forest_first_delay,forest_first,delay,NPV variable,22028.285104606435
+forest_first_delay,forest_first,delay,NPV resources,64599.91182230159
+scarce_forest_ontime,scarce_forest,ontime,NPV total,159798.20474472383
+scarce_forest_ontime,scarce_forest,ontime,NPV investment,41865.32270675833
+scarce_forest_ontime,scarce_forest,ontime,NPV salvage,13618.096277935228
+scarce_forest_ontime,scarce_forest,ontime,NPV fixed O&M,45542.80664638794
+scarce_forest_ontime,scarce_forest,ontime,NPV variable,24463.176946536532
+scarce_forest_ontime,scarce_forest,ontime,NPV resources,61544.99472297653
+scarce_forest_delay,scarce_forest,delay,NPV total,160134.68290998295
+scarce_forest_delay,scarce_forest,delay,NPV investment,41278.41496219255
+scarce_forest_delay,scarce_forest,delay,NPV salvage,13886.770784859487
+scarce_forest_delay,scarce_forest,delay,NPV fixed O&M,45362.87940719469
+scarce_forest_delay,scarce_forest,delay,NPV variable,24319.204349742988
+scarce_forest_delay,scarce_forest,delay,NPV resources,63060.95497571222
+electrons_win_ontime,electrons_win,ontime,NPV total,153372.9143078685
+electrons_win_ontime,electrons_win,ontime,NPV investment,34298.505591791385
+electrons_win_ontime,electrons_win,ontime,NPV salvage,11817.271366551824
+electrons_win_ontime,electrons_win,ontime,NPV fixed O&M,45150.51136424786
+electrons_win_ontime,electrons_win,ontime,NPV variable,22707.668088800943
+electrons_win_ontime,electrons_win,ontime,NPV resources,63057.65837058564
+electrons_win_ontime,electrons_win,ontime,NPV export revenue,24.157741005440684
+electrons_win_delay,electrons_win,delay,NPV total,154128.26911043943
+electrons_win_delay,electrons_win,delay,NPV investment,34248.9261523159
+electrons_win_delay,electrons_win,delay,NPV salvage,11955.765794606672
+electrons_win_delay,electrons_win,delay,NPV fixed O&M,44993.93842310405
+electrons_win_delay,electrons_win,delay,NPV variable,22975.51266797808
+electrons_win_delay,electrons_win,delay,NPV resources,63865.65766164834
+forest_first_ontime_r02,forest_first,ontime,NPV total,190934.63971095075
+forest_first_ontime_r02,forest_first,ontime,NPV investment,51426.666978956586
+forest_first_ontime_r02,forest_first,ontime,NPV salvage,21447.75983220558
+forest_first_ontime_r02,forest_first,ontime,NPV fixed O&M,58068.1767839839
+forest_first_ontime_r02,forest_first,ontime,NPV variable,28926.473570518247
+forest_first_ontime_r02,forest_first,ontime,NPV resources,74153.7892687544
+forest_first_ontime_r02,forest_first,ontime,NPV export revenue,192.70705905712583
+forest_first_ontime_r07,forest_first,ontime,NPV total,115973.27435195065
+forest_first_ontime_r07,forest_first,ontime,NPV investment,22295.158878578528
+forest_first_ontime_r07,forest_first,ontime,NPV salvage,5899.225783134244
+forest_first_ontime_r07,forest_first,ontime,NPV fixed O&M,32767.65031369741
+forest_first_ontime_r07,forest_first,ontime,NPV variable,15650.166384823744
+forest_first_ontime_r07,forest_first,ontime,NPV resources,51159.52455798515
+forest_first_ontime_nonco2x2,forest_first,ontime,NPV total,154038.6064144713
+forest_first_ontime_nonco2x2,forest_first,ontime,NPV investment,36508.27182386987
+forest_first_ontime_nonco2x2,forest_first,ontime,NPV salvage,12466.21762448495
+forest_first_ontime_nonco2x2,forest_first,ontime,NPV fixed O&M,45143.3863574319
+forest_first_ontime_nonco2x2,forest_first,ontime,NPV variable,22128.96641722676
+forest_first_ontime_nonco2x2,forest_first,ontime,NPV resources,62724.199440427816
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV total,198060.01429789988
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV investment,58244.97370593996
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV salvage,23307.19022270512
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV fixed O&M,58914.971214244775
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV variable,32524.985821724375
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV resources,72229.16028818523
+scarce_forest_ontime_r02,scarce_forest,ontime,NPV export revenue,546.8865094892401
+scarce_forest_ontime_r07,scarce_forest,ontime,NPV total,120499.8622290034
+scarce_forest_ontime_r07,scarce_forest,ontime,NPV investment,24547.719354253386
+scarce_forest_ontime_r07,scarce_forest,ontime,NPV salvage,6376.9246312960595
+scarce_forest_ontime_r07,scarce_forest,ontime,NPV fixed O&M,32664.71243505127
+scarce_forest_ontime_r07,scarce_forest,ontime,NPV variable,16421.85145392062
+scarce_forest_ontime_r07,scarce_forest,ontime,NPV resources,53242.50361707415
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV total,160083.1341327583
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV investment,42407.753958534275
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV salvage,13786.132025315235
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV fixed O&M,45703.318238494416
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV variable,24579.4375912334
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,NPV resources,61178.75636981177
+electrons_win_ontime_r02,electrons_win,ontime,NPV total,190370.46773916244
+electrons_win_ontime_r02,electrons_win,ontime,NPV investment,52581.52757581782
+electrons_win_ontime_r02,electrons_win,ontime,NPV salvage,22139.412733106703
+electrons_win_ontime_r02,electrons_win,ontime,NPV fixed O&M,59277.35893970601
+electrons_win_ontime_r02,electrons_win,ontime,NPV variable,31464.90585326464
+electrons_win_ontime_r02,electrons_win,ontime,NPV resources,69934.26319277807
+electrons_win_ontime_r02,electrons_win,ontime,NPV export revenue,748.1750892975944
+electrons_win_ontime_r07,electrons_win,ontime,NPV total,115635.95223836428
+electrons_win_ontime_r07,electrons_win,ontime,NPV investment,21062.003250603495
+electrons_win_ontime_r07,electrons_win,ontime,NPV salvage,5369.568041549664
+electrons_win_ontime_r07,electrons_win,ontime,NPV fixed O&M,32792.088105590694
+electrons_win_ontime_r07,electrons_win,ontime,NPV variable,15947.329960186113
+electrons_win_ontime_r07,electrons_win,ontime,NPV resources,51220.18226460355
+electrons_win_ontime_r07,electrons_win,ontime,NPV export revenue,16.08330106996287
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV total,153559.06461597004
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV investment,34538.68186876061
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV salvage,11875.82891984748
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV fixed O&M,45232.626182747284
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV variable,22744.31014376424
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV resources,62943.43308155094
+electrons_win_ontime_nonco2x2,electrons_win,ontime,NPV export revenue,24.157741005440684
