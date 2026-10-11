@@ -7,7 +7,7 @@ COM_PROJ,HET 2025-2050,60/59/58/57/56/56,TWh,SCB 2023 total 60.5 TWh; decline is
 COM_PROJ,IND,56,TWh/yr,"derived: black liquor 42 TWh x 0.65 + industrial biomass, fossil and electric process heat (Energimyndigheten Energiläget orders of magnitude)",2025,approximate,useful process heat; constant (pulp production assumed constant)
 COM_PROJ,STL,2.5,Mt/yr,assumption: ore-based (blast furnace) steel output in Sweden,2025,approximate,constant
 COM_PROJ,DSL 2025-2050,45/38/31/24/18/14,TWh,assumption: road and machinery diesel with exogenous electrification,2025-2050,assumption,EV electricity is part of exogenous ELC
-COM_PROJ,AVF 2025,7.5,TWh,"SCB monthly deliveries via Argus Media: about 57,550 m3 jet kerosene in Nov 2023; annualised and converted at about 9.6 MWh/m3",2023,approximate,growth AVI_G per scenario (1% or 2% per year)
+COM_PROJ,AVF 2025,8.5,TWh,"Jet fuel uplifted in Sweden (domestic + international bunkers). Cross-checks: EIA jet fuel consumption for Sweden 14.4 thousand bbl/day in 2023 (about 8.1 TWh at 9.6 MWh/m3); Naturvardsverket: international aviation 1.8 Mt CO2e in 2024 (about 7.0 TWh at 0.257 Mt/TWh) plus domestic aviation (about 1.5-2 TWh)",2023-2024,approximate,replaces 7.5 TWh annualised from one low-season month (Nov 2023); growth AVI_G per scenario (1% or 2% per year)
 DOM_SHR,,0.18,share,assumption based on the ratio of domestic aviation to international bunker CO2 in the Swedish inventory,2023,assumption,share of jet fuel counted in the domestic target
 VDA_EMCB,NG,0.202,Mt CO2/TWh,IPCC 2006 default (56.1 t/TJ),2006,approximate,
 VDA_EMCB,OIL_JET,0.257,Mt CO2/TWh,IPCC 2006 default jet kerosene (71.5 t/TJ),2006,approximate,
