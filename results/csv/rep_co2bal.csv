@@ -1,476 +1,484 @@
 run,scenario,timing,uni,T,value
-forest_first_ontime,forest_first,ontime,gross fossil (target scope),2025,21.449406618572
-forest_first_ontime,forest_first,ontime,gross fossil (target scope),2030,17.287581453774447
-forest_first_ontime,forest_first,ontime,gross fossil (target scope),2035,13.125756288976895
-forest_first_ontime,forest_first,ontime,gross fossil (target scope),2040,8.963931124179345
-forest_first_ontime,forest_first,ontime,gross fossil (target scope),2045,4.802105959381793
-forest_first_ontime,forest_first,ontime,gross fossil (target scope),2050,4.802105959381793
-forest_first_ontime,forest_first,ontime,gross cap,2030,17.287581453774447
-forest_first_ontime,forest_first,ontime,gross cap,2035,13.125756288976895
-forest_first_ontime,forest_first,ontime,gross cap,2040,8.963931124179345
-forest_first_ontime,forest_first,ontime,gross cap,2045,4.802105959381793
-forest_first_ontime,forest_first,ontime,gross cap,2050,4.802105959381793
-forest_first_ontime,forest_first,ontime,BECCS stored,2045,4.802105959381793
-forest_first_ontime,forest_first,ontime,BECCS stored,2050,4.802105959381793
-forest_first_ontime,forest_first,ontime,net,2025,21.449406618572
-forest_first_ontime,forest_first,ontime,net,2030,17.287581453774447
-forest_first_ontime,forest_first,ontime,net,2035,13.125756288976895
-forest_first_ontime,forest_first,ontime,net,2040,8.963931124179345
-forest_first_ontime,forest_first,ontime,captured biogenic,2030,0.028377271352700007
-forest_first_ontime,forest_first,ontime,captured biogenic,2035,0.12426998910876053
-forest_first_ontime,forest_first,ontime,captured biogenic,2040,0.2612180149582497
-forest_first_ontime,forest_first,ontime,captured biogenic,2045,5.213920097864232
-forest_first_ontime,forest_first,ontime,captured biogenic,2050,5.812021155457865
-forest_first_ontime,forest_first,ontime,used for e-kerosene,2030,0.028377271352700004
-forest_first_ontime,forest_first,ontime,used for e-kerosene,2035,0.12426998910876053
-forest_first_ontime,forest_first,ontime,used for e-kerosene,2040,0.2612180149582497
-forest_first_ontime,forest_first,ontime,used for e-kerosene,2045,0.41181413848243886
-forest_first_ontime,forest_first,ontime,used for e-kerosene,2050,1.0099151960760715
-forest_first_ontime,forest_first,ontime,international aviation (memo),2025,1.548939
-forest_first_ontime,forest_first,ontime,international aviation (memo),2030,1.5615034986044218
-forest_first_ontime,forest_first,ontime,international aviation (memo),2035,1.3967284002549436
-forest_first_ontime,forest_first,ontime,international aviation (memo),2040,1.211079858390634
-forest_first_ontime,forest_first,ontime,international aviation (memo),2045,0.031011556172877843
-forest_first_delay,forest_first,delay,gross fossil (target scope),2025,21.449406618572
-forest_first_delay,forest_first,delay,gross fossil (target scope),2030,17.287581453774447
-forest_first_delay,forest_first,delay,gross fossil (target scope),2035,13.125756288976895
-forest_first_delay,forest_first,delay,gross fossil (target scope),2040,8.963931124179345
-forest_first_delay,forest_first,delay,gross fossil (target scope),2045,4.802105959381793
-forest_first_delay,forest_first,delay,gross fossil (target scope),2050,4.802105959381793
-forest_first_delay,forest_first,delay,gross cap,2030,17.287581453774447
-forest_first_delay,forest_first,delay,gross cap,2035,13.125756288976895
-forest_first_delay,forest_first,delay,gross cap,2040,8.963931124179345
-forest_first_delay,forest_first,delay,gross cap,2045,4.802105959381793
-forest_first_delay,forest_first,delay,gross cap,2050,4.802105959381793
-forest_first_delay,forest_first,delay,BECCS stored,2045,4.802105959381793
-forest_first_delay,forest_first,delay,BECCS stored,2050,4.802105959381793
-forest_first_delay,forest_first,delay,net,2025,21.449406618572
-forest_first_delay,forest_first,delay,net,2030,17.287581453774447
-forest_first_delay,forest_first,delay,net,2035,13.125756288976895
-forest_first_delay,forest_first,delay,net,2040,8.963931124179345
-forest_first_delay,forest_first,delay,captured biogenic,2040,0.2612180149582497
-forest_first_delay,forest_first,delay,captured biogenic,2045,5.213920097864231
-forest_first_delay,forest_first,delay,captured biogenic,2050,5.812021155457863
-forest_first_delay,forest_first,delay,used for e-kerosene,2040,0.2612180149582497
-forest_first_delay,forest_first,delay,used for e-kerosene,2045,0.41181413848243886
-forest_first_delay,forest_first,delay,used for e-kerosene,2050,1.0099151960760715
-forest_first_delay,forest_first,delay,international aviation (memo),2025,1.548939
-forest_first_delay,forest_first,delay,international aviation (memo),2030,1.5615034986044218
-forest_first_delay,forest_first,delay,international aviation (memo),2035,1.3967284002549436
-forest_first_delay,forest_first,delay,international aviation (memo),2040,1.211079858390634
-forest_first_delay,forest_first,delay,international aviation (memo),2045,0.036927904598614565
-forest_first_delay,forest_first,delay,international aviation (memo),2050,0.005916348425736723
-scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2025,21.449406618572
-scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2030,17.287581453774447
-scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2035,13.125756288976895
-scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2040,8.963931124179345
-scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2045,4.802105959381793
-scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2050,4.802105959381793
-scarce_forest_ontime,scarce_forest,ontime,gross cap,2030,17.287581453774447
-scarce_forest_ontime,scarce_forest,ontime,gross cap,2035,13.125756288976895
-scarce_forest_ontime,scarce_forest,ontime,gross cap,2040,8.963931124179345
-scarce_forest_ontime,scarce_forest,ontime,gross cap,2045,4.802105959381793
-scarce_forest_ontime,scarce_forest,ontime,gross cap,2050,4.802105959381793
-scarce_forest_ontime,scarce_forest,ontime,BECCS stored,2045,4.802105959381793
-scarce_forest_ontime,scarce_forest,ontime,BECCS stored,2050,4.802105959381793
-scarce_forest_ontime,scarce_forest,ontime,net,2025,21.449406618572
-scarce_forest_ontime,scarce_forest,ontime,net,2030,17.287581453774447
-scarce_forest_ontime,scarce_forest,ontime,net,2035,13.125756288976895
-scarce_forest_ontime,scarce_forest,ontime,net,2040,8.963931124179345
-scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2030,0.0298101816864
-scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2035,0.1371368722494102
-scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2040,0.3028203761229293
-scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2045,5.303613205524488
-scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2050,6.094083180022769
-scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2030,0.0298101816864
-scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2035,0.1371368722494102
-scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2040,0.3028203761229292
-scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2045,0.5015072461426948
-scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2050,1.2919772206409752
-scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2025,1.548939
-scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2030,1.6403516186878948
-scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2035,1.5413453044181709
-scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2040,1.4039600534112142
-scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2045,1.117541056155985
-scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2050,0.7779179413653691
-scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2025,21.449406618572
-scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2030,17.287581453774447
-scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2035,13.125756288976895
-scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2040,8.963931124179345
-scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2045,4.802105959381793
-scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2050,4.802105959381793
-scarce_forest_delay,scarce_forest,delay,gross cap,2030,17.287581453774447
-scarce_forest_delay,scarce_forest,delay,gross cap,2035,13.125756288976895
-scarce_forest_delay,scarce_forest,delay,gross cap,2040,8.963931124179345
-scarce_forest_delay,scarce_forest,delay,gross cap,2045,4.802105959381793
-scarce_forest_delay,scarce_forest,delay,gross cap,2050,4.802105959381793
-scarce_forest_delay,scarce_forest,delay,BECCS stored,2045,4.802105959381793
-scarce_forest_delay,scarce_forest,delay,BECCS stored,2050,4.802105959381793
-scarce_forest_delay,scarce_forest,delay,net,2025,21.449406618572
-scarce_forest_delay,scarce_forest,delay,net,2030,17.287581453774447
-scarce_forest_delay,scarce_forest,delay,net,2035,13.125756288976895
-scarce_forest_delay,scarce_forest,delay,net,2040,8.963931124179345
-scarce_forest_delay,scarce_forest,delay,captured biogenic,2040,0.31866568411890933
-scarce_forest_delay,scarce_forest,delay,captured biogenic,2045,5.303613205524487
-scarce_forest_delay,scarce_forest,delay,captured biogenic,2050,6.094083180022768
-scarce_forest_delay,scarce_forest,delay,used for e-kerosene,2040,0.31866568411890933
-scarce_forest_delay,scarce_forest,delay,used for e-kerosene,2045,0.5015072461426948
-scarce_forest_delay,scarce_forest,delay,used for e-kerosene,2050,1.2919772206409752
-scarce_forest_delay,scarce_forest,delay,international aviation (memo),2025,1.548939
-scarce_forest_delay,scarce_forest,delay,international aviation (memo),2030,1.6403516186878948
-scarce_forest_delay,scarce_forest,delay,international aviation (memo),2035,1.5413453044181709
-scarce_forest_delay,scarce_forest,delay,international aviation (memo),2040,1.4039600534112144
-scarce_forest_delay,scarce_forest,delay,international aviation (memo),2045,1.0628604381485898
-scarce_forest_delay,scarce_forest,delay,international aviation (memo),2050,0.7779179413653691
-electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2025,21.449406618572
-electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2030,17.287581453774447
-electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2035,13.125756288976895
-electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2040,8.963931124179345
-electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2045,4.802105959381793
-electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2050,4.802105959381793
-electrons_win_ontime,electrons_win,ontime,gross cap,2030,17.287581453774447
-electrons_win_ontime,electrons_win,ontime,gross cap,2035,13.125756288976895
-electrons_win_ontime,electrons_win,ontime,gross cap,2040,8.963931124179345
-electrons_win_ontime,electrons_win,ontime,gross cap,2045,4.802105959381793
-electrons_win_ontime,electrons_win,ontime,gross cap,2050,4.802105959381793
-electrons_win_ontime,electrons_win,ontime,BECCS stored,2045,4.802105959381793
-electrons_win_ontime,electrons_win,ontime,BECCS stored,2050,4.802105959381793
-electrons_win_ontime,electrons_win,ontime,net,2025,21.449406618572
-electrons_win_ontime,electrons_win,ontime,net,2030,17.287581453774447
-electrons_win_ontime,electrons_win,ontime,net,2035,13.125756288976895
-electrons_win_ontime,electrons_win,ontime,net,2040,8.963931124179345
-electrons_win_ontime,electrons_win,ontime,captured biogenic,2030,0.056754542705400014
-electrons_win_ontime,electrons_win,ontime,captured biogenic,2035,0.24853997821752105
-electrons_win_ontime,electrons_win,ontime,captured biogenic,2040,0.5224360299164994
-electrons_win_ontime,electrons_win,ontime,captured biogenic,2045,5.62573423634667
-electrons_win_ontime,electrons_win,ontime,captured biogenic,2050,6.821936351533935
-electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2030,0.05675454270540001
-electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2035,0.24853997821752105
-electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2040,0.5224360299164994
-electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2045,0.8236282769648777
-electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2050,2.019830392152143
-electrons_win_ontime,electrons_win,ontime,international aviation (memo),2025,1.548939
-electrons_win_ontime,electrons_win,ontime,international aviation (memo),2030,1.561503498604422
-electrons_win_ontime,electrons_win,ontime,international aviation (memo),2035,1.3967284002549436
-electrons_win_ontime,electrons_win,ontime,international aviation (memo),2040,1.211079858390634
-electrons_win_ontime,electrons_win,ontime,international aviation (memo),2045,0.4511576124304851
-electrons_win_delay,electrons_win,delay,gross fossil (target scope),2025,21.449406618572
-electrons_win_delay,electrons_win,delay,gross fossil (target scope),2030,17.287581453774447
-electrons_win_delay,electrons_win,delay,gross fossil (target scope),2035,13.125756288976895
-electrons_win_delay,electrons_win,delay,gross fossil (target scope),2040,8.963931124179345
-electrons_win_delay,electrons_win,delay,gross fossil (target scope),2045,4.802105959381793
-electrons_win_delay,electrons_win,delay,gross fossil (target scope),2050,4.802105959381793
-electrons_win_delay,electrons_win,delay,gross cap,2030,17.287581453774447
-electrons_win_delay,electrons_win,delay,gross cap,2035,13.125756288976895
-electrons_win_delay,electrons_win,delay,gross cap,2040,8.963931124179345
-electrons_win_delay,electrons_win,delay,gross cap,2045,4.802105959381793
-electrons_win_delay,electrons_win,delay,gross cap,2050,4.802105959381793
-electrons_win_delay,electrons_win,delay,BECCS stored,2045,4.802105959381793
-electrons_win_delay,electrons_win,delay,BECCS stored,2050,4.802105959381793
-electrons_win_delay,electrons_win,delay,net,2025,21.449406618572
-electrons_win_delay,electrons_win,delay,net,2030,17.287581453774447
-electrons_win_delay,electrons_win,delay,net,2035,13.125756288976895
-electrons_win_delay,electrons_win,delay,net,2040,8.963931124179345
-electrons_win_delay,electrons_win,delay,captured biogenic,2040,0.5224360299164994
-electrons_win_delay,electrons_win,delay,captured biogenic,2045,5.625734236346672
-electrons_win_delay,electrons_win,delay,captured biogenic,2050,6.821936351533935
-electrons_win_delay,electrons_win,delay,used for e-kerosene,2040,0.5224360299164994
-electrons_win_delay,electrons_win,delay,used for e-kerosene,2045,0.8236282769648777
-electrons_win_delay,electrons_win,delay,used for e-kerosene,2050,2.019830392152143
-electrons_win_delay,electrons_win,delay,international aviation (memo),2025,1.548939
-electrons_win_delay,electrons_win,delay,international aviation (memo),2030,1.561503498604422
-electrons_win_delay,electrons_win,delay,international aviation (memo),2035,1.3967284002549436
-electrons_win_delay,electrons_win,delay,international aviation (memo),2040,1.211079858390634
-electrons_win_delay,electrons_win,delay,international aviation (memo),2045,0.4511576124304851
-forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2025,21.449406618572
-forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2030,17.287581453774447
-forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2035,13.125756288976895
-forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2040,8.963931124179345
-forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2045,4.802105959381793
-forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2050,4.657418706466665
-forest_first_ontime_r02,forest_first,ontime,gross cap,2030,17.287581453774447
-forest_first_ontime_r02,forest_first,ontime,gross cap,2035,13.125756288976895
-forest_first_ontime_r02,forest_first,ontime,gross cap,2040,8.963931124179345
-forest_first_ontime_r02,forest_first,ontime,gross cap,2045,4.802105959381793
-forest_first_ontime_r02,forest_first,ontime,gross cap,2050,4.802105959381793
-forest_first_ontime_r02,forest_first,ontime,BECCS stored,2045,4.802105959381793
-forest_first_ontime_r02,forest_first,ontime,BECCS stored,2050,4.657418706466665
-forest_first_ontime_r02,forest_first,ontime,net,2025,21.449406618572
-forest_first_ontime_r02,forest_first,ontime,net,2030,17.287581453774447
-forest_first_ontime_r02,forest_first,ontime,net,2035,13.125756288976895
-forest_first_ontime_r02,forest_first,ontime,net,2040,8.963931124179345
-forest_first_ontime_r02,forest_first,ontime,captured biogenic,2030,0.028377271352700007
-forest_first_ontime_r02,forest_first,ontime,captured biogenic,2035,0.12426998910876053
-forest_first_ontime_r02,forest_first,ontime,captured biogenic,2040,0.2612180149582497
-forest_first_ontime_r02,forest_first,ontime,captured biogenic,2045,5.213920097864231
-forest_first_ontime_r02,forest_first,ontime,captured biogenic,2050,5.667333902542737
-forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2030,0.028377271352700004
-forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2035,0.12426998910876053
-forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2040,0.2612180149582497
-forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2045,0.41181413848243886
-forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2050,1.0099151960760715
-forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2025,1.548939
-forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2030,1.5615034986044218
-forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2035,1.3967284002549436
-forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2040,1.211079858390634
-forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2045,0.031011556172877656
-forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2025,21.449406618572
-forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2030,17.287581453774447
-forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2035,13.125756288976895
-forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2040,8.963931124179345
-forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2045,4.802105959381793
-forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2050,4.802105959381793
-forest_first_ontime_r07,forest_first,ontime,gross cap,2030,17.287581453774447
-forest_first_ontime_r07,forest_first,ontime,gross cap,2035,13.125756288976895
-forest_first_ontime_r07,forest_first,ontime,gross cap,2040,8.963931124179345
-forest_first_ontime_r07,forest_first,ontime,gross cap,2045,4.802105959381793
-forest_first_ontime_r07,forest_first,ontime,gross cap,2050,4.802105959381793
-forest_first_ontime_r07,forest_first,ontime,BECCS stored,2045,4.802105959381793
-forest_first_ontime_r07,forest_first,ontime,BECCS stored,2050,4.802105959381793
-forest_first_ontime_r07,forest_first,ontime,net,2025,21.449406618572
-forest_first_ontime_r07,forest_first,ontime,net,2030,17.287581453774447
-forest_first_ontime_r07,forest_first,ontime,net,2035,13.125756288976895
-forest_first_ontime_r07,forest_first,ontime,net,2040,8.963931124179345
-forest_first_ontime_r07,forest_first,ontime,captured biogenic,2030,0.07235986927986138
-forest_first_ontime_r07,forest_first,ontime,captured biogenic,2035,0.12426998910876053
-forest_first_ontime_r07,forest_first,ontime,captured biogenic,2040,0.2612180149582497
-forest_first_ontime_r07,forest_first,ontime,captured biogenic,2045,5.213920097864232
-forest_first_ontime_r07,forest_first,ontime,captured biogenic,2050,5.812021155457864
-forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2030,0.07235986927986139
-forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2035,0.12426998910876053
-forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2040,0.2612180149582497
-forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2045,0.41181413848243886
-forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2050,1.0099151960760715
-forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2025,1.548939
-forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2030,1.561503498604422
-forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2035,1.3967284002549436
-forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2040,1.211079858390634
-forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2045,0.6065687254982979
-forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2050,0.4011023825254201
-forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2025,21.789417618571996
-forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2030,17.561620170192356
-forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2035,13.333822721812714
-forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2040,9.106025273433074
-forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2045,4.878227825053433
-forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2050,4.878227825053433
-forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2030,17.561620170192356
-forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2035,13.333822721812714
-forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2040,9.106025273433074
-forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2045,4.878227825053433
-forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2050,4.878227825053433
-forest_first_ontime_nonco2x2,forest_first,ontime,BECCS stored,2045,4.878227825053433
-forest_first_ontime_nonco2x2,forest_first,ontime,BECCS stored,2050,4.878227825053433
-forest_first_ontime_nonco2x2,forest_first,ontime,net,2025,21.789417618571996
-forest_first_ontime_nonco2x2,forest_first,ontime,net,2030,17.561620170192356
-forest_first_ontime_nonco2x2,forest_first,ontime,net,2035,13.333822721812714
-forest_first_ontime_nonco2x2,forest_first,ontime,net,2040,9.106025273433074
-forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2030,0.028377271352700007
-forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2035,0.12426998910876053
-forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2040,0.2612180149582497
-forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2045,5.290041963535872
-forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2050,5.888143021129505
-forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2030,0.028377271352700004
-forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2035,0.12426998910876053
-forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2040,0.2612180149582497
-forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2045,0.41181413848243886
-forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2050,1.0099151960760715
-forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2025,1.548939
-forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2030,1.5615034986044218
-forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2035,1.3967284002549436
-forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2040,1.211079858390634
-forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2045,0.031011556172877656
-scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2025,21.449406618572
-scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2030,17.27625158485341
-scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2035,13.125756288976895
-scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2040,8.963931124179345
-scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2045,4.802105959381793
-scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2050,4.802105959381793
-scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2030,17.287581453774447
-scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2035,13.125756288976895
-scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2040,8.963931124179345
-scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2045,4.802105959381793
-scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2050,4.802105959381793
-scarce_forest_ontime_r02,scarce_forest,ontime,BECCS stored,2045,4.802105959381793
-scarce_forest_ontime_r02,scarce_forest,ontime,BECCS stored,2050,4.802105959381793
-scarce_forest_ontime_r02,scarce_forest,ontime,net,2025,21.449406618572
-scarce_forest_ontime_r02,scarce_forest,ontime,net,2030,17.27625158485341
-scarce_forest_ontime_r02,scarce_forest,ontime,net,2035,13.125756288976895
-scarce_forest_ontime_r02,scarce_forest,ontime,net,2040,8.963931124179345
-scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2030,0.0298101816864
-scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2035,0.1371368722494102
-scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2040,0.32592810040597453
-scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2045,5.3036132055244884
-scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2050,6.094083180022769
-scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2030,0.0298101816864
-scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2035,0.1371368722494102
-scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2040,0.32592810040597453
-scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2045,0.5015072461426948
-scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2050,1.2919772206409752
-scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2025,1.548939
-scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2030,1.6403516186878948
-scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2035,1.5413453044181709
-scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2040,1.4039600534112142
-scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2045,0.5442775709991622
-scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2050,0.5242023887509111
-scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2025,21.449406618572
-scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2030,17.287581453774447
-scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2035,13.125756288976895
-scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2040,8.963931124179345
-scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2045,4.802105959381793
-scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2050,4.802105959381793
-scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2030,17.287581453774447
-scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2035,13.125756288976895
-scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2040,8.963931124179345
-scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2045,4.802105959381793
-scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2050,4.802105959381793
-scarce_forest_ontime_r07,scarce_forest,ontime,BECCS stored,2045,4.802105959381793
-scarce_forest_ontime_r07,scarce_forest,ontime,BECCS stored,2050,4.802105959381793
-scarce_forest_ontime_r07,scarce_forest,ontime,net,2025,21.449406618572
-scarce_forest_ontime_r07,scarce_forest,ontime,net,2030,17.287581453774447
-scarce_forest_ontime_r07,scarce_forest,ontime,net,2035,13.125756288976895
-scarce_forest_ontime_r07,scarce_forest,ontime,net,2040,8.963931124179345
-scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2030,0.0298101816864
-scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2035,0.1371368722494102
-scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2040,0.3028203761229293
-scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2045,5.3036132055244884
-scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2050,6.094083180022768
-scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2030,0.0298101816864
-scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2035,0.1371368722494102
-scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2040,0.3028203761229292
-scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2045,0.5015072461426948
-scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2050,1.2919772206409752
-scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2025,1.548939
-scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2030,1.6403516186878948
-scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2035,1.5413453044181709
-scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2040,1.4039600534112142
-scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2045,0.9724479104136201
-scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2050,0.7779179413653691
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2025,21.789417618571996
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2030,17.561620170192356
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2035,13.333822721812714
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2040,9.106025273433074
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2045,4.878227825053433
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2050,4.878227825053433
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2030,17.561620170192356
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2035,13.333822721812714
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2040,9.106025273433074
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2045,4.878227825053433
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2050,4.878227825053433
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,BECCS stored,2045,4.878227825053433
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,BECCS stored,2050,4.878227825053433
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2025,21.789417618571996
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2030,17.561620170192356
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2035,13.333822721812714
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2040,9.106025273433074
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2030,0.0298101816864
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2035,0.1371368722494102
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2040,0.3028203761229293
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2045,5.379735071196128
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2050,6.170205045694408
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2030,0.0298101816864
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2035,0.1371368722494102
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2040,0.3028203761229292
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2045,0.5015072461426948
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2050,1.2919772206409752
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2025,1.548939
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2030,1.6403516186878948
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2035,1.5413453044181709
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2040,1.4039600534112142
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2045,0.7113627512128304
-scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2050,0.5168327821645793
-electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2025,21.449406618572
-electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2030,17.287581453774447
-electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2035,13.125756288976895
-electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2040,8.963931124179345
-electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2045,4.802105959381793
-electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2050,4.802105959381793
-electrons_win_ontime_r02,electrons_win,ontime,gross cap,2030,17.287581453774447
-electrons_win_ontime_r02,electrons_win,ontime,gross cap,2035,13.125756288976895
-electrons_win_ontime_r02,electrons_win,ontime,gross cap,2040,8.963931124179345
-electrons_win_ontime_r02,electrons_win,ontime,gross cap,2045,4.802105959381793
-electrons_win_ontime_r02,electrons_win,ontime,gross cap,2050,4.802105959381793
-electrons_win_ontime_r02,electrons_win,ontime,BECCS stored,2045,4.802105959381793
-electrons_win_ontime_r02,electrons_win,ontime,BECCS stored,2050,4.802105959381793
-electrons_win_ontime_r02,electrons_win,ontime,net,2025,21.449406618572
-electrons_win_ontime_r02,electrons_win,ontime,net,2030,17.287581453774447
-electrons_win_ontime_r02,electrons_win,ontime,net,2035,13.125756288976895
-electrons_win_ontime_r02,electrons_win,ontime,net,2040,8.963931124179345
-electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2030,0.056754542705400014
-electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2035,0.24853997821752105
-electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2040,0.5224360299164994
-electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2045,5.62573423634667
-electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2050,6.821936351533935
-electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2030,0.05675454270540001
-electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2035,0.24853997821752105
-electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2040,0.5224360299164994
-electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2045,0.8236282769648777
-electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2050,2.019830392152143
-electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2025,1.548939
-electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2030,1.561503498604422
-electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2035,1.3967284002549436
-electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2040,1.211079858390634
-electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2045,0.4511576124304851
-electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2025,21.449406618572
-electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2030,17.287581453774447
-electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2035,13.125756288976895
-electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2040,8.963931124179345
-electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2045,4.802105959381793
-electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2050,4.802105959381793
-electrons_win_ontime_r07,electrons_win,ontime,gross cap,2030,17.287581453774447
-electrons_win_ontime_r07,electrons_win,ontime,gross cap,2035,13.125756288976895
-electrons_win_ontime_r07,electrons_win,ontime,gross cap,2040,8.963931124179345
-electrons_win_ontime_r07,electrons_win,ontime,gross cap,2045,4.802105959381793
-electrons_win_ontime_r07,electrons_win,ontime,gross cap,2050,4.802105959381793
-electrons_win_ontime_r07,electrons_win,ontime,BECCS stored,2045,4.802105959381793
-electrons_win_ontime_r07,electrons_win,ontime,BECCS stored,2050,4.802105959381793
-electrons_win_ontime_r07,electrons_win,ontime,net,2025,21.449406618572
-electrons_win_ontime_r07,electrons_win,ontime,net,2030,17.287581453774447
-electrons_win_ontime_r07,electrons_win,ontime,net,2035,13.125756288976895
-electrons_win_ontime_r07,electrons_win,ontime,net,2040,8.963931124179345
-electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2030,0.0712453462756295
-electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2035,0.24853997821752105
-electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2040,0.5224360299164994
-electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2045,5.62573423634667
-electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2050,6.821936351533935
-electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2030,0.07124534627562949
-electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2035,0.24853997821752105
-electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2040,0.5224360299164994
-electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2045,0.8236282769648777
-electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2050,2.019830392152143
-electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2025,1.548939
-electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2030,1.561503498604422
-electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2035,1.3967284002549436
-electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2040,1.211079858390634
-electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2045,0.5126881073658641
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2025,21.789417618571996
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2030,17.561620170192356
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2035,13.333822721812714
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2040,9.106025273433074
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2045,4.878227825053433
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2050,4.878227825053433
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2030,17.561620170192356
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2035,13.333822721812714
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2040,9.106025273433074
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2045,4.878227825053433
-electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2050,4.878227825053433
-electrons_win_ontime_nonco2x2,electrons_win,ontime,BECCS stored,2045,4.878227825053433
-electrons_win_ontime_nonco2x2,electrons_win,ontime,BECCS stored,2050,4.878227825053433
-electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2025,21.789417618571996
-electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2030,17.561620170192356
-electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2035,13.333822721812714
-electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2040,9.106025273433074
-electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2030,0.056754542705400014
-electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2035,0.24853997821752105
-electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2040,0.5224360299164994
-electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2045,5.701856102018311
-electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2050,6.898058217205578
-electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2030,0.05675454270540001
-electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2035,0.24853997821752105
-electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2040,0.5224360299164994
-electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2045,0.8236282769648777
-electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2050,2.019830392152143
-electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2025,1.548939
-electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2030,1.561503498604422
-electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2035,1.3967284002549436
-electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2040,1.211079858390634
-electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2045,0.4511576124304851
+forest_first_ontime,forest_first,ontime,gross fossil (target scope),2025,21.449351418571993
+forest_first_ontime,forest_first,ontime,gross fossil (target scope),2030,17.287536964222202
+forest_first_ontime,forest_first,ontime,gross fossil (target scope),2035,13.125722509872414
+forest_first_ontime,forest_first,ontime,gross fossil (target scope),2040,8.963908055522626
+forest_first_ontime,forest_first,ontime,gross fossil (target scope),2045,4.802093601172836
+forest_first_ontime,forest_first,ontime,gross fossil (target scope),2050,4.802093601172836
+forest_first_ontime,forest_first,ontime,gross cap,2030,17.287536964222202
+forest_first_ontime,forest_first,ontime,gross cap,2035,13.125722509872414
+forest_first_ontime,forest_first,ontime,gross cap,2040,8.963908055522626
+forest_first_ontime,forest_first,ontime,gross cap,2045,4.802093601172836
+forest_first_ontime,forest_first,ontime,gross cap,2050,4.802093601172836
+forest_first_ontime,forest_first,ontime,BECCS stored,2045,4.802093601172836
+forest_first_ontime,forest_first,ontime,BECCS stored,2050,4.802093601172836
+forest_first_ontime,forest_first,ontime,net,2025,21.449351418571993
+forest_first_ontime,forest_first,ontime,net,2030,17.287536964222202
+forest_first_ontime,forest_first,ontime,net,2035,13.125722509872414
+forest_first_ontime,forest_first,ontime,net,2040,8.963908055522626
+forest_first_ontime,forest_first,ontime,captured biogenic,2030,0.032160907533060015
+forest_first_ontime,forest_first,ontime,captured biogenic,2035,0.14083932098992843
+forest_first_ontime,forest_first,ontime,captured biogenic,2040,0.29604708361934967
+forest_first_ontime,forest_first,ontime,captured biogenic,2045,5.268816291452935
+forest_first_ontime,forest_first,ontime,captured biogenic,2050,5.946664156725717
+forest_first_ontime,forest_first,ontime,used for e-kerosene,2030,0.03216090753306001
+forest_first_ontime,forest_first,ontime,used for e-kerosene,2035,0.14083932098992857
+forest_first_ontime,forest_first,ontime,used for e-kerosene,2040,0.29604708361934967
+forest_first_ontime,forest_first,ontime,used for e-kerosene,2045,0.4667226902800973
+forest_first_ontime,forest_first,ontime,used for e-kerosene,2050,1.1445705555528811
+forest_first_ontime,forest_first,ontime,international aviation (memo),2025,1.7554642
+forest_first_ontime,forest_first,ontime,international aviation (memo),2030,1.7697039650850117
+forest_first_ontime,forest_first,ontime,international aviation (memo),2035,1.5829588536222692
+forest_first_ontime,forest_first,ontime,international aviation (memo),2040,1.3725571728427184
+forest_first_ontime,forest_first,ontime,international aviation (memo),2045,1.2677142456618686
+forest_first_ontime,forest_first,ontime,international aviation (memo),2050,0.6891622825063264
+forest_first_delay,forest_first,delay,gross fossil (target scope),2025,21.449351418571993
+forest_first_delay,forest_first,delay,gross fossil (target scope),2030,17.287536964222202
+forest_first_delay,forest_first,delay,gross fossil (target scope),2035,13.125722509872414
+forest_first_delay,forest_first,delay,gross fossil (target scope),2040,8.963908055522626
+forest_first_delay,forest_first,delay,gross fossil (target scope),2045,4.802093601172836
+forest_first_delay,forest_first,delay,gross fossil (target scope),2050,4.802093601172836
+forest_first_delay,forest_first,delay,gross cap,2030,17.287536964222202
+forest_first_delay,forest_first,delay,gross cap,2035,13.125722509872414
+forest_first_delay,forest_first,delay,gross cap,2040,8.963908055522626
+forest_first_delay,forest_first,delay,gross cap,2045,4.802093601172836
+forest_first_delay,forest_first,delay,gross cap,2050,4.802093601172836
+forest_first_delay,forest_first,delay,BECCS stored,2045,4.802093601172836
+forest_first_delay,forest_first,delay,BECCS stored,2050,4.802093601172836
+forest_first_delay,forest_first,delay,net,2025,21.449351418571993
+forest_first_delay,forest_first,delay,net,2030,17.287536964222202
+forest_first_delay,forest_first,delay,net,2035,13.125722509872414
+forest_first_delay,forest_first,delay,net,2040,8.963908055522626
+forest_first_delay,forest_first,delay,captured biogenic,2040,0.29604708361934967
+forest_first_delay,forest_first,delay,captured biogenic,2045,5.268816291452934
+forest_first_delay,forest_first,delay,captured biogenic,2050,5.946664156725717
+forest_first_delay,forest_first,delay,used for e-kerosene,2040,0.29604708361934967
+forest_first_delay,forest_first,delay,used for e-kerosene,2045,0.4667226902800973
+forest_first_delay,forest_first,delay,used for e-kerosene,2050,1.1445705555528811
+forest_first_delay,forest_first,delay,international aviation (memo),2025,1.7554642
+forest_first_delay,forest_first,delay,international aviation (memo),2030,1.7697039650850117
+forest_first_delay,forest_first,delay,international aviation (memo),2035,1.5829588536222692
+forest_first_delay,forest_first,delay,international aviation (memo),2040,1.3725571728427184
+forest_first_delay,forest_first,delay,international aviation (memo),2045,1.2677142456618686
+forest_first_delay,forest_first,delay,international aviation (memo),2050,0.6891622825063264
+scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2025,21.449351418571993
+scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2030,17.287536964222202
+scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2035,13.125722509872414
+scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2040,8.963908055522626
+scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2045,4.802093601172836
+scarce_forest_ontime,scarce_forest,ontime,gross fossil (target scope),2050,4.802093601172836
+scarce_forest_ontime,scarce_forest,ontime,gross cap,2030,17.287536964222202
+scarce_forest_ontime,scarce_forest,ontime,gross cap,2035,13.125722509872414
+scarce_forest_ontime,scarce_forest,ontime,gross cap,2040,8.963908055522626
+scarce_forest_ontime,scarce_forest,ontime,gross cap,2045,4.802093601172836
+scarce_forest_ontime,scarce_forest,ontime,gross cap,2050,4.802093601172836
+scarce_forest_ontime,scarce_forest,ontime,BECCS stored,2045,4.802093601172836
+scarce_forest_ontime,scarce_forest,ontime,BECCS stored,2050,4.802093601172836
+scarce_forest_ontime,scarce_forest,ontime,net,2025,21.449351418571993
+scarce_forest_ontime,scarce_forest,ontime,net,2030,17.287536964222202
+scarce_forest_ontime,scarce_forest,ontime,net,2035,13.125722509872414
+scarce_forest_ontime,scarce_forest,ontime,net,2040,8.963908055522626
+scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2030,0.033784872577920004
+scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2035,0.15542178854933172
+scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2040,0.343196426272653
+scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2045,5.370468480134557
+scarce_forest_ontime,scarce_forest,ontime,captured biogenic,2050,6.266334451232607
+scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2030,0.03378487257792
+scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2035,0.15542178854933156
+scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2040,0.3431964262726531
+scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2045,0.5683748789617207
+scarce_forest_ontime,scarce_forest,ontime,used for e-kerosene,2050,1.4642408500597721
+scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2025,1.7554642
+scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2030,1.8590651678462804
+scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2035,1.7468580116739274
+scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2040,1.5911547271993765
+scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2045,1.543822372346399
+scarce_forest_ontime,scarce_forest,ontime,international aviation (memo),2050,0.8816403335474183
+scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2025,21.449351418571993
+scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2030,17.287536964222202
+scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2035,13.125722509872414
+scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2040,8.963908055522626
+scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2045,4.802093601172836
+scarce_forest_delay,scarce_forest,delay,gross fossil (target scope),2050,4.802093601172836
+scarce_forest_delay,scarce_forest,delay,gross cap,2030,17.287536964222202
+scarce_forest_delay,scarce_forest,delay,gross cap,2035,13.125722509872414
+scarce_forest_delay,scarce_forest,delay,gross cap,2040,8.963908055522626
+scarce_forest_delay,scarce_forest,delay,gross cap,2045,4.802093601172836
+scarce_forest_delay,scarce_forest,delay,gross cap,2050,4.802093601172836
+scarce_forest_delay,scarce_forest,delay,BECCS stored,2045,4.802093601172836
+scarce_forest_delay,scarce_forest,delay,BECCS stored,2050,4.802093601172836
+scarce_forest_delay,scarce_forest,delay,net,2025,21.449351418571993
+scarce_forest_delay,scarce_forest,delay,net,2030,17.287536964222202
+scarce_forest_delay,scarce_forest,delay,net,2035,13.125722509872414
+scarce_forest_delay,scarce_forest,delay,net,2040,8.963908055522626
+scarce_forest_delay,scarce_forest,delay,captured biogenic,2040,0.3431964262726531
+scarce_forest_delay,scarce_forest,delay,captured biogenic,2045,5.370468480134557
+scarce_forest_delay,scarce_forest,delay,captured biogenic,2050,6.266334451232607
+scarce_forest_delay,scarce_forest,delay,used for e-kerosene,2040,0.3431964262726531
+scarce_forest_delay,scarce_forest,delay,used for e-kerosene,2045,0.5683748789617207
+scarce_forest_delay,scarce_forest,delay,used for e-kerosene,2050,1.4642408500597721
+scarce_forest_delay,scarce_forest,delay,international aviation (memo),2025,1.7554642
+scarce_forest_delay,scarce_forest,delay,international aviation (memo),2030,1.8590651678462804
+scarce_forest_delay,scarce_forest,delay,international aviation (memo),2035,1.7468580116739274
+scarce_forest_delay,scarce_forest,delay,international aviation (memo),2040,1.5911547271993765
+scarce_forest_delay,scarce_forest,delay,international aviation (memo),2045,1.543822372346399
+scarce_forest_delay,scarce_forest,delay,international aviation (memo),2050,0.8816403335474183
+electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2025,21.449351418571993
+electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2030,17.287536964222202
+electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2035,13.125722509872414
+electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2040,8.963908055522626
+electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2045,4.802093601172836
+electrons_win_ontime,electrons_win,ontime,gross fossil (target scope),2050,4.680345660895357
+electrons_win_ontime,electrons_win,ontime,gross cap,2030,17.287536964222202
+electrons_win_ontime,electrons_win,ontime,gross cap,2035,13.125722509872414
+electrons_win_ontime,electrons_win,ontime,gross cap,2040,8.963908055522626
+electrons_win_ontime,electrons_win,ontime,gross cap,2045,4.802093601172836
+electrons_win_ontime,electrons_win,ontime,gross cap,2050,4.802093601172836
+electrons_win_ontime,electrons_win,ontime,BECCS stored,2045,4.802093601172836
+electrons_win_ontime,electrons_win,ontime,BECCS stored,2050,4.680345660895357
+electrons_win_ontime,electrons_win,ontime,net,2025,21.449351418571993
+electrons_win_ontime,electrons_win,ontime,net,2030,17.287536964222202
+electrons_win_ontime,electrons_win,ontime,net,2035,13.125722509872414
+electrons_win_ontime,electrons_win,ontime,net,2040,8.963908055522626
+electrons_win_ontime,electrons_win,ontime,captured biogenic,2030,0.06432181506612002
+electrons_win_ontime,electrons_win,ontime,captured biogenic,2035,0.2816786419798572
+electrons_win_ontime,electrons_win,ontime,captured biogenic,2040,0.5920941672386992
+electrons_win_ontime,electrons_win,ontime,captured biogenic,2045,5.735538981733031
+electrons_win_ontime,electrons_win,ontime,captured biogenic,2050,6.969486772001121
+electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2030,0.06432181506612002
+electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2035,0.28167864197985715
+electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2040,0.5920941672386993
+electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2045,0.9334453805601945
+electrons_win_ontime,electrons_win,ontime,used for e-kerosene,2050,2.2891411111057622
+electrons_win_ontime,electrons_win,ontime,international aviation (memo),2025,1.7554642
+electrons_win_ontime,electrons_win,ontime,international aviation (memo),2030,1.7697039650850117
+electrons_win_ontime,electrons_win,ontime,international aviation (memo),2035,1.5829588536222692
+electrons_win_ontime,electrons_win,ontime,international aviation (memo),2040,1.3725571728427184
+electrons_win_ontime,electrons_win,ontime,international aviation (memo),2045,1.1533258684133647
+electrons_win_ontime,electrons_win,ontime,international aviation (memo),2050,0.39556190725881546
+electrons_win_delay,electrons_win,delay,gross fossil (target scope),2025,21.449351418571993
+electrons_win_delay,electrons_win,delay,gross fossil (target scope),2030,17.287536964222202
+electrons_win_delay,electrons_win,delay,gross fossil (target scope),2035,13.125722509872414
+electrons_win_delay,electrons_win,delay,gross fossil (target scope),2040,8.963908055522626
+electrons_win_delay,electrons_win,delay,gross fossil (target scope),2045,4.802093601172836
+electrons_win_delay,electrons_win,delay,gross fossil (target scope),2050,4.6648961707296746
+electrons_win_delay,electrons_win,delay,gross cap,2030,17.287536964222202
+electrons_win_delay,electrons_win,delay,gross cap,2035,13.125722509872414
+electrons_win_delay,electrons_win,delay,gross cap,2040,8.963908055522626
+electrons_win_delay,electrons_win,delay,gross cap,2045,4.802093601172836
+electrons_win_delay,electrons_win,delay,gross cap,2050,4.802093601172836
+electrons_win_delay,electrons_win,delay,BECCS stored,2045,4.802093601172836
+electrons_win_delay,electrons_win,delay,BECCS stored,2050,4.6648961707296746
+electrons_win_delay,electrons_win,delay,net,2025,21.449351418571993
+electrons_win_delay,electrons_win,delay,net,2030,17.287536964222202
+electrons_win_delay,electrons_win,delay,net,2035,13.125722509872414
+electrons_win_delay,electrons_win,delay,net,2040,8.963908055522626
+electrons_win_delay,electrons_win,delay,captured biogenic,2040,0.5920941672386993
+electrons_win_delay,electrons_win,delay,captured biogenic,2045,5.735538981733031
+electrons_win_delay,electrons_win,delay,captured biogenic,2050,6.954037281835441
+electrons_win_delay,electrons_win,delay,used for e-kerosene,2040,0.5920941672386993
+electrons_win_delay,electrons_win,delay,used for e-kerosene,2045,0.9334453805601945
+electrons_win_delay,electrons_win,delay,used for e-kerosene,2050,2.2891411111057622
+electrons_win_delay,electrons_win,delay,international aviation (memo),2025,1.7554642
+electrons_win_delay,electrons_win,delay,international aviation (memo),2030,1.7697039650850117
+electrons_win_delay,electrons_win,delay,international aviation (memo),2035,1.5829588536222692
+electrons_win_delay,electrons_win,delay,international aviation (memo),2040,1.3725571728427184
+electrons_win_delay,electrons_win,delay,international aviation (memo),2045,1.1518674951382823
+electrons_win_delay,electrons_win,delay,international aviation (memo),2050,0.39410353398373305
+forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2025,21.449351418571993
+forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2030,17.287536964222202
+forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2035,13.125722509872414
+forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2040,8.963908055522626
+forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2045,4.802093601172836
+forest_first_ontime_r02,forest_first,ontime,gross fossil (target scope),2050,3.9293434811147847
+forest_first_ontime_r02,forest_first,ontime,gross cap,2030,17.287536964222202
+forest_first_ontime_r02,forest_first,ontime,gross cap,2035,13.125722509872414
+forest_first_ontime_r02,forest_first,ontime,gross cap,2040,8.963908055522626
+forest_first_ontime_r02,forest_first,ontime,gross cap,2045,4.802093601172836
+forest_first_ontime_r02,forest_first,ontime,gross cap,2050,4.802093601172836
+forest_first_ontime_r02,forest_first,ontime,BECCS stored,2045,4.802093601172836
+forest_first_ontime_r02,forest_first,ontime,BECCS stored,2050,3.9293434811147847
+forest_first_ontime_r02,forest_first,ontime,net,2025,21.449351418571993
+forest_first_ontime_r02,forest_first,ontime,net,2030,17.287536964222202
+forest_first_ontime_r02,forest_first,ontime,net,2035,13.125722509872414
+forest_first_ontime_r02,forest_first,ontime,net,2040,8.963908055522626
+forest_first_ontime_r02,forest_first,ontime,captured biogenic,2030,0.03216090753306001
+forest_first_ontime_r02,forest_first,ontime,captured biogenic,2035,0.14083932098992888
+forest_first_ontime_r02,forest_first,ontime,captured biogenic,2040,0.29604708361934967
+forest_first_ontime_r02,forest_first,ontime,captured biogenic,2045,5.268816291452971
+forest_first_ontime_r02,forest_first,ontime,captured biogenic,2050,5.073914036667668
+forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2030,0.03216090753306001
+forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2035,0.14083932098992857
+forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2040,0.29604708361934967
+forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2045,0.4667226902800973
+forest_first_ontime_r02,forest_first,ontime,used for e-kerosene,2050,1.1445705555528811
+forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2025,1.7554642
+forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2030,1.7697039650850117
+forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2035,1.5829588536222692
+forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2040,1.3725571728427184
+forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2045,1.2677142456618686
+forest_first_ontime_r02,forest_first,ontime,international aviation (memo),2050,0.6891622825063264
+forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2025,21.449351418571993
+forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2030,17.287536964222202
+forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2035,13.125722509872414
+forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2040,8.963908055522626
+forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2045,4.802093601172836
+forest_first_ontime_r07,forest_first,ontime,gross fossil (target scope),2050,4.802093601172836
+forest_first_ontime_r07,forest_first,ontime,gross cap,2030,17.287536964222202
+forest_first_ontime_r07,forest_first,ontime,gross cap,2035,13.125722509872414
+forest_first_ontime_r07,forest_first,ontime,gross cap,2040,8.963908055522626
+forest_first_ontime_r07,forest_first,ontime,gross cap,2045,4.802093601172836
+forest_first_ontime_r07,forest_first,ontime,gross cap,2050,4.802093601172836
+forest_first_ontime_r07,forest_first,ontime,BECCS stored,2045,4.802093601172836
+forest_first_ontime_r07,forest_first,ontime,BECCS stored,2050,4.802093601172836
+forest_first_ontime_r07,forest_first,ontime,net,2025,21.449351418571993
+forest_first_ontime_r07,forest_first,ontime,net,2030,17.287536964222202
+forest_first_ontime_r07,forest_first,ontime,net,2035,13.125722509872414
+forest_first_ontime_r07,forest_first,ontime,net,2040,8.963908055522626
+forest_first_ontime_r07,forest_first,ontime,captured biogenic,2030,0.032160907533060015
+forest_first_ontime_r07,forest_first,ontime,captured biogenic,2035,0.14083932098992857
+forest_first_ontime_r07,forest_first,ontime,captured biogenic,2040,0.2960470836193498
+forest_first_ontime_r07,forest_first,ontime,captured biogenic,2045,5.268816291452935
+forest_first_ontime_r07,forest_first,ontime,captured biogenic,2050,5.946664156725717
+forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2030,0.03216090753306001
+forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2035,0.14083932098992857
+forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2040,0.29604708361934967
+forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2045,0.4667226902800973
+forest_first_ontime_r07,forest_first,ontime,used for e-kerosene,2050,1.1445705555528811
+forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2025,1.7554642
+forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2030,1.7697039650850117
+forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2035,1.5829588536222692
+forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2040,1.3725571728427184
+forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2045,1.2677142456618686
+forest_first_ontime_r07,forest_first,ontime,international aviation (memo),2050,0.6891622825063264
+forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2025,21.834697218571996
+forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2030,17.598114176162504
+forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2035,13.361531133753012
+forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2040,9.124948091343523
+forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2045,4.888365048934031
+forest_first_ontime_nonco2x2,forest_first,ontime,gross fossil (target scope),2050,4.888365048934031
+forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2030,17.598114176162504
+forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2035,13.361531133753012
+forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2040,9.124948091343523
+forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2045,4.888365048934031
+forest_first_ontime_nonco2x2,forest_first,ontime,gross cap,2050,4.888365048934031
+forest_first_ontime_nonco2x2,forest_first,ontime,BECCS stored,2045,4.888365048934031
+forest_first_ontime_nonco2x2,forest_first,ontime,BECCS stored,2050,4.888365048934031
+forest_first_ontime_nonco2x2,forest_first,ontime,net,2025,21.834697218571996
+forest_first_ontime_nonco2x2,forest_first,ontime,net,2030,17.598114176162504
+forest_first_ontime_nonco2x2,forest_first,ontime,net,2035,13.361531133753012
+forest_first_ontime_nonco2x2,forest_first,ontime,net,2040,9.124948091343523
+forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2030,0.032160907533060015
+forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2035,0.14083932098992852
+forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2040,0.29604708361934967
+forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2045,5.355087739214129
+forest_first_ontime_nonco2x2,forest_first,ontime,captured biogenic,2050,6.032935604486913
+forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2030,0.03216090753306001
+forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2035,0.14083932098992857
+forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2040,0.29604708361934967
+forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2045,0.4667226902800973
+forest_first_ontime_nonco2x2,forest_first,ontime,used for e-kerosene,2050,1.1445705555528811
+forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2025,1.7554642
+forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2030,1.7697039650850117
+forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2035,1.5829588536222692
+forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2040,1.3725571728427184
+forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2045,1.2677142456618686
+forest_first_ontime_nonco2x2,forest_first,ontime,international aviation (memo),2050,0.6891622825063264
+scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2025,21.449351418571993
+scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2030,17.287536964222202
+scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2035,13.125722509872414
+scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2040,8.963908055522626
+scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2045,4.802093601172836
+scarce_forest_ontime_r02,scarce_forest,ontime,gross fossil (target scope),2050,4.509825042571382
+scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2030,17.287536964222202
+scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2035,13.125722509872414
+scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2040,8.963908055522626
+scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2045,4.802093601172836
+scarce_forest_ontime_r02,scarce_forest,ontime,gross cap,2050,4.802093601172836
+scarce_forest_ontime_r02,scarce_forest,ontime,BECCS stored,2045,4.802093601172836
+scarce_forest_ontime_r02,scarce_forest,ontime,BECCS stored,2050,4.509825042571382
+scarce_forest_ontime_r02,scarce_forest,ontime,net,2025,21.449351418571993
+scarce_forest_ontime_r02,scarce_forest,ontime,net,2030,17.287536964222202
+scarce_forest_ontime_r02,scarce_forest,ontime,net,2035,13.125722509872414
+scarce_forest_ontime_r02,scarce_forest,ontime,net,2040,8.963908055522626
+scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2030,0.03378487257791999
+scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2035,0.1554217885493315
+scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2040,0.3431964262726531
+scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2045,5.370468480134557
+scarce_forest_ontime_r02,scarce_forest,ontime,captured biogenic,2050,5.974065892631154
+scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2030,0.03378487257792
+scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2035,0.15542178854933156
+scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2040,0.3431964262726531
+scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2045,0.5683748789617207
+scarce_forest_ontime_r02,scarce_forest,ontime,used for e-kerosene,2050,1.4642408500597721
+scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2025,1.7554642
+scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2030,1.8590651678462804
+scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2035,1.7468580116739274
+scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2040,1.5911547271993765
+scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2045,1.543822372346399
+scarce_forest_ontime_r02,scarce_forest,ontime,international aviation (memo),2050,0.8816403335474183
+scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2025,21.449351418571993
+scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2030,17.287536964222202
+scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2035,13.125722509872414
+scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2040,8.963908055522626
+scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2045,4.802093601172836
+scarce_forest_ontime_r07,scarce_forest,ontime,gross fossil (target scope),2050,4.802093601172836
+scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2030,17.287536964222202
+scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2035,13.125722509872414
+scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2040,8.963908055522626
+scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2045,4.802093601172836
+scarce_forest_ontime_r07,scarce_forest,ontime,gross cap,2050,4.802093601172836
+scarce_forest_ontime_r07,scarce_forest,ontime,BECCS stored,2045,4.802093601172836
+scarce_forest_ontime_r07,scarce_forest,ontime,BECCS stored,2050,4.802093601172836
+scarce_forest_ontime_r07,scarce_forest,ontime,net,2025,21.449351418571993
+scarce_forest_ontime_r07,scarce_forest,ontime,net,2030,17.287536964222202
+scarce_forest_ontime_r07,scarce_forest,ontime,net,2035,13.125722509872414
+scarce_forest_ontime_r07,scarce_forest,ontime,net,2040,8.963908055522626
+scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2030,0.03378487257791999
+scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2035,0.15542178854933153
+scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2040,0.3431964262726532
+scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2045,5.370468480134558
+scarce_forest_ontime_r07,scarce_forest,ontime,captured biogenic,2050,6.266334451232607
+scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2030,0.03378487257792
+scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2035,0.15542178854933156
+scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2040,0.3431964262726531
+scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2045,0.5683748789617207
+scarce_forest_ontime_r07,scarce_forest,ontime,used for e-kerosene,2050,1.4642408500597721
+scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2025,1.7554642
+scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2030,1.8590651678462804
+scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2035,1.7468580116739274
+scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2040,1.5911547271993765
+scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2045,1.543822372346399
+scarce_forest_ontime_r07,scarce_forest,ontime,international aviation (memo),2050,0.8816403335474183
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2025,21.834697218571996
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2030,17.598114176162504
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2035,13.361531133753012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2040,9.124948091343523
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2045,4.888365048934031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross fossil (target scope),2050,4.888365048934031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2030,17.598114176162504
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2035,13.361531133753012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2040,9.124948091343523
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2045,4.888365048934031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gross cap,2050,4.888365048934031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,BECCS stored,2045,4.888365048934031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,BECCS stored,2050,4.888365048934031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2025,21.834697218571996
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2030,17.598114176162504
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2035,13.361531133753012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,net,2040,9.124948091343523
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2030,0.03378487257791999
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2035,0.15542178854933172
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2040,0.343196426272653
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2045,5.456739927895754
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,captured biogenic,2050,6.352605898993804
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2030,0.03378487257792
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2035,0.15542178854933156
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2040,0.3431964262726531
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2045,0.5683748789617207
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,used for e-kerosene,2050,1.4642408500597721
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2025,1.7554642
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2030,1.8590651678462804
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2035,1.7468580116739274
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2040,1.5911547271993765
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2045,1.543822372346399
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,international aviation (memo),2050,0.8816403335474183
+electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2025,21.449351418571993
+electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2030,17.287536964222202
+electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2035,13.125722509872414
+electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2040,8.963908055522626
+electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2045,4.802093601172836
+electrons_win_ontime_r02,electrons_win,ontime,gross fossil (target scope),2050,3.5314079102655946
+electrons_win_ontime_r02,electrons_win,ontime,gross cap,2030,17.287536964222202
+electrons_win_ontime_r02,electrons_win,ontime,gross cap,2035,13.125722509872414
+electrons_win_ontime_r02,electrons_win,ontime,gross cap,2040,8.963908055522626
+electrons_win_ontime_r02,electrons_win,ontime,gross cap,2045,4.802093601172836
+electrons_win_ontime_r02,electrons_win,ontime,gross cap,2050,4.802093601172836
+electrons_win_ontime_r02,electrons_win,ontime,BECCS stored,2045,4.802093601172836
+electrons_win_ontime_r02,electrons_win,ontime,BECCS stored,2050,3.5314079102655946
+electrons_win_ontime_r02,electrons_win,ontime,net,2025,21.449351418571993
+electrons_win_ontime_r02,electrons_win,ontime,net,2030,17.287536964222202
+electrons_win_ontime_r02,electrons_win,ontime,net,2035,13.125722509872414
+electrons_win_ontime_r02,electrons_win,ontime,net,2040,8.963908055522626
+electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2030,0.06432181506612002
+electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2035,0.28167864197985715
+electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2040,0.5920941672386993
+electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2045,5.735538981733031
+electrons_win_ontime_r02,electrons_win,ontime,captured biogenic,2050,5.820549021371358
+electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2030,0.06432181506612002
+electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2035,0.28167864197985715
+electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2040,0.5920941672386993
+electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2045,0.9334453805601945
+electrons_win_ontime_r02,electrons_win,ontime,used for e-kerosene,2050,2.2891411111057622
+electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2025,1.7554642
+electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2030,1.7697039650850117
+electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2035,1.5829588536222692
+electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2040,1.3725571728427184
+electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2045,1.0450948424768154
+electrons_win_ontime_r02,electrons_win,ontime,international aviation (memo),2050,0.20425717332226634
+electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2025,21.449351418571993
+electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2030,17.287536964222202
+electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2035,13.125722509872414
+electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2040,8.963908055522626
+electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2045,4.802093601172836
+electrons_win_ontime_r07,electrons_win,ontime,gross fossil (target scope),2050,4.802093601172836
+electrons_win_ontime_r07,electrons_win,ontime,gross cap,2030,17.287536964222202
+electrons_win_ontime_r07,electrons_win,ontime,gross cap,2035,13.125722509872414
+electrons_win_ontime_r07,electrons_win,ontime,gross cap,2040,8.963908055522626
+electrons_win_ontime_r07,electrons_win,ontime,gross cap,2045,4.802093601172836
+electrons_win_ontime_r07,electrons_win,ontime,gross cap,2050,4.802093601172836
+electrons_win_ontime_r07,electrons_win,ontime,BECCS stored,2045,4.802093601172836
+electrons_win_ontime_r07,electrons_win,ontime,BECCS stored,2050,4.802093601172836
+electrons_win_ontime_r07,electrons_win,ontime,net,2025,21.449351418571993
+electrons_win_ontime_r07,electrons_win,ontime,net,2030,17.287536964222202
+electrons_win_ontime_r07,electrons_win,ontime,net,2035,13.125722509872414
+electrons_win_ontime_r07,electrons_win,ontime,net,2040,8.963908055522626
+electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2030,0.06432181506612002
+electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2035,0.2816786419798572
+electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2040,0.5920941672386992
+electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2045,5.73553898173303
+electrons_win_ontime_r07,electrons_win,ontime,captured biogenic,2050,7.0912347122786
+electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2030,0.06432181506612002
+electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2035,0.28167864197985715
+electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2040,0.5920941672386993
+electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2045,0.9334453805601945
+electrons_win_ontime_r07,electrons_win,ontime,used for e-kerosene,2050,2.2891411111057622
+electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2025,1.7554642
+electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2030,1.7697039650850117
+electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2035,1.5829588536222692
+electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2040,1.3725571728427184
+electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2045,1.2677142456618684
+electrons_win_ontime_r07,electrons_win,ontime,international aviation (memo),2050,0.46970315946696417
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2025,21.834697218571996
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2030,17.598114176162504
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2035,13.361531133753012
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2040,9.124948091343523
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2045,4.888365048934031
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross fossil (target scope),2050,4.601645541060453
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2030,17.598114176162504
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2035,13.361531133753012
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2040,9.124948091343523
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2045,4.888365048934031
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gross cap,2050,4.888365048934031
+electrons_win_ontime_nonco2x2,electrons_win,ontime,BECCS stored,2045,4.888365048934031
+electrons_win_ontime_nonco2x2,electrons_win,ontime,BECCS stored,2050,4.601645541060453
+electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2025,21.834697218571996
+electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2030,17.598114176162504
+electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2035,13.361531133753012
+electrons_win_ontime_nonco2x2,electrons_win,ontime,net,2040,9.124948091343523
+electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2030,0.06432181506612002
+electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2035,0.2816786419798572
+electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2040,0.5920941672386992
+electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2045,5.821810429494225
+electrons_win_ontime_nonco2x2,electrons_win,ontime,captured biogenic,2050,6.890786652166218
+electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2030,0.06432181506612002
+electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2035,0.28167864197985715
+electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2040,0.5920941672386993
+electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2045,0.9334453805601945
+electrons_win_ontime_nonco2x2,electrons_win,ontime,used for e-kerosene,2050,2.2891411111057622
+electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2025,1.7554642
+electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2030,1.7697039650850117
+electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2035,1.5829588536222692
+electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2040,1.3725571728427184
+electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2045,1.12301875628121
+electrons_win_ontime_nonco2x2,electrons_win,ontime,international aviation (memo),2050,0.3652547951266608

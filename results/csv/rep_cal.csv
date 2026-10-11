@@ -291,8 +291,8 @@ electrons_win_ontime_r07,electrons_win,ontime,ELC_TOTAL,STAT,167.87
 electrons_win_ontime_r07,electrons_win,ontime,ELC_TOTAL,model,169.02480455583387
 electrons_win_ontime_r07,electrons_win,ontime,ELC_TOTAL,diff_pct,0.6879159801238237
 electrons_win_ontime_r07,electrons_win,ontime,DH_TOTAL,STAT,60.51
-electrons_win_ontime_r07,electrons_win,ontime,DH_TOTAL,model,60.0
-electrons_win_ontime_r07,electrons_win,ontime,DH_TOTAL,diff_pct,-0.8428358948934028
+electrons_win_ontime_r07,electrons_win,ontime,DH_TOTAL,model,60.00000000000001
+electrons_win_ontime_r07,electrons_win,ontime,DH_TOTAL,diff_pct,-0.8428358948933911
 electrons_win_ontime_nonco2x2,electrons_win,ontime,ELC_HYDRO,STAT,68.07
 electrons_win_ontime_nonco2x2,electrons_win,ontime,ELC_HYDRO,model,67.52207999999999
 electrons_win_ontime_nonco2x2,electrons_win,ontime,ELC_HYDRO,diff_pct,-0.8049360951961289
