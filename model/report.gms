@@ -80,6 +80,7 @@ REP_PEAK('peak load',T)       = PEAK_LOAD(T);
 REP_PEAK('required',T)        = PEAK_LOAD(T) * (1 + COM_PKRSV('ELC'));
 REP_PEAK('firm capacity',T)   = sum(PRC, NCAP_PKCNT(PRC) * VAR_CAP.l(PRC,T));
 REP_PEAK('of which GT',T)     = sum(PRC_GT, NCAP_PKCNT(PRC_GT) * VAR_CAP.l(PRC_GT,T));
+REP_PEAK('of which DR',T)     = NCAP_PKCNT('DR_ELC') * VAR_CAP.l('DR_ELC',T);
 REP_PEAK('GT_BIO capacity',T) = VAR_CAP.l('GT_BIO',T);
 REP_PEAK('GT_H2 capacity',T)  = VAR_CAP.l('GT_H2',T);
 

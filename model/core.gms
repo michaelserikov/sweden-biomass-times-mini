@@ -53,6 +53,7 @@ Sets
            ELC_WOF  'offshore wind'
            ELC_SOL  'solar PV'
            ELC_IMP  'electricity imports (interconnectors)'
+           DR_ELC   'demand response at peak (load reduction, contracted)'
            CHP_BIO  'biomass CHP (district heating)'
            CHP_BCS  'biomass CHP with CO2 capture (BECCS, MEA)'
            CHP_WST  'waste CHP'
@@ -126,7 +127,7 @@ Sets
          / TSL, CAPF, NEW, NCAP_COST, NCAP_FOM, ACT_COST, NCAP_TLIFE, NCAP_AF,
            NCAP_BND, NCAP_START, NCAP_PKCNT, NOX_EF, PM_EF, PRC_CAPACT /
    SATTR 'time-slice data columns'
-         / G_YRFR, LF_ELC, LF_HET, LF_EXP, AF_NUC, AF_WON, AF_WOF, AF_SOL /
+         / G_YRFR, LF_ELC, LF_HET, LF_EXP, AF_NUC, AF_WON, AF_WOF, AF_SOL, AF_EB, AF_DR /
    DITEM 'demand data rows' / ELC, ELC_EXP, HET, IND, STL, DSL, AVF /
    RATTR / VOL, COST /
    POLATTR / SAF_SHR, SYN_SHR, STG_MAX, ELZ_COSTF, WOF_COSTF, SOL_COSTF /
@@ -305,6 +306,8 @@ NCAP_AFS('ELC_NUC',TS) = STAB(TS,'AF_NUC');
 NCAP_AFS('ELC_WON',TS) = STAB(TS,'AF_WON');
 NCAP_AFS('ELC_WOF',TS) = STAB(TS,'AF_WOF');
 NCAP_AFS('ELC_SOL',TS) = STAB(TS,'AF_SOL');
+* demand response is only activated in the winter peak
+NCAP_AFS('DR_ELC',TS)  = STAB(TS,'AF_DR');
 
 * emissions per unit of activity, derived from fuel inputs
 FLO_EMIS(PRC,'CO2_EMIS') = sum(COM, PRC_ACTFLO(PRC,COM,'IN') * VDA_EMCB(COM));
@@ -319,9 +322,13 @@ FLO_EMIS(PRC,'PM25') = PTAB(PRC,'PM_EF')  * sum(COM_FUEL, PRC_ACTFLO(PRC,COM_FUE
 COM_PROJ(COM,T)$COM_DEM(COM) = sum(DITEM$sameas(DITEM,COM), DTAB(DITEM,T));
 COM_PROJ('AVF',T) = DTAB('AVF','2025') * (1 + AVI_G)**(YEAR(T) - 2025);
 DEM(COM,T,TS)$COM_TSL(COM) = COM_PROJ(COM,T) * COM_FR(COM,TS);
+* electricity: the 2025 level keeps the winter-peaking load shape; growth
+* after 2025 (industry, transport, data centres) is spread flat over the year
+DEM('ELC',T,TS) = COM_PROJ('ELC','2025') * COM_FR('ELC',TS)
+                + (COM_PROJ('ELC',T) - COM_PROJ('ELC','2025')) * G_YRFR(TS);
+PEAK_LOAD(T) = DEM('ELC',T,'WI_P') / (G_YRFR('WI_P') * 8.76);
 DEM('ELC',T,TS) = DEM('ELC',T,TS) + DTAB('ELC_EXP',T) * EXP_FR(TS);
 DEM(COM,T,'ANNUAL')$(COM_DEM(COM) and not COM_TSL(COM)) = COM_PROJ(COM,T);
-PEAK_LOAD(T) = COM_PROJ('ELC',T) * COM_FR('ELC','WI_P') / (G_YRFR('WI_P') * 8.76);
 
 * resources
 RES_VOL(RES,T)  = RTAB(RES,'VOL');
@@ -366,6 +373,9 @@ VAR_SUP.up(RES,T) = RES_VOL(RES,T);
 VAR_SUP.lo('WST',T) = RES_VOL('WST',T);
 VAR_ACT.lo('ELC_HYD',T,TS) = HYD_MIN * G_YRFR(TS) * 8.76 * PRC_RESID('ELC_HYD',T);
 VAR_ACT.up('CCS_STG',T,'ANNUAL') = STG_MAX(T);
+* electric boilers are interruptible: from 2030 they are switched off in the
+* winter peak (AF_EB = 0), when electricity is scarce (TIMES: ACT_BND)
+VAR_ACT.up('HET_EB',T,TS)$(YEAR(T) > 2025 and not STAB(TS,'AF_EB')) = 0;
 VAR_DUM.fx(COM,T,S)$(not (COM_DEM(COM) and DEM(COM,T,S))) = 0;
 
 * first-stage decisions fixed from another run (value of information)
