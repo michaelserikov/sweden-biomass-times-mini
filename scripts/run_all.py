@@ -22,7 +22,7 @@ RES = ROOT / "results"
 SCENARIOS = ["forest_first", "scarce_forest", "electrons_win"]
 TIMINGS = ["ontime", "delay"]
 REPORTS = ["REP_ELC", "REP_HET", "REP_BIO", "REP_BIOALLOC", "REP_BIOSUP", "REP_BLQ",
-           "REP_AVF", "REP_DSL", "REP_H2", "REP_EMIS", "REP_CO2BAL", "REP_CO2PRICE",
+           "REP_AVF", "REP_DSL", "REP_FUELS", "REP_SAF", "REP_H2", "REP_EMIS", "REP_CO2BAL", "REP_CO2PRICE",
            "REP_ELCAVG", "REP_BIOPRICE", "REP_PEAK", "REP_COST", "REP_CAP", "REP_NCAP",
            "REP_CAL", "REP_CHECK", "REP_SCN"]
 

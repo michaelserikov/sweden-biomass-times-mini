@@ -83,10 +83,13 @@ Sets
            AV_SYN   'e-kerosene to aviation'
            RD_OIL   'fossil diesel to road and machinery'
            RD_BIO   'renewable diesel to road and machinery'
+           EXP_NAP  'export of bio-naphtha (petrochemical feedstock)'
            CCS_STG  'transport and geological storage of captured CO2' /
    COM   'commodities'
          / ELC, HET, BIO_SOL, BLQ, WST, HEFA_FS, NG, OIL_JET, OIL_DSL, COA,
-           BIO_JET, BIO_DSL, SYN_JET, H2, CO2_CAP, IND, STL, AVF, DSL /
+           BIO_JET, BIO_DSL, BIO_NAP, SYN_JET, H2, CO2_CAP, IND, STL, AVF, DSL,
+           DST 'commodity group: FT distillates (bio-jet + renewable diesel)' /
+   COM_GRP(COM) 'commodity groups (no own balance; TIMES: CG)' / DST /
    COM_TSL(COM) 'commodities balanced by time slice'  / ELC, HET /
    COM_DEM(COM) 'commodities with exogenous demand'   / ELC, HET, IND, STL, AVF, DSL /
    COM_MUST(COM) 'commodities that must be fully used' / WST /
@@ -99,6 +102,7 @@ Sets
            NOX       'nitrogen oxides (stationary combustion)'
            PM25      'fine particulate matter (stationary combustion)' /
    IO    / IN, OUT /
+   BD    'bound type' / LO, UP /
    RES   'resource supply steps and imports'
          / BIO1   'forest biomass: sawmill by-products and bark'
            BIO2   'forest biomass: logging residues (GROT), current'
@@ -129,7 +133,7 @@ Sets
    CALITEM / ELC_HYDRO, ELC_NUCLEAR, ELC_WIND, ELC_SOLAR, ELC_THERMAL, ELC_TOTAL, DH_TOTAL /
    K 'year counter' / 1*100 /;
 
-Alias (T,V), (S,S2);
+Alias (T,V), (S,S2), (COM,COM2);
 
 * process subsets used in equations and reporting
 Sets
@@ -137,6 +141,8 @@ Sets
    PRC_CAPF(PRC) 'processes with a capacity'
    PRC_NEW(PRC)  'processes allowed to invest'
    PRC_TS(PRC,S) 'time-slice level of each process (TIMES: PRC_TS)'
+   PRC_FLX(PRC)  'processes with a flexible output split within DST'
+   FLX(PRC,COM)  'commodities in the flexible output group of a process'
    PRC_BIO(PRC)  'forest biomass users'  / CHP_BIO, CHP_BCS, HET_BOB, BF_FT, BF_FTC, IND_BIO /
    PRC_GT(PRC)   'gas turbines'          / GT_BIO, GT_H2, GT_NG /
    PRC_CCS(PRC)  'processes with CO2 capture' / CHP_BCS, BF_FTC, IND_BLC, IND_FCS /
@@ -144,6 +150,7 @@ Sets
    PRC_CHP(PRC)  'CHP plants'            / CHP_BIO, CHP_BCS, CHP_WST /
    PRC_DLY(PRC)  'new technologies on the timing axis'
                  / CHP_BCS, BF_FT, BF_FTC, BF_BLG, EF_EKER, IND_BLC /
+   PRC_EXP(PRC)  'export processes (revenue at IRE_PRICE)' / EXP_NAP /
    PRC_THERMAL(PRC) 'thermal power for calibration'
                  / CHP_BIO, CHP_BCS, CHP_WST, GT_BIO, GT_H2, GT_NG, IND_BLQ, IND_BLC /;
 
@@ -188,6 +195,16 @@ $offDelim
 Parameter VDA_EMCB(COM) 'fossil CO2 factor of a fuel, Mt per TWh (TIMES: VDA_EMCB)' /
 $onDelim
 $include "%DATA%fuels.csv"
+$offDelim
+/;
+Parameter FLO_SHAR(PRC,COM,BD) 'share of a commodity in the output group DST (TIMES: FLO_SHAR)' /
+$onDelim
+$include "%DATA%flo_shar.csv"
+$offDelim
+/;
+Parameter IRE_PRICE(PRC) 'export price (EUR/MWh; TIMES: IRE_PRICE)' /
+$onDelim
+$include "%DATA%trade.csv"
 $offDelim
 /;
 Table CALTAB(CALITEM,*) 'calibration statistics for 2025 (TWh)'
@@ -265,6 +282,9 @@ PRC_CAPF(PRC) = PTAB(PRC,'CAPF') > 0;
 PRC_NEW(PRC)  = PTAB(PRC,'NEW') > 0;
 PRC_TS(PRC,TS)$PRC_TSL(PRC) = yes;
 PRC_TS(PRC,'ANNUAL')$(not PRC_TSL(PRC)) = yes;
+FLX(PRC,COM)  = sum(BD, FLO_SHAR(PRC,COM,BD)) > 0;
+PRC_FLX(PRC)  = sum(COM, FLX(PRC,COM));
+abort$sum(PRC_FLX$PRC_TSL(PRC_FLX), 1) 'flexible-output processes must be annual';
 
 NCAP_COST(PRC,T) = PTAB(PRC,'NCAP_COST');
 NCAP_COST('H2_ELZ',T)  = NCAP_COST('H2_ELZ',T)  * POLTAB(T,'ELZ_COSTF') * ELZ_MULT;
@@ -331,6 +351,7 @@ Positive Variables
    VAR_NCAP(PRC,T)   'new capacity'
    VAR_CAP(PRC,T)    'installed capacity'
    VAR_ACT(PRC,T,S)  'process activity (TWh; STL Mt; CCS_STG Mt)'
+   VAR_FLO(PRC,COM,T) 'flow of a commodity in a flexible output group (TWh/yr)'
    VAR_SUP(RES,T)    'resource supply (TWh/yr)'
    VAR_DUM(COM,T,S)  'unserved demand (should be zero)';
 Variables
@@ -360,6 +381,9 @@ $endif
 Equations
    EQ_OBJ               'objective: NPV of system cost minus salvage'
    EQ_CPT(PRC,T)        'capacity transfer: residual + new vintages in lifetime'
+   EQ_ACTFLO(PRC,T)     'output group DST = PRC_ACTFLO(DST) x activity'
+   EQG_OUTSHR(PRC,COM,T) 'lower bound on the share of a commodity in DST'
+   EQL_OUTSHR(PRC,COM,T) 'upper bound on the share of a commodity in DST'
    EQ_CAPACT(PRC,T,S)   'activity <= capacity x availability x slice length'
    EQ_COMBAL(COM,T,S)   'commodity balance: production + supply >= use + demand'
    EQ_MUSTUSE(COM,T)    'commodities that must be fully used (waste)'
@@ -378,6 +402,7 @@ EQ_OBJ..
      sum(T, sum(PRC$PRC_NEW(PRC), NCAP_COST(PRC,T) * (INVF(T) - INVF(T)*SALVF(PRC,T)) * VAR_NCAP(PRC,T))
           + ANNF(T) * ( sum(PRC$PRC_CAPF(PRC), NCAP_FOM(PRC) * VAR_CAP(PRC,T))
                       + sum((PRC,S)$PRC_TS(PRC,S), ACT_COST(PRC) * VAR_ACT(PRC,T,S))
+                      - sum(PRC_EXP, IRE_PRICE(PRC_EXP) * VAR_ACT(PRC_EXP,T,'ANNUAL'))
                       + sum(RES, RES_COST(RES) * VAR_SUP(RES,T))
                       + sum((COM,S), DUM_COST * VAR_DUM(COM,T,S)) ));
 
@@ -385,18 +410,32 @@ EQ_CPT(PRC,T)$PRC_CAPF(PRC)..
    VAR_CAP(PRC,T) =e= PRC_RESID(PRC,T)
      + sum(V$(PRC_NEW(PRC) and YEAR(V) <= YEAR(T) and YEAR(T) - YEAR(V) < NCAP_TLIFE(PRC)), VAR_NCAP(PRC,V));
 
+* flexible output split (TIMES: commodity group with FLO_SHAR bounds): the
+* distillate output of FT plants is fixed per unit of activity, but the plant
+* chooses the split between bio-jet and renewable diesel within FLO_SHAR.
+EQ_ACTFLO(PRC_FLX,T)..
+   sum(COM$FLX(PRC_FLX,COM), VAR_FLO(PRC_FLX,COM,T))
+   =e= PRC_ACTFLO(PRC_FLX,'DST','OUT') * VAR_ACT(PRC_FLX,T,'ANNUAL');
+
+EQG_OUTSHR(PRC,COM,T)$FLO_SHAR(PRC,COM,'LO')..
+   VAR_FLO(PRC,COM,T) =g= FLO_SHAR(PRC,COM,'LO') * sum(COM2$FLX(PRC,COM2), VAR_FLO(PRC,COM2,T));
+
+EQL_OUTSHR(PRC,COM,T)$FLO_SHAR(PRC,COM,'UP')..
+   VAR_FLO(PRC,COM,T) =l= FLO_SHAR(PRC,COM,'UP') * sum(COM2$FLX(PRC,COM2), VAR_FLO(PRC,COM2,T));
+
 EQ_CAPACT(PRC,T,S)$(PRC_CAPF(PRC) and PRC_TS(PRC,S))..
    VAR_ACT(PRC,T,S) =l= NCAP_AFS(PRC,S) * G_YRFR(S) * PRC_CAPACT(PRC) * VAR_CAP(PRC,T);
 
 * sliced commodities: balance in each slice; annual processes deliver flat.
 * annual commodities: balance over the year, summing all slices.
-EQ_COMBAL(COM,T,S)$(not sameas(COM,'CO2_CAP') and
+EQ_COMBAL(COM,T,S)$(not sameas(COM,'CO2_CAP') and not COM_GRP(COM) and
                     ((COM_TSL(COM) and TS(S)) or (not COM_TSL(COM) and sameas(S,'ANNUAL'))))..
    sum(PRC$(PRC_ACTFLO(PRC,COM,'OUT') or PRC_ACTFLO(PRC,COM,'IN')),
        (PRC_ACTFLO(PRC,COM,'OUT') - PRC_ACTFLO(PRC,COM,'IN'))
        * ( sum(S2$(PRC_TS(PRC,S2) and (sameas(S2,S) or not COM_TSL(COM))), VAR_ACT(PRC,T,S2))
          + (G_YRFR(S) * VAR_ACT(PRC,T,'ANNUAL'))$(COM_TSL(COM) and PRC_TS(PRC,'ANNUAL')) ))
    + sum(RES$RES_COM(RES,COM), VAR_SUP(RES,T))$(not COM_TSL(COM))
+   + sum(PRC$FLX(PRC,COM), VAR_FLO(PRC,COM,T))$(not COM_TSL(COM))
    + VAR_DUM(COM,T,S)
    =g= DEM(COM,T,S);
 
