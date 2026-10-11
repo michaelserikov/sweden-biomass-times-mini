@@ -1,0 +1,19 @@
+* PRC,COM,BD,value: share of a commodity in the distillate group DST (TIMES: FLO_SHAR on the output side)
+* HEFA: bio-jet 10-50% of distillates (renewable diesel mode to jet mode); BLG (FT-type upgrading): 20-60%
+* FT: per TWh of liquids 0.25 naphtha (fixed) + 0.75 distillates; bio-jet 0.15-0.55 TWh (diesel mode to jet mode)
+BF_FT,BIO_JET,LO,0.20
+BF_FT,BIO_JET,UP,0.733
+BF_FT,BIO_DSL,LO,0.267
+BF_FT,BIO_DSL,UP,0.80
+BF_FTC,BIO_JET,LO,0.20
+BF_FTC,BIO_JET,UP,0.733
+BF_FTC,BIO_DSL,LO,0.267
+BF_FTC,BIO_DSL,UP,0.80
+BF_HEFA,BIO_JET,LO,0.10
+BF_HEFA,BIO_JET,UP,0.50
+BF_HEFA,BIO_DSL,LO,0.50
+BF_HEFA,BIO_DSL,UP,0.90
+BF_BLG,BIO_JET,LO,0.20
+BF_BLG,BIO_JET,UP,0.60
+BF_BLG,BIO_DSL,LO,0.40
+BF_BLG,BIO_DSL,UP,0.80

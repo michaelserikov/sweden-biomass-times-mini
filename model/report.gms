@@ -3,7 +3,7 @@
 *========================================================================
 Sets
    BCAT 'forest biomass use categories'
-        / BIOFUEL  'biofuels: jet + diesel (gasification-FT)'
+        / BIOFUEL  'biofuels: jet, diesel and naphtha (gasification-FT)'
           BIOF_CCS 'biofuels with CO2 capture (BECCS)'
           DH       'district heating and CHP'
           DH_CCS   'CHP with CO2 capture (BECCS)'
@@ -12,7 +12,7 @@ Sets
         / BF_FT.BIOFUEL, BF_FTC.BIOF_CCS, (CHP_BIO, HET_BOB).DH, CHP_BCS.DH_CCS, IND_BIO.INDUSTRY /
    ENC(COM) 'energy commodities (TWh) for the energy-conservation check'
         / ELC, HET, BIO_SOL, BLQ, WST, HEFA_FS, NG, OIL_JET, OIL_DSL, COA,
-          BIO_JET, BIO_DSL, SYN_JET, H2, IND, AVF, DSL /;
+          BIO_JET, BIO_DSL, BIO_NAP, SYN_JET, H2, IND, AVF, DSL, DST /;
 
 Parameters
    REP_ACT(PRC,T)       'annual activity'
@@ -27,6 +27,8 @@ Parameters
    REP_BLQ(PRC,T)       'black liquor use by process (TWh)'
    REP_AVF(PRC,T)       'aviation fuel supply (TWh)'
    REP_DSL(PRC,T)       'road and machinery diesel supply (TWh)'
+   REP_FUELS(PRC,COM,T) 'biofuel production by process and product (TWh)'
+   REP_SAF(*,T)         'aviation: SAF share and ReFuelEU minimum'
    REP_H2(PRC,T)        'hydrogen use (+) and production (-) (TWh)'
    REP_EMIS(EM,T)       'emissions (CO2 Mt, NOx and PM2.5 kt)'
    REP_CO2BAL(*,T)      'CO2 balance (Mt)'
@@ -42,6 +44,7 @@ Parameters
 
 REP_ACT(PRC,T)  = sum(S$PRC_TS(PRC,S), VAR_ACT.l(PRC,T,S));
 REP_FLO(PRC,COM,IO,T) = PRC_ACTFLO(PRC,COM,IO) * REP_ACT(PRC,T);
+REP_FLO(PRC,COM,'OUT',T)$FLX(PRC,COM) = VAR_FLO.l(PRC,COM,T);
 REP_CAP(PRC,T)$PRC_CAPF(PRC) = VAR_CAP.l(PRC,T);
 REP_NCAP(PRC,T) = VAR_NCAP.l(PRC,T);
 REP_ELC(PRC,T)  = REP_FLO(PRC,'ELC','OUT',T);
@@ -52,6 +55,11 @@ REP_BIOSUP(RES_BIO,T) = VAR_SUP.l(RES_BIO,T);
 REP_BLQ(PRC,T)  = REP_FLO(PRC,'BLQ','IN',T);
 REP_AVF(PRC,T)  = REP_FLO(PRC,'AVF','OUT',T);
 REP_DSL(PRC,T)  = REP_FLO(PRC,'DSL','OUT',T);
+REP_FUELS(PRC,COM,T)$(sameas(COM,'BIO_JET') or sameas(COM,'BIO_DSL') or sameas(COM,'BIO_NAP') or sameas(COM,'SYN_JET'))
+   = REP_FLO(PRC,COM,'OUT',T);
+REP_SAF('SAF share',T)       = (REP_ACT('AV_BIO',T) + REP_ACT('AV_SYN',T)) / COM_PROJ('AVF',T);
+REP_SAF('ReFuelEU minimum',T) = SAF_SHR(T);
+REP_SAF('bio-jet produced',T) = sum(PRC, REP_FLO(PRC,'BIO_JET','OUT',T));
 REP_H2(PRC,T)   = REP_FLO(PRC,'H2','IN',T) - REP_FLO(PRC,'H2','OUT',T);
 REP_EMIS(EM,T)  = VAR_EMIS.l(EM,T);
 
@@ -81,6 +89,7 @@ REP_COST('NPV salvage')     = sum((PRC,T)$PRC_NEW(PRC), NCAP_COST(PRC,T) * INVF(
 REP_COST('NPV fixed O&M')   = sum((PRC,T)$PRC_CAPF(PRC), ANNF(T) * NCAP_FOM(PRC) * VAR_CAP.l(PRC,T));
 REP_COST('NPV variable')    = sum((PRC,T,S)$PRC_TS(PRC,S), ANNF(T) * ACT_COST(PRC) * VAR_ACT.l(PRC,T,S));
 REP_COST('NPV resources')   = sum((RES,T), ANNF(T) * RES_COST(RES) * VAR_SUP.l(RES,T));
+REP_COST('NPV export revenue') = sum((PRC_EXP,T), ANNF(T) * IRE_PRICE(PRC_EXP) * VAR_ACT.l(PRC_EXP,T,'ANNUAL'));
 REP_COST('NPV unserved')    = sum((COM,T,S), ANNF(T) * DUM_COST * VAR_DUM.l(COM,T,S));
 
 * calibration against statistics (SCB electricity supply 2025, preliminary;
