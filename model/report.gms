@@ -32,6 +32,7 @@ Parameters
    REP_H2(PRC,T)        'hydrogen use (+) and production (-) (TWh)'
    REP_EMIS(EM,T)       'emissions (CO2 Mt, NOx and PM2.5 kt)'
    REP_CO2BAL(*,T)      'CO2 balance (Mt)'
+   REP_CO2PRC(PRC,T)    'gross fossil CO2 by process (Mt)'
    REP_ELCPRICE(T,S)    'electricity price (EUR/MWh, shadow price)'
    REP_ELCAVG(T)        'demand-weighted electricity price (EUR/MWh)'
    REP_CO2PRICE(T)      'CO2 shadow price (EUR/t)'
@@ -62,6 +63,7 @@ REP_SAF('ReFuelEU minimum',T) = SAF_SHR(T);
 REP_SAF('bio-jet produced',T) = sum(PRC, REP_FLO(PRC,'BIO_JET','OUT',T));
 REP_H2(PRC,T)   = REP_FLO(PRC,'H2','IN',T) - REP_FLO(PRC,'H2','OUT',T);
 REP_EMIS(EM,T)  = VAR_EMIS.l(EM,T);
+REP_CO2PRC(PRC,T) = FLO_EMIS(PRC,'CO2_EMIS') * REP_ACT(PRC,T);
 
 REP_CO2BAL('gross fossil (target scope)',T) = VAR_EMIS.l('CO2_EMIS',T);
 REP_CO2BAL('gross cap',T)$(YEAR(T) > 2025)  = CO2_GROSS_FR(T) * E_BASE;
@@ -107,6 +109,7 @@ REP_CAL(CALITEM,'diff_pct')$CALTAB(CALITEM,'STAT')
    = 100 * (REP_CAL(CALITEM,'model') - CALTAB(CALITEM,'STAT')) / CALTAB(CALITEM,'STAT');
 
 * checks
+REP_CHECK('CO2 by process vs total Mt') = sum(T, abs(sum(PRC, REP_CO2PRC(PRC,T)) - REP_EMIS('CO2_EMIS',T)));
 REP_CHECK('unserved demand TWh') = sum((COM,T,S), VAR_DUM.l(COM,T,S));
 REP_CHECK('negative costs')      = sum(PRC$(ACT_COST(PRC) < 0 or NCAP_FOM(PRC) < 0), 1)
                                  + sum(RES$(RES_COST(RES) < 0), 1);

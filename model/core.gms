@@ -22,6 +22,10 @@ Options (with defaults):
   Value-of-information runs (scripts/voi.py):
   --BIO40=<x>       forest biomass multiplier from 2040 (uncertainty resolved in 2040)
   --FIX1=<file.gdx> fix investments up to 2035 to those in <file.gdx> (first stage)
+  Residual-emission runs (scripts/residuals.py):
+  --RED45=<x>       gross reduction vs 1990 reached in 2045 (default 0.85)
+  --NOTECH=<p> [--NOTECH2=<p> --NOTECH3=<p>]
+                    no new capacity for these processes (innovation not available)
 $offtext
 
 $setNames "%gams.input%" MODELDIR fname fext
@@ -235,6 +239,7 @@ Scalars
    DUM_COST  'cost of unserved demand (EUR/MWh)'                   / 10000 /
    CO2ON     'switch for CO2 constraints'                          / 0 /;
 $ifi "%TIMING%"=="delay" DLY_START = 2040;
+$if set RED45 RED_2045 = %RED45%;
 
 Parameters
    COM_PKRSV(COM) 'peak reserve margin'                     / ELC 0.05 /
@@ -379,6 +384,13 @@ VAR_ACT.up('HET_EB',T,TS)$(YEAR(T) > 2025 and not STAB(TS,'AF_EB')) = 0;
 VAR_DUM.fx(COM,T,S)$(not (COM_DEM(COM) and DEM(COM,T,S))) = 0;
 
 * first-stage decisions fixed from another run (value of information)
+* innovation gaps: technologies that are not available for investment
+Set NOTECH(PRC) 'processes without new capacity' / /;
+$if set NOTECH  NOTECH('%NOTECH%')  = yes;
+$if set NOTECH2 NOTECH('%NOTECH2%') = yes;
+$if set NOTECH3 NOTECH('%NOTECH3%') = yes;
+VAR_NCAP.fx(NOTECH,T) = 0;
+
 $ifthen set FIX1
 Parameter NCAP_FIX(PRC,T) 'new capacity from the first-stage run';
 execute_load '%FIX1%', NCAP_FIX=REP_NCAP;
