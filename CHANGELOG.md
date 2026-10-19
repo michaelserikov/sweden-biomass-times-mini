@@ -1,5 +1,13 @@
 # Changelog
 
+## 20 October 2026: residual emissions
+
+New options `--RED45` (gross reduction in 2045) and `--NOTECH` (technology not available) and a report of gross fossil CO2 by process. `scripts/residuals.py` adds the residual by sector, seven innovation-gap runs and a frontier from 85% to 100% gross reduction; the IAMC export now carries CO2 by sector. Results of the existing runs are unchanged.
+
+## 19 October 2026: IAMC export
+
+All runs exported to IAMC format with pyam, with protocol-style checks (`scripts/to_iamc.py`).
+
 ## 11 October 2026: plausibility fixes
 
 Two results of the first version were implausible and are corrected:

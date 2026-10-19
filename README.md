@@ -22,6 +22,16 @@ How should Sweden allocate its limited forest biomass between turbine fuels (avi
 - Bio-jet and renewable diesel come from black liquor and lipids rather than from solid forest biomass, and the SAF share follows the ReFuelEU minimum (42% in 2045).
 - The peak grows from 26.7 to 30.3 GW by 2045 and is met with 2.5 to 3.0 GW of liquid-biofuel gas turbines plus 2 GW of demand response.
 
+## Residual emissions: by sector, by innovation gap and below the target
+
+The 2045 gross cap binds in every run, so the residual is always 4.8 Mt; what changes is its make-up and what it costs to go further ([`results/tables/residuals.md`](results/tables/residuals.md), `python scripts/residuals.py`).
+
+- **By sector:** about 2.3 Mt from road and machinery diesel, 2.2 Mt from fossil waste in incineration CHP and 0.3 Mt from domestic aviation; industry is fully decarbonised by 2045 in all six runs.
+- **Innovation gaps** (Forest first, one technology group unavailable): without hydrogen steel (DRI) the cap can only be met by leaving steel demand unserved; without advanced biofuels (gasification-FT, black liquor) the system costs 1.2 bn EUR more and the CO2 price rises from 140 to 225 EUR/t; without bio-CCS at CHP storage falls to 4.3 Mt and road diesel has to fall to 1.8 Mt (+0.3 bn EUR). Without e-kerosene the model has no solution even before the CO2 cap, because the ReFuelEU synthetic-fuel quota cannot be met.
+- **Below the target:** going from 85% to 92% gross reduction costs 1.3 to 1.6 bn EUR and mostly removes road diesel. From 94% there is no feasible solution in any scenario: the 2.2 Mt from waste incineration has no capture option in the model, so CCS at waste-to-energy plants is the innovation that the deeper cut depends on.
+
+![Residual emissions](results/figures/fig5_residual_emissions.png)
+
 ## Scenarios
 
 | Parameter | Forest first | Scarce forest | Electrons win |
@@ -60,14 +70,17 @@ gams model/core.gms --SCN=forest_first --TIMING=ontime   # one run
 python scripts/run_all.py     # 6 core runs + 9 sensitivities -> results/csv/
 python scripts/plots.py       # figures and tables
 python scripts/voi.py         # value of information
+python scripts/residuals.py   # residual emissions: sectors, innovation gaps, frontier
 python scripts/to_iamc.py     # IAMC-format export and protocol checks (needs pyam-iamc)
 ```
 
 ## Scenario data in IAMC format
 
-[`results/iamc/`](results/iamc/) holds all 15 runs as one IAMC-format table (model, scenario, region, variable, unit, year), written with [pyam](https://pyam-iamc.readthedocs.io/): 24 variables, with common IAMC names where they exist (`Emissions|CO2|Energy and Industrial Processes`, `Carbon Sequestration|CCS|Biomass`, `Secondary Energy|Electricity|Wind|Onshore`, `Price|Carbon`) and model-specific names for the forest biomass allocation. Energy is converted from TWh/yr to EJ/yr. GDX files store no zeros, so missing quantities are written as explicit zeros (net CO2 is exactly zero from 2045).
+[`results/iamc/`](results/iamc/) holds all 15 runs as one IAMC-format table (model, scenario, region, variable, unit, year), written with [pyam](https://pyam-iamc.readthedocs.io/): 30 variables, including gross fossil CO2 by sector, with common IAMC names where they exist (`Emissions|CO2|Energy and Industrial Processes`, `Carbon Sequestration|CCS|Biomass`, `Secondary Energy|Electricity|Wind|Onshore`, `Price|Carbon`) and model-specific names for the forest biomass allocation. Energy is converted from TWh/yr to EJ/yr. GDX files store no zeros, so missing quantities are written as explicit zeros (net CO2 is exactly zero from 2045).
 
-The script checks the export the way a modelling protocol checks scenario submissions: completeness of required variables, totals equal to the sum of their components, gross fossil CO2 within the cap of the 85% target, net zero from 2045 and the 2025 calibration. Result: [`results/iamc/checks.md`](results/iamc/checks.md).
+The script checks the export the way a modelling protocol checks scenario submissions: completeness of required variables, totals equal to the sum of their components (electricity, forest biomass and sectoral CO2 against the gross total), gross fossil CO2 within the cap of the 85% target, net zero from 2045 and the 2025 calibration. Result: [`results/iamc/checks.md`](results/iamc/checks.md).
+
+![Gross CO2 by sector and BECCS](results/figures/fig6_iamc_gross_vs_stored.png)
 
 ## References
 
