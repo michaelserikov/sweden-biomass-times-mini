@@ -60,7 +60,14 @@ gams model/core.gms --SCN=forest_first --TIMING=ontime   # one run
 python scripts/run_all.py     # 6 core runs + 9 sensitivities -> results/csv/
 python scripts/plots.py       # figures and tables
 python scripts/voi.py         # value of information
+python scripts/to_iamc.py     # IAMC-format export and protocol checks (needs pyam-iamc)
 ```
+
+## Scenario data in IAMC format
+
+[`results/iamc/`](results/iamc/) holds all 15 runs as one IAMC-format table (model, scenario, region, variable, unit, year), written with [pyam](https://pyam-iamc.readthedocs.io/): 24 variables, with common IAMC names where they exist (`Emissions|CO2|Energy and Industrial Processes`, `Carbon Sequestration|CCS|Biomass`, `Secondary Energy|Electricity|Wind|Onshore`, `Price|Carbon`) and model-specific names for the forest biomass allocation. Energy is converted from TWh/yr to EJ/yr. GDX files store no zeros, so missing quantities are written as explicit zeros (net CO2 is exactly zero from 2045).
+
+The script checks the export the way a modelling protocol checks scenario submissions: completeness of required variables, totals equal to the sum of their components, gross fossil CO2 within the cap of the 85% target, net zero from 2045 and the 2025 calibration. Result: [`results/iamc/checks.md`](results/iamc/checks.md).
 
 ## References
 
