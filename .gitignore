@@ -8,3 +8,4 @@ __pycache__/
 model/*.gdx
 results/*.gdx
 results/logs/
+results/residuals/gdx/
