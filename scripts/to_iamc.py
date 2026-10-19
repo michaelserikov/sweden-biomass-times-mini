@@ -14,16 +14,19 @@ Protocol checks (the kind a modelling protocol applies to scenario submissions):
   5. calibration: 2025 electricity within 5% of SCB statistics
 
 Usage: python scripts/to_iamc.py
-Output: results/iamc/sweden_times_mini_iamc.xlsx, .csv and checks.md
+Output: results/iamc/sweden_times_mini_iamc.xlsx, .csv and checks.md,
+        results/figures/fig6_iamc_gross_vs_stored.png (plotted with pyam)
 """
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 import pandas as pd
 import pyam
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV = ROOT / "results" / "csv"
 OUT = ROOT / "results" / "iamc"
+FIG = ROOT / "results" / "figures"
 MODEL = "sweden-biomass-times-mini"
 REGION = "Sweden"
 TOL = 1e-6
@@ -48,10 +51,23 @@ ELC = {
 ELC_OTHER = {"ELC_IMP": "Trade|Secondary Energy|Electricity|Volume"}
 
 BIOALLOC = {
+    "BIOFUEL": "Biofuels|w/o CCS",
     "DH": "District Heating|w/o CCS",
     "DH_CCS": "District Heating|w/ CCS",
     "INDUSTRY": "Industry",
     "BIOF_CCS": "Biofuels|w/ CCS",
+}
+
+# gross fossil CO2 by sector (scripts/residuals.py uses the same split)
+CO2_SECTOR = {
+    "GT_NG": "Energy|Supply|Electricity and Heat",
+    "HET_FOS": "Energy|Supply|Electricity and Heat",
+    "CHP_WST": "Energy|Supply|Electricity and Heat",
+    "IND_FOS": "Energy|Demand|Industry",
+    "IND_FCS": "Energy|Demand|Industry",
+    "STL_BF": "Energy|Demand|Industry",
+    "RD_OIL": "Energy|Demand|Transportation|Road and Machinery",
+    "AV_OIL": "Energy|Demand|Transportation|Domestic Aviation",
 }
 
 REQUIRED = [
@@ -90,6 +106,17 @@ def build():
     # the cap starts in 2030
     frames.append(rows(co2[co2.uni == "gross cap"],
                        "Policy|Cap|Emissions|CO2|Energy and Industrial Processes", "Mt CO2/yr"))
+
+    prc = pd.read_csv(CSV / "rep_co2prc.csv")
+    unmapped = sorted(set(prc.loc[prc.value.abs() > 1e-9, "PRC"]) - set(CO2_SECTOR))
+    if unmapped:
+        raise ValueError(f"no IAMC sector for {unmapped}")
+    prc["sector"] = prc.PRC.map(CO2_SECTOR)
+    for sector, d in prc.groupby("sector"):
+        frames.append(rows(d, f"Emissions|CO2|{sector}", "Mt CO2/yr", YEARS))
+    # memo: waste incineration, the part of the residual without a capture option in the model
+    frames.append(rows(prc[prc.PRC == "CHP_WST"],
+                       "Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration", "Mt CO2/yr", YEARS))
 
     emis = pd.read_csv(CSV / "rep_emis.csv")
     for em, var, unit in [("NOX", "Emissions|NOx", "kt NOx/yr"), ("PM25", "Emissions|PM2.5", "kt PM2.5/yr")]:
@@ -131,8 +158,10 @@ def check(df):
                     "all required variables for all scenarios" if missing is None
                     else missing.to_string()))
 
-    for total in ["Secondary Energy|Electricity", "Primary Energy|Biomass|Forest"]:
-        parts = [v for v in df.variable if v.startswith(total + "|")]
+    sectors = ["Emissions|CO2|" + v for v in sorted(set(CO2_SECTOR.values()))]
+    for total, parts in [("Secondary Energy|Electricity", None), ("Primary Energy|Biomass|Forest", None),
+                         ("Emissions|CO2|Energy and Industrial Processes", sectors)]:
+        parts = parts or [v for v in df.variable if v.startswith(total + "|")]
         agg = df.check_aggregate(total, components=parts, rtol=1e-6)
         results.append((f"aggregation: {total}", agg is None,
                         f"total = sum of {len(parts)} components" if agg is None else agg.to_string()))
@@ -156,11 +185,30 @@ def check(df):
     return results
 
 
+def plot(df):
+    """Gross fossil CO2 by sector and BECCS storage (Forest first, on time), plotted from the IAMC table."""
+    scn = "forest_first_ontime"
+    sectors = ["Emissions|CO2|" + v for v in sorted(set(CO2_SECTOR.values()))]
+    data = df.filter(variable=sectors, scenario=scn).rename(
+        variable={v: v.rsplit("|", 1)[-1] for v in sectors})
+    fig, ax = plt.subplots(figsize=(8, 4.2))
+    data.plot.stack(ax=ax, stack="variable", total=False, legend=False, title=None)
+    stored = df.filter(variable="Carbon Sequestration|CCS|Biomass", scenario=scn).timeseries().iloc[0]
+    ax.plot(stored.index, stored.values, color="black", ls="--", lw=1.5, label="BECCS stored")
+    ax.set_title("Gross fossil CO2 by sector and BECCS storage, Forest first (on time)", loc="left", fontsize=10)
+    ax.set_ylabel("Mt CO2/yr")
+    ax.set_xlabel("")
+    ax.legend(frameon=False, fontsize=8, loc="upper right")
+    fig.tight_layout()
+    fig.savefig(FIG / "fig6_iamc_gross_vs_stored.png", dpi=150)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     df = build()
     df.to_excel(OUT / "sweden_times_mini_iamc.xlsx")
     df.to_csv(OUT / "sweden_times_mini_iamc.csv")
+    plot(df)
 
     lines = ["# Protocol checks on the IAMC export", "",
              f"{len(df.scenario)} scenarios, {len(df.variable)} variables, years {min(df.year)} to {max(df.year)}.", "",

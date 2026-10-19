@@ -2,12 +2,18 @@ Model,Scenario,Region,Variable,Unit,2025,2030,2035,2040,2045,2050
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.6648961707296746
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.6648961707296746
+sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.627386752183834,2.535138022695586,0.4874628044451943,0.0,0.0
+sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2528489623474278,0.0865105318500877
+sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.06013037688673,8.026306008637928,5.968538370081141,2.371133070415506,2.4183856388795864
+sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2115482330598044,2.216799705792549,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.160000000000001,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,30.97463620880384,26.735681319126424,28.09691391277417,28.87309518718132,31.63180448869824
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,5.991889974740224,4.79360523109185,4.876783725322309,5.01605147871344,5.528774817141143
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Price|Carbon,EUR/t CO2,,75.89142396117528,74.75124763143046,92.4737625820256,209.32216164692537,105.14024767852308
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.19897729550631074,0.15215167809975375,0.18000000000000005,0.20100786230334725,0.22723784655645476
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,electrons_win_delay,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0,0.005888229287456679,0.057038509210604736,0.06915617186355685
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10686831219337825,0.05837380966682127,0.036337058437109326,0.008829680851776241,0.001925774953940788
 sweden-biomass-times-mini,electrons_win_delay,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.09210898331293249,0.0937778684329325,0.13777471227543403,0.1351396722409663,0.1561558997389571
@@ -26,12 +32,18 @@ sweden-biomass-times-mini,electrons_win_delay,Sweden,Trade|Secondary Energy|Elec
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.680345660895357
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.680345660895357
+sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.591997741068643,2.4593416597119138,0.4876855641908492,0.0,0.0
+sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2531690930663483,0.0868306625690082
+sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.095891497012444,8.117008584846575,5.968315610335487,2.370812939696585,2.433514998326348
+sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2111761240492798,2.201893492567574,2.2066138430552074,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.160000000000001,2.160000000000001,2.160000000000001,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,31.636678485981147,28.14832510376024,28.05801622037564,29.91739002648844,31.61387104878506
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.149224338211193,5.144450498328193,4.86396226270041,5.279473572778098,5.516113497238713
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Price|Carbon,EUR/t CO2,,75.89142396117532,75.17909002174166,92.08765393480031,208.95710018767943,105.1402476785231
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.2093914309657515,0.17567137864235519,0.18000000000000008,0.21512407880413711,0.22714060835803926
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602
+sweden-biomass-times-mini,electrons_win_ontime,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0021615596046669996,0.0052485648282355945,0.056398844751383646,0.068670148743
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.09991399232496428,0.05726567054159514,0.03641002977534869,0.008911935221887704,0.0019257749539407876
 sweden-biomass-times-mini,electrons_win_ontime,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.10831964596959705,0.11508635582490288,0.1371836127252256,0.1486555061596756,0.1553868919899083
@@ -50,12 +62,18 @@ sweden-biomass-times-mini,electrons_win_ontime,Sweden,Trade|Secondary Energy|Ele
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.888365048934031,4.601645541060453
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2,Mt CO2/yr,21.834697218572,17.598114176162504,13.361531133753012,9.124948091343525,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.834697218572,17.598114176162504,13.361531133753012,9.124948091343525,4.888365048934031,4.601645541060453
+sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.514103350917112,2.347642660626589,0.3477502981532209,0.0,0.0
+sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.7706916,0.7769432041836637,0.6949575454927036,0.6025860758821691,0.4930326247088239,0.1603557637141437
+sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.095891497012444,8.117008584846575,5.967997874252925,2.217220855815305,2.281289777346309
+sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2111761240492798,2.2019223427871433,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.160000000000001,2.160000000000001,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,31.57708400148429,28.095871766450934,28.01785099756154,30.12318699680583,31.716658725654305
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.129302253090448,5.123830567584199,4.844724567467963,5.321334231076141,5.53136838619989
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.598114176162504,13.361531133753012,9.124948091343525,4.888365048934031,4.888365048934031
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Price|Carbon,EUR/t CO2,,75.89142396117532,75.17909002174166,92.08765393480036,197.18303809794597,105.1402476785231
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.20891742342362268,0.17540039052726364,0.18000000000000008,0.21927385628617183,0.229920772730453
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602
+sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0021615596046669996,0.0052485648282355945,0.05725679285066624,0.06788749561757004
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.09971097289792702,0.05726567054159514,0.03641002977534869,0.00891193522188769,0.0019257749539407884
 sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.1080486578545055,0.11481536770981132,0.1371836127252256,0.15194733554242773,0.158949709487752
@@ -74,12 +92,18 @@ sweden-biomass-times-mini,electrons_win_ontime_nonco2x2,Sweden,Trade|Secondary E
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,3.531407910265594
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,3.531407910265594
+sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.591997741068634,3.2737583815504325,1.1721421684899926,0.0,0.0
+sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2294110629827156,0.0448369404853755
+sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.095891497012454,7.274224034551709,5.283859006036344,2.3945709697802178,1.3265709697802188
+sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2111761240492798,2.2302613210239244,2.206613843055207,2.178111568409905,2.1600000000000006
+sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.160000000000001,2.1600000000000006,2.1600000000000006,2.160000000000001,2.1600000000000006
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,29.26903543596228,26.48446965863124,26.105816676066137,25.95326808867706,24.675746034266567
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.086979514923771,5.577724291654914,4.738130247299976,4.417608895338462,4.006302272932556,3.678622102266345
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Price|Carbon,EUR/t CO2,,59.49435022831206,64.70124001848366,67.65970929646372,153.42482572628978,108.41376751428018
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.19791939369289538,0.18000000000000005,0.1599846904142004,0.16405609418648462,0.1998363996284719,0.18300742007693965
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0011577926711901602,0.005070215555637429,0.010657695010296588,0.06742249501029657,0.06742249501029657
+sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.019788511967346947,0.020633915676457375
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.13116398889289538,0.10193910863948037,0.05762416128878194,0.03700877305994313,0.009586847494583512,0.0019257749539407884
 sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.07690309868932951,0.09729031356978106,0.1163896261162449,0.10303854515624487,0.09302523443624489
@@ -98,12 +122,18 @@ sweden-biomass-times-mini,electrons_win_ontime_r02,Sweden,Trade|Secondary Energy
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.605862921006091,2.5326639714473678,0.3373158230182922,0.0,0.0
+sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2782787368526052,0.1031055715903092
+sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.082026317074998,8.048201948826199,6.118685351508042,2.3457032959103263,2.538988029582528
+sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2111761240492793,2.1973778168525,2.206613843055207,2.1781115684099044,2.160000000000001
+sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.160000000000001,2.1600000000000006,2.1600000000000006,2.160000000000001
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|NOx,kt NOx/yr,33.070830179780664,32.3353836341154,28.82270308839672,28.63105370273156,31.19446378800065,32.401828301796016
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.317424837401496,5.308207732276987,5.007349072022619,5.625357130551046,5.737827169137762
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Price|Carbon,EUR/t CO2,,87.62133370562235,105.4915695222299,126.56491052379732,224.7191011235955,154.88351583743656
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.2172226650092205,0.18000000000000002,0.17999999999999997,0.22537529565826409,0.23102068617199004
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602,0.0011577926711901602
+sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.002161559604667,0.0052485648282355945,0.056398844751383646,0.0698809017402346
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10563811212497738,0.05726567054159513,0.05148468644752126,0.02587893700338536,0.01804227052826034
 sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.11042676021305296,0.11941497718254772,0.12210895605305297,0.14193972123230492,0.14193972123230492
@@ -122,12 +152,18 @@ sweden-biomass-times-mini,electrons_win_ontime_r07,Sweden,Trade|Secondary Energy
 sweden-biomass-times-mini,forest_first_delay,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.656009959888258,2.679906907316672,1.030499551992126,0.0,0.0
+sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2782787368526053,0.151279525428218
+sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.031507169182309,7.900959012956891,5.42550162253421,2.345703295910328,2.4908140757446198
+sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.211548233059804,2.1973778168524998,2.2066138430552074,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.160000000000001,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,32.156826019497835,29.00547527648009,30.597163703539486,32.57790987151999,31.979382121742518
 sweden-biomass-times-mini,forest_first_delay,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.276405959167114,5.351663875784109,5.4885063042536,5.710475240299694,5.507718493408518
 sweden-biomass-times-mini,forest_first_delay,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_delay,Sweden,Price|Carbon,EUR/t CO2,,67.76095323374003,89.81336244692284,105.37033233902248,140.2059925093632,124.09761720415624
 sweden-biomass-times-mini,forest_first_delay,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.21340723756432214,0.17984344607774455,0.21600000000000713,0.24328373639071918,0.23279677593397924
 sweden-biomass-times-mini,forest_first_delay,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,forest_first_delay,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,forest_first_delay,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0029441146437283396,0.05239706809179714,0.0591380965862226
 sweden-biomass-times-mini,forest_first_delay,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10361979699339885,0.05837380966682127,0.06033534422754017,0.022755595209431854,0.005527606258266457
 sweden-biomass-times-mini,forest_first_delay,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.10978744057092328,0.12146963641092329,0.15272054112873862,0.16813107308949016,0.16813107308949016
@@ -146,12 +182,18 @@ sweden-biomass-times-mini,forest_first_delay,Sweden,Trade|Secondary Energy|Elect
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.618147040603419,3.798481648456928,1.8376550141583088,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2782787368526053,0.151279525428218
+sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.069671446121538,6.778197202346955,4.618346160368026,2.345703295910328,2.490814075744619
+sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112468754054104,2.20156488632218,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,32.39234972406592,30.770534473670068,30.37295064511053,32.563548955930344,31.96502120615287
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.334580183226174,5.818214342388933,5.43234668869542,5.710062968082628,5.5073062211914525
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Price|Carbon,EUR/t CO2,,81.10689322638169,92.4699818770654,102.90283040147236,140.2059925093632,122.08976458218524
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.21865203746855738,0.21542897887882237,0.2159999999999971,0.2432405893010838,0.23275362884434386
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00031983222961054155,0.0014006120319440395,0.0029441146437283396,0.052397068091797144,0.0591380965862226
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10500363545782945,0.05776669650794559,0.044967959356413977,0.022755595209431854,0.005527606258266457
 sweden-biomass-times-mini,forest_first_ontime,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.11332856978111737,0.15626167033893273,0.1680879259998548,0.1680879259998548,0.1680879259998548
@@ -170,12 +212,18 @@ sweden-biomass-times-mini,forest_first_ontime,Sweden,Trade|Secondary Energy|Elec
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.888365048934031,4.888365048934031
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2,Mt CO2/yr,21.834697218572,17.598114176162504,13.361531133753012,9.124948091343525,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.834697218572,17.598114176162504,13.361531133753012,9.124948091343525,4.888365048934031,4.888365048934031
+sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.540252650451888,3.686987943008641,1.7591932987080483,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.7706916,0.7769432041836637,0.6949575454927036,0.6025860758821691,0.5565574737052106,0.302559050856436
+sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.069671446121538,6.778197202346955,4.556554873698099,2.153696006818918,2.425805998077596
+sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112468754054104,2.2013884429047117,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,32.40862373276908,30.7394081950018,30.31838295695779,32.703989502171815,32.07903925728338
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.332971182670952,5.802888790230797,5.408727024452927,5.736812317212422,5.534055570321247
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.598114176162504,13.361531133753012,9.124948091343525,4.888365048934031,4.888365048934031
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Price|Carbon,EUR/t CO2,,81.10689322638169,92.46998187706536,102.90283040147236,140.2059925093632,122.0897645821851
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.21911984570408402,0.21542897887882237,0.21599999999999744,0.24527952705063033,0.23479256659389042
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00031983222961054155,0.0014006120319440404,0.0029441146437283396,0.053255016191079745,0.05999604468550521
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10547144369335609,0.05776669650794559,0.04378696970615034,0.022755595209431857,0.005527606258266457
 sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.11332856978111737,0.15626167033893273,0.16926891565011876,0.16926891565011876,0.16926891565011876
@@ -194,12 +242,18 @@ sweden-biomass-times-mini,forest_first_ontime_nonco2x2,Sweden,Trade|Secondary En
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,3.9293434811147847
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,3.9293434811147847
+sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.614462781243643,3.799401068330415,2.2530864653571245,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2782787368526053,0.151279525428218
+sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.073240402332184,6.772836051827563,4.202914709169213,2.345703295910329,1.618063955686566
+sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.211362178554542,2.2060066169680836,2.206613843055207,2.178111568409905,2.1600000000000006
+sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.160000000000001,2.160000000000001,2.1600000000000006,2.160000000000001,2.1600000000000006
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,32.37891820468806,30.296569908179965,30.18877008833409,31.366466651464847,31.17479424888998
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.086979514923771,6.329558338453439,5.698264159460254,5.395000620530554,5.310827157362463,5.184163703392995
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Price|Carbon,EUR/t CO2,,73.20759006440807,75.37892239824907,80.6231205320952,112.62004242317067,101.41911512560674
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.19791939369289538,0.21871119807621808,0.20981704357833159,0.21600000000000008,0.24260132454222336,0.2360435264254679
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0005788963355950801,0.00089997882476489,0.00089997882476489,0.018496382766156238,0.018496382766156238
+sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0009033861619081933,0.0024468887736924885,0.04217807208839627,0.04023981762091812
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.13116398889289538,0.10516874491887518,0.0578491605183226,0.03727158131708995,0.009883088843218129,0.0019257749539407871
 sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.11296355682174783,0.15016451807333592,0.17538155108445275,0.1720437808444527,0.17538155108445275
@@ -218,12 +272,18 @@ sweden-biomass-times-mini,forest_first_ontime_r02,Sweden,Trade|Secondary Energy|
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.618147040603419,2.632057370815866,0.544528207545639,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.3884716020918318,0.3474787727463518,0.3012930379410845,0.2782787368526053,0.151279525428218
+sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.069671446121538,7.948808549457701,5.911472966980697,2.345703295910328,2.490814075744619
+sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112468754054104,2.1973778168524998,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,32.39234972406592,31.683912491306504,31.27850432021517,32.59161583037554,32.62148668017725
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.334580183226174,5.999744695315145,5.6664397031256994,5.925557310120637,5.693637232286952
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Price|Carbon,EUR/t CO2,,94.00032920524056,127.0673859542075,129.4402152102228,213.4562267985768,140.20599250936334
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.21865203746855738,0.21600000000000003,0.21600000000000008,0.2507680566775531,0.23864974716259252
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00031983222961054155,0.0014006120319440412,0.0029441146437283404,0.052397068091797144,0.0591380965862226
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10500363545782945,0.08868996113041873,0.08283741002597747,0.03690160853764635,0.01804227052826034
 sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.11332856978111737,0.12590942683763726,0.13021847533029426,0.16146938004810957,0.16146938004810957
@@ -242,12 +302,18 @@ sweden-biomass-times-mini,forest_first_ontime_r07,Sweden,Trade|Secondary Energy|
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.642175401671095,2.6434277769519507,0.3689987238524111,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.4080874758686957,0.3834566367089109,0.3492778669462046,0.3388878378321364,0.193530804925043
+sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.025725853622603,7.862023824573285,6.039017621668804,2.285094194930797,2.4485627962477943
+sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2115482330598044,2.2368142716382677,2.2066138430552074,2.178111568409905,2.160000000000001
+sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.160000000000001,2.1600000000000006,2.160000000000001,2.160000000000001,2.160000000000001
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,28.4269809413383,24.781637287961903,25.578793415772108,26.002768703860287,26.46180518931979
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,5.37453441134772,4.30028022776992,4.184001103379994,4.167070182934883,4.168870388591586
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Price|Carbon,EUR/t CO2,,102.97673431371648,93.07329073697686,100.9154200924919,170.86147862594223,140.2059925093633
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.16712305477854944,0.126,0.14873002561248042,0.16380000000000003,0.16380000000000006
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_delay,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0034130031342031806,0.053407973835592294,0.06231713818905356
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10704319045854943,0.05837380966682127,0.03707505787816211,0.009661564720580766,0.001925774953940788
 sweden-biomass-times-mini,scarce_forest_delay,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.06007986432,0.06762619033317872,0.10824196460011515,0.10073046144382697,0.0995570868570057
@@ -266,12 +332,18 @@ sweden-biomass-times-mini,scarce_forest_delay,Sweden,Trade|Secondary Energy|Elec
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.642491976380425,2.5041002840831603,0.3602577107606522,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.4080874758686957,0.3834566367089109,0.3492778669462046,0.3388878378321364,0.193530804925043
+sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.025725853622603,8.00037962731894,6.047758634760562,2.285094194930797,2.4485627962477943
+sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112316583504743,2.237785961761402,2.206613843055207,2.178111568409905,2.1600000000000006
+sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.160000000000001,2.1600000000000006
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,28.1590810149658,25.01761312460616,24.821265494566443,25.962067684034107,26.427666875532463
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,5.309951108450807,4.361019772047787,3.989391648977332,4.168665662912069,4.1704879570411855
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Price|Carbon,EUR/t CO2,,94.36247255309571,104.30537897324878,100.9154200924919,166.91889959864213,140.2059925093633
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.1638000000000001,0.13730155047627485,0.13877490247529506,0.16380000000000003,0.16380000000000006
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00033598215823345853,0.0015456310463469452,0.003413003134203179,0.053407973835592294,0.06231713818905356
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10338415352176666,0.0577038361655216,0.03707505787816211,0.009661564720580773,0.001925774953940788
 sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.06007986432,0.0780520832644063,0.09828684146292978,0.10073046144382694,0.0995570868570057
@@ -290,12 +362,18 @@ sweden-biomass-times-mini,scarce_forest_ontime,Sweden,Trade|Secondary Energy|Ele
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.888365048934031,4.888365048934031
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2,Mt CO2/yr,21.834697218572,17.598114176162504,13.361531133753012,9.124948091343525,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.834697218572,17.598114176162504,13.361531133753012,9.124948091343525,4.888365048934031,4.888365048934031
+sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.538908049401217,2.3564826821915967,0.1725600582595836,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.7706916,0.8161749517373914,0.7669132734178218,0.6985557338924092,0.6777756756642728,0.3870616098500861
+sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.031799516673418,8.00034921638219,6.047218456136321,2.032477804859856,2.3413034390839464
+sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112316583504743,2.237785961761402,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,28.10255441934273,24.954323952736974,24.77521553672575,25.8367355328167,26.210079050688464
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,5.289573336094578,4.335288258785531,3.9656216617867694,4.115811843119301,4.117425413916771
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.598114176162504,13.361531133753012,9.124948091343525,4.888365048934031,4.888365048934031
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Price|Carbon,EUR/t CO2,,94.09260721116485,104.70506470866236,100.9154200924919,166.91889959864213,140.2059925093633
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.16380000000000006,0.13702160465363747,0.13887961151464048,0.16380000000000003,0.16380000000000003
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00033598215823345853,0.0015456310463469452,0.003413003134203179,0.0542659219348749,0.06317508628833618
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.10338415352176661,0.0577038361655216,0.03707505787816211,0.009661564720580787,0.001925774953940788
 sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.06007986432,0.07777213744176893,0.09839155050227519,0.09987251334454435,0.09869913875772307
@@ -314,12 +392,18 @@ sweden-biomass-times-mini,scarce_forest_ontime_nonco2x2,Sweden,Trade|Secondary E
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.509825042571382
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.509825042571382
+sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.602400594254625,2.496292060306509,0.350194799368911,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.4080874758686957,0.3834566367089109,0.3492778669462046,0.3388878378321364,0.193530804925043
+sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.065817235748405,8.008187851095594,6.057821546152305,2.285094194930797,2.1562942376463385
+sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112316583504743,2.237785961761402,2.206613843055207,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,27.84989060281044,24.478208988631405,23.843305166773504,23.84124890486813,23.83662622608849
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.086979514923771,5.236627257061536,4.220315618805576,3.739796233884955,3.434789405895654,3.4343393931759043
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Price|Carbon,EUR/t CO2,,73.20759006440801,83.18270338603533,78.64178525773832,140.2059925093633,107.84322908941324
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.19791939369289538,0.1623974338718388,0.1301130053763407,0.12599999999999997,0.16380000000000003,0.16380000000000006
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.05676480000000001,0.05676480000000001
+sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00033598215823345853,0.0015456310463469432,0.0034130031342031806,0.022046205879791173,0.02804883208141479
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.13116398889289538,0.10198158739360534,0.0577038361655216,0.03707505787816209,0.009661564720580768,0.001925774953940788
 sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.06007986432,0.07086353816447219,0.0855119389876347,0.07532742939962808,0.07706059296464447
@@ -338,12 +422,18 @@ sweden-biomass-times-mini,scarce_forest_ontime_r02,Sweden,Trade|Secondary Energy
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Carbon Sequestration|CCS|Biomass,Mt CO2/yr,0.0,0.0,0.0,0.0,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,21.449351418571997,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
+sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Industry,Mt CO2/yr,6.867649517049676,4.642491976380425,2.674412188406231,0.6599425430984948,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Transportation|Domestic Aviation,Mt CO2/yr,0.3853458,0.4080874758686957,0.3834566367089109,0.3492778669462046,0.3388878378321364,0.193530804925043
+sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2|Energy|Demand|Transportation|Road and Machinery,Mt CO2/yr,11.96961,10.025725853622603,7.862023824573285,5.74807380242272,2.285094194930797,2.448562796247792
+sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat,Mt CO2/yr,2.22674610152232,2.2112316583504743,2.2058298601839885,2.2066138430552074,2.1781115684099044,2.1600000000000006
+sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|CO2|Energy|Supply|Electricity and Heat|Waste Incineration,Mt CO2/yr,2.16,2.1600000000000006,2.1600000000000006,2.160000000000001,2.1600000000000006,2.1600000000000006
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|NOx,kt NOx/yr,33.07083017978067,31.204081014965784,27.7507903622769,27.60351486750405,27.44740928498572,27.05096740627705
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Emissions|PM2.5,kt PM2.5/yr,6.08697951492377,6.044951108450806,5.039078348667837,4.727420153203083,4.632349827173181,4.42974387933709
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Policy|Cap|Emissions|CO2|Energy and Industrial Processes,Mt CO2/yr,,17.287536964222202,13.125722509872414,8.963908055522626,4.802093601172836,4.802093601172836
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Price|Carbon,EUR/t CO2,,133.74065430254277,131.6533853578429,121.96446847917797,225.8557404457632,224.7191011235955
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Primary Energy|Biomass|Forest,EJ/yr,0.1979193936928954,0.20160000000000003,0.16380000000000003,0.16195769742328855,0.17118809400709634,0.16594998917824327
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/ CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
+sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Biofuels|w/o CCS,EJ/yr,0.0,0.0,0.0,0.0,0.0,0.0
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Primary Energy|Biomass|Forest|District Heating|w/ CCS,EJ/yr,0.0,0.00033598215823345853,0.0015456310463469432,0.0034130031342031806,0.053407973835592294,0.06231713818905356
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Primary Energy|Biomass|Forest|District Heating|w/o CCS,EJ/yr,0.1311639888928954,0.1067304771773899,0.0577038361655216,0.03707505787816211,0.009661564720580773,0.005527606258266457
 sweden-biomass-times-mini,scarce_forest_ontime_r07,Sweden,Primary Energy|Biomass|Forest|Industry,EJ/yr,0.06675540480000001,0.09453354066437666,0.10455053278813146,0.12146963641092329,0.10811855545092326,0.09810524473092326
