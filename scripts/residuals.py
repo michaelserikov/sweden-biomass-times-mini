@@ -20,6 +20,7 @@ Usage: python scripts/residuals.py
 Output: results/residuals/*.csv, results/tables/residuals.md,
         results/figures/fig5_residual_emissions.png
 """
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -41,6 +42,8 @@ SECTOR = {
     "AV_OIL": "Domestic aviation",
     "IND_FOS": "Industry: fuels",
     "IND_FCS": "Industry: fuels",
+    "IHT_FOS": "Industry: high-temperature heat",
+    "GAS_BMG": "Biomethane in the gas grid (credit)",
     "STL_BF": "Industry: steel",
     "GT_NG": "Power and heat: fossil",
     "HET_FOS": "Power and heat: fossil",
@@ -55,6 +58,8 @@ GAPS = {
     "Bio-CCS at CHP": "CHP_BCS",
     "Bio-CCS at pulp mills": "IND_BLC",
     "E-kerosene": "EF_EKER",
+    "Electric high-temperature heat": "IHT_ELC",
+    "Biomethane (digestion, bio-SNG)": "BG_AD,BG_SNG",
 }
 FRONTIER = [0.85, 0.88, 0.90, 0.92, 0.94, 0.96, 0.98, 1.00]
 REPORTS = ["REP_CO2PRC", "REP_CO2BAL", "REP_CO2PRICE", "REP_COST", "REP_CHECK"]
@@ -71,9 +76,12 @@ def solve(name, notech=None, **opts):
     args += [f"--{k}={v}" for k, v in opts.items()]
     if subprocess.run(args).returncode != 0:
         log = lst.read_text(encoding="utf-8", errors="replace") if lst.exists() else ""
-        if "Calibration run not optimal" in log:
+        # the listing echoes the source (and both abort texts), so the
+        # failing solve is identified from the model status of each solve
+        status = re.findall(r"\*\*\*\* MODEL STATUS\s+(\d+)", log)
+        if status and status[0] != "1":
             return None, "infeasible without CO2 cap (policy quota)"
-        if "Main run not optimal" in log:
+        if len(status) > 1 and status[1] != "1":
             return None, "infeasible under CO2 cap"
         raise RuntimeError(f"GAMS failed for {name}, see {lst}")
     return read_gdx(gdx, REPORTS), ""

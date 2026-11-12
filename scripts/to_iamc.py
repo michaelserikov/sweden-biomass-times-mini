@@ -65,6 +65,8 @@ CO2_SECTOR = {
     "CHP_WST": "Energy|Supply|Electricity and Heat",
     "IND_FOS": "Energy|Demand|Industry",
     "IND_FCS": "Energy|Demand|Industry",
+    "IHT_FOS": "Energy|Demand|Industry",
+    "GAS_BMG": "Energy|Demand|Industry",
     "STL_BF": "Energy|Demand|Industry",
     "RD_OIL": "Energy|Demand|Transportation|Road and Machinery",
     "AV_OIL": "Energy|Demand|Transportation|Domestic Aviation",
