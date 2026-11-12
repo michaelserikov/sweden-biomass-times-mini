@@ -27,6 +27,14 @@ Levels: **verified** (checked against the primary source), **approximate** (orde
 | Emission factors | CO2: IPCC 2006 defaults; NOx and PM2.5: EMEP/EEA Guidebook Tier 1 | IPCC 2006; EMEP/EEA 2023 | approximate |
 | CO2 storage capacity (`STG_MAX`) | 2/5/8/10/10 Mt/yr (2030-2050) | informed by SOU 2020:4 | assumption |
 | Discount rate (`G_DRATE`) | 4% (sensitivity 2% and 7%) | project choice | assumption |
+| Biogas feedstock steps (`RES_VOL`, `RES_COST` DIG1-3) | 3/3/4 TWh biogas at 20/40/60 EUR/MWh (sludge and food waste; manure; crop residues and catch crops) | Energigas Sverige: about 2.3 TWh biogas produced in 2023, 2.4 TWh in 2024; national biogas strategy target of 7 TWh from digestion by 2030; academic estimate of 8.9 TWh mid-term potential from residues and energy crops | approximate / assumption |
+| Digestion and upgrading (`BG_AD`) | 1,800 MEUR/GW biomethane, 1.02 TWh feedstock and 0.04 TWh electricity per TWh, 0.13 Mt pure CO2 per TWh | Danish Energy Agency Technology Data (orders of magnitude); CO2 from a 60/40 CH4/CO2 raw gas | approximate |
+| Bio-SNG (`BG_SNG`) | 2,500 MEUR/GW, 65% efficiency, from 2030 (timing axis) | GoBiGas demonstration (Gothenburg) and Nth-plant estimates, order of magnitude | assumption |
+| Hydrogen storage (`H2_STG`) | 1.2 EUR/kWh (1,200 MEUR/TWh), fixed O&M 2%/yr, 40 years, 2% loss, from 2030 | Papadias and Ahluwalia (2021): lined rock caverns about 44 USD/kg at 3,000 t (about 1.3 USD/kWh); Sweden has no salt caverns | approximate |
+| High-temperature industrial heat (`COM_PROJ` IHT) | 10 TWh/yr, fossil gas in 2025 | order of magnitude for cement, lime, metal reheating and glass | assumption |
+| Electric high-temperature heat (`IHT_ELC`) | 1,500 MEUR/GW, at most 0.15 GW new per period (about 4.7 TWh by 2045) | plasma and induction heating at pilot scale for calcination | assumption |
+| CO2 price mode (`CO2PR`) | 80 EUR/t in 2030 rising linearly to the 2045 level (80 to 500), constant after 2045 | sweep for the abatement curve | assumption |
+| Biogenic carbon debt (`BIOC`) | share 0, 0.3 or 0.6 of 0.403 Mt CO2/TWh on supply steps BIO2-BIO4 (not on sawmill by-products) | carbon neutrality at combustion is a convention; the debt share stands for forest carbon not regrown within the horizon | assumption |
 
 ## Calibration
 
@@ -58,9 +66,10 @@ Limitations:
 
 - **Illustrative data.** Costs, efficiencies and supply curves are orders of magnitude, not a calibrated national data set; the model answers relative questions about allocation and trade-offs and does not forecast the Swedish energy system.
 - **One region and little trade.** Electricity exports are fixed, imports are capped at 4 GW, bio-naphtha is the only exported fuel and there is no trade in bio-jet or renewable diesel. Surplus SAF could in reality be sold to other EU markets under ReFuelEU.
-- **Simplified time slices.** Nine slices with a 100-hour winter peak; the assumption that demand growth after 2025 is flat across slices lowers the 2045 peak by about 3 GW compared with scaling today's load shape. There is no storage process.
+- **Simplified time slices.** Nine slices with a 100-hour winter peak; the assumption that demand growth after 2025 is flat across slices lowers the 2045 peak by about 3 GW compared with scaling today's load shape. There is no electricity storage process.
 - **Peak capacity depends on the demand-response potential.** Demand response reaches its upper bound (2 GW) in every run, so each additional GW of flexibility would replace roughly one GW of gas turbines.
 - **Aviation non-CO2 effects are not modelled.** Only a sensitivity with domestic aviation CO2 weighted x2 is included. NOx and PM2.5 are tracked as co-benefits of stationary combustion only.
+- **Hydrogen and biomethane (v0.2).** Hydrogen is balanced by season, so storage is valued only against seasonal price differences; weekly wind lulls and short-duration storage are not represented, and the balance within a season is free (line pack and buffer tanks). Biomethane credits are allocated to gas users without capture by a guarantee-of-origin rule. High-temperature heat has no process emissions (cement calcination CO2 is outside the model scope) and no biomass option.
 - **Other simplifications.** Perfect foresight within each scenario, exogenous demands, no land-use or forest carbon accounting (biomass is treated as carbon neutral at combustion) and a CO2 target applied proportionally to the model scope.
 
 Next steps:

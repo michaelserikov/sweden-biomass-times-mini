@@ -1,5 +1,13 @@
 # Changelog
 
+## 12 November 2026: version 0.2, hydrogen, biomethane and industrial decarbonisation
+
+New processes: anaerobic digestion with upgrading (`BG_AD`, three feedstock steps `DIG1-3`), gasification to bio-SNG (`BG_SNG`), biomethane injection (`GAS_BMG`) and use in heavy road transport (`RD_BMG`), liquefaction of the CO2 from upgrading (`CC_BGP`), hydrogen storage in lined rock caverns (`H2_STG`) and high-temperature industrial heat (`IHT` demand of 10 TWh; `IHT_FOS`, `IHT_H2`, `IHT_ELC`). Hydrogen is balanced by season with a cyclic storage level (`EQ_H2BAL`, `EQ_H2STG`); injected biomethane earns a credit only against gas use without CO2 capture (`EQ_BMGGO`). New options `--CO2P`, `--NEGCR`, `--BIOC`, `--NOH2STG`, `--H2STGC` and the script `scripts/hydrogen_biomethane.py`.
+
+Effect on the earlier results: the hydrogen storage surcharge of 15 EUR/MWh that `GT_H2` carried in place of a storage process is removed, and the new high-temperature heat demand raises 2025 model emissions, so the gross cap scales up (residual 2045 emissions 5.2 instead of 4.8 Mt). Core results with v0.2 (v0.1 in brackets): forest biomass to CHP with capture 14 TWh (15 to 16), extra cost of Scarce forest 6.1 bn EUR (6.0), cost of a ten-year technology delay 0.4 to 0.8 bn EUR (0.3 to 0.8), upper bound on the EVPI of biomass availability 33 MEUR (6), peak gas turbines on liquid biofuel 2.3 to 2.9 GW (2.5 to 3.0).
+
+Fix: `scripts/residuals.py` classified every infeasible run as "infeasible without CO2 cap", because the GAMS listing echoes both abort messages; it now reads the model status of each solve. The frontier runs from 94% are infeasible under the CO2 cap, as the README of v0.1 already stated; the e-kerosene gap is infeasible without the cap (ReFuelEU quota), as before.
+
 ## 20 October 2026: residual emissions
 
 New options `--RED45` (gross reduction in 2045) and `--NOTECH` (technology not available) and a report of gross fossil CO2 by process. `scripts/residuals.py` adds the residual by sector, seven innovation-gap runs and a frontier from 85% to 100% gross reduction; the IAMC export now carries CO2 by sector. Results of the existing runs are unchanged.
