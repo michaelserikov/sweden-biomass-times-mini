@@ -1,0 +1,687 @@
+run,scenario,timing,uni,T,SEAS,value
+forest_first_ontime,forest_first,ontime,production,2030,WI,0.09777471279506927
+forest_first_ontime,forest_first,ontime,production,2030,SP,0.09777471279506925
+forest_first_ontime,forest_first,ontime,production,2030,SU,0.09777471279506925
+forest_first_ontime,forest_first,ontime,production,2030,FA,0.09777471279506925
+forest_first_ontime,forest_first,ontime,production,2035,WI,0.5346162586877472
+forest_first_ontime,forest_first,ontime,production,2035,SP,0.5346162586877472
+forest_first_ontime,forest_first,ontime,production,2035,SU,0.5346162586877472
+forest_first_ontime,forest_first,ontime,production,2035,FA,0.5346162586877472
+forest_first_ontime,forest_first,ontime,production,2040,WI,1.1857800018772133
+forest_first_ontime,forest_first,ontime,production,2040,SP,1.1857800018772133
+forest_first_ontime,forest_first,ontime,production,2040,SU,1.1857800018772133
+forest_first_ontime,forest_first,ontime,production,2040,FA,1.1857800018772133
+forest_first_ontime,forest_first,ontime,production,2045,WI,1.7468615208934282
+forest_first_ontime,forest_first,ontime,production,2045,SP,1.8159929001057549
+forest_first_ontime,forest_first,ontime,production,2045,SU,1.8304470552231376
+forest_first_ontime,forest_first,ontime,production,2045,FA,1.8304470552231376
+forest_first_ontime,forest_first,ontime,production,2050,WI,2.697840181854251
+forest_first_ontime,forest_first,ontime,production,2050,SP,2.826929070950117
+forest_first_ontime,forest_first,ontime,production,2050,SU,2.826929070950117
+forest_first_ontime,forest_first,ontime,production,2050,FA,2.826929070950117
+forest_first_ontime,forest_first,ontime,use,2030,WI,0.09777471279506925
+forest_first_ontime,forest_first,ontime,use,2030,SP,0.09777471279506925
+forest_first_ontime,forest_first,ontime,use,2030,SU,0.09777471279506925
+forest_first_ontime,forest_first,ontime,use,2030,FA,0.09777471279506925
+forest_first_ontime,forest_first,ontime,use,2035,WI,0.5346162586877472
+forest_first_ontime,forest_first,ontime,use,2035,SP,0.5346162586877472
+forest_first_ontime,forest_first,ontime,use,2035,SU,0.5346162586877472
+forest_first_ontime,forest_first,ontime,use,2035,FA,0.5346162586877472
+forest_first_ontime,forest_first,ontime,use,2040,WI,1.1857800018772133
+forest_first_ontime,forest_first,ontime,use,2040,SP,1.1857800018772133
+forest_first_ontime,forest_first,ontime,use,2040,SU,1.1857800018772133
+forest_first_ontime,forest_first,ontime,use,2040,FA,1.1857800018772133
+forest_first_ontime,forest_first,ontime,use,2045,WI,1.8056372566584753
+forest_first_ontime,forest_first,ontime,use,2045,SP,1.8056372566584753
+forest_first_ontime,forest_first,ontime,use,2045,SU,1.8056372566584753
+forest_first_ontime,forest_first,ontime,use,2045,FA,1.8056372566584753
+forest_first_ontime,forest_first,ontime,use,2050,WI,2.7941653935146182
+forest_first_ontime,forest_first,ontime,use,2050,SP,2.7941653935146182
+forest_first_ontime,forest_first,ontime,use,2050,SU,2.7941653935146182
+forest_first_ontime,forest_first,ontime,use,2050,FA,2.7941653935146182
+forest_first_ontime,forest_first,ontime,to storage,2045,SP,0.010355643447279572
+forest_first_ontime,forest_first,ontime,to storage,2045,SU,0.024809798564662255
+forest_first_ontime,forest_first,ontime,to storage,2045,FA,0.024809798564662255
+forest_first_ontime,forest_first,ontime,to storage,2050,SP,0.032763677435498906
+forest_first_ontime,forest_first,ontime,to storage,2050,SU,0.032763677435498906
+forest_first_ontime,forest_first,ontime,to storage,2050,FA,0.032763677435498906
+forest_first_ontime,forest_first,ontime,from storage,2045,WI,0.058775735765072
+forest_first_ontime,forest_first,ontime,from storage,2050,WI,0.09632521166036678
+forest_first_ontime,forest_first,ontime,storage level,2045,SP,0.01014853057833398
+forest_first_ontime,forest_first,ontime,storage level,2045,SU,0.03446213317170299
+forest_first_ontime,forest_first,ontime,storage level,2045,FA,0.058775735765072
+forest_first_ontime,forest_first,ontime,storage level,2050,SP,0.03210840388678893
+forest_first_ontime,forest_first,ontime,storage level,2050,SU,0.06421680777357786
+forest_first_ontime,forest_first,ontime,storage level,2050,FA,0.09632521166036678
+forest_first_delay,forest_first,delay,production,2035,WI,0.5567657908080619
+forest_first_delay,forest_first,delay,production,2035,SP,0.5567657908080619
+forest_first_delay,forest_first,delay,production,2035,SU,0.5567657908080619
+forest_first_delay,forest_first,delay,production,2035,FA,0.5567657908080619
+forest_first_delay,forest_first,delay,production,2040,WI,1.4660420497714064
+forest_first_delay,forest_first,delay,production,2040,SP,1.4660420497714064
+forest_first_delay,forest_first,delay,production,2040,SU,1.4660420497714064
+forest_first_delay,forest_first,delay,production,2040,FA,1.4660420497714064
+forest_first_delay,forest_first,delay,production,2045,WI,1.7433902646467752
+forest_first_delay,forest_first,delay,production,2045,SP,1.8268097029209578
+forest_first_delay,forest_first,delay,production,2045,SU,1.8268097029209578
+forest_first_delay,forest_first,delay,production,2045,FA,1.8268097029209578
+forest_first_delay,forest_first,delay,production,2050,WI,2.6978401818542506
+forest_first_delay,forest_first,delay,production,2050,SP,2.826929070950117
+forest_first_delay,forest_first,delay,production,2050,SU,2.826929070950117
+forest_first_delay,forest_first,delay,production,2050,FA,2.826929070950117
+forest_first_delay,forest_first,delay,use,2035,WI,0.5567657908080619
+forest_first_delay,forest_first,delay,use,2035,SP,0.5567657908080619
+forest_first_delay,forest_first,delay,use,2035,SU,0.5567657908080619
+forest_first_delay,forest_first,delay,use,2035,FA,0.5567657908080619
+forest_first_delay,forest_first,delay,use,2040,WI,1.4660420497714064
+forest_first_delay,forest_first,delay,use,2040,SP,1.4660420497714064
+forest_first_delay,forest_first,delay,use,2040,SU,1.4660420497714064
+forest_first_delay,forest_first,delay,use,2040,FA,1.4660420497714064
+forest_first_delay,forest_first,delay,use,2045,WI,1.8056372566584753
+forest_first_delay,forest_first,delay,use,2045,SP,1.8056372566584753
+forest_first_delay,forest_first,delay,use,2045,SU,1.8056372566584753
+forest_first_delay,forest_first,delay,use,2045,FA,1.8056372566584753
+forest_first_delay,forest_first,delay,use,2050,WI,2.7941653935146182
+forest_first_delay,forest_first,delay,use,2050,SP,2.7941653935146182
+forest_first_delay,forest_first,delay,use,2050,SU,2.7941653935146182
+forest_first_delay,forest_first,delay,use,2050,FA,2.7941653935146182
+forest_first_delay,forest_first,delay,to storage,2045,SP,0.021172446262482603
+forest_first_delay,forest_first,delay,to storage,2045,SU,0.02117244626248249
+forest_first_delay,forest_first,delay,to storage,2045,FA,0.02117244626248249
+forest_first_delay,forest_first,delay,to storage,2050,SP,0.032763677435498906
+forest_first_delay,forest_first,delay,to storage,2050,SU,0.032763677435498906
+forest_first_delay,forest_first,delay,to storage,2050,FA,0.032763677435498906
+forest_first_delay,forest_first,delay,from storage,2045,WI,0.06224699201169863
+forest_first_delay,forest_first,delay,from storage,2050,WI,0.09632521166036678
+forest_first_delay,forest_first,delay,storage level,2045,SP,0.02074899733723295
+forest_first_delay,forest_first,delay,storage level,2045,SU,0.04149799467446579
+forest_first_delay,forest_first,delay,storage level,2045,FA,0.06224699201169863
+forest_first_delay,forest_first,delay,storage level,2050,SP,0.03210840388678893
+forest_first_delay,forest_first,delay,storage level,2050,SU,0.06421680777357786
+forest_first_delay,forest_first,delay,storage level,2050,FA,0.09632521166036678
+scarce_forest_ontime,scarce_forest,ontime,production,2030,WI,0.049269605842800004
+scarce_forest_ontime,scarce_forest,ontime,production,2030,SP,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,production,2030,SU,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,production,2030,FA,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,production,2035,WI,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,production,2035,SP,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,production,2035,SU,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,production,2035,FA,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,production,2040,WI,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,production,2040,SP,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,production,2040,SU,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,production,2040,FA,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,production,2045,WI,1.8865225632667464
+scarce_forest_ontime,scarce_forest,ontime,production,2045,SP,1.9767907354084377
+scarce_forest_ontime,scarce_forest,ontime,production,2045,SU,1.9767907354084377
+scarce_forest_ontime,scarce_forest,ontime,production,2045,FA,1.9767907354084377
+scarce_forest_ontime,scarce_forest,ontime,production,2050,WI,3.1479548783178997
+scarce_forest_ontime,scarce_forest,ontime,production,2050,SP,3.298581294552338
+scarce_forest_ontime,scarce_forest,ontime,production,2050,SU,3.298581294552338
+scarce_forest_ontime,scarce_forest,ontime,production,2050,FA,3.298581294552338
+scarce_forest_ontime,scarce_forest,ontime,use,2030,WI,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,use,2030,SP,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,use,2030,SU,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,use,2030,FA,0.0492696058428
+scarce_forest_ontime,scarce_forest,ontime,use,2035,WI,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,use,2035,SP,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,use,2035,SU,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,use,2035,FA,0.8134592739848532
+scarce_forest_ontime,scarce_forest,ontime,use,2040,WI,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,use,2040,SP,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,use,2040,SU,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,use,2040,FA,1.5949427133527712
+scarce_forest_ontime,scarce_forest,ontime,use,2045,WI,1.953880031819176
+scarce_forest_ontime,scarce_forest,ontime,use,2045,SP,1.953880031819176
+scarce_forest_ontime,scarce_forest,ontime,use,2045,SU,1.953880031819176
+scarce_forest_ontime,scarce_forest,ontime,use,2045,FA,1.953880031819176
+scarce_forest_ontime,scarce_forest,ontime,use,2050,WI,3.2603512396705012
+scarce_forest_ontime,scarce_forest,ontime,use,2050,SP,3.2603512396705012
+scarce_forest_ontime,scarce_forest,ontime,use,2050,SU,3.2603512396705012
+scarce_forest_ontime,scarce_forest,ontime,use,2050,FA,3.2603512396705012
+scarce_forest_ontime,scarce_forest,ontime,to storage,2045,SP,0.022910703589261727
+scarce_forest_ontime,scarce_forest,ontime,to storage,2045,SU,0.022910703589261727
+scarce_forest_ontime,scarce_forest,ontime,to storage,2045,FA,0.022910703589261727
+scarce_forest_ontime,scarce_forest,ontime,to storage,2050,SP,0.03823005488183684
+scarce_forest_ontime,scarce_forest,ontime,to storage,2050,SU,0.03823005488183684
+scarce_forest_ontime,scarce_forest,ontime,to storage,2050,FA,0.03823005488183684
+scarce_forest_ontime,scarce_forest,ontime,from storage,2045,WI,0.06735746855242947
+scarce_forest_ontime,scarce_forest,ontime,from storage,2050,WI,0.11239636135260031
+scarce_forest_ontime,scarce_forest,ontime,storage level,2045,SP,0.02245248951747649
+scarce_forest_ontime,scarce_forest,ontime,storage level,2045,SU,0.04490497903495298
+scarce_forest_ontime,scarce_forest,ontime,storage level,2045,FA,0.06735746855242947
+scarce_forest_ontime,scarce_forest,ontime,storage level,2050,SP,0.0374654537842001
+scarce_forest_ontime,scarce_forest,ontime,storage level,2050,SU,0.0749309075684002
+scarce_forest_ontime,scarce_forest,ontime,storage level,2050,FA,0.11239636135260031
+scarce_forest_delay,scarce_forest,delay,production,2035,WI,0.500127459128529
+scarce_forest_delay,scarce_forest,delay,production,2035,SP,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,production,2035,SU,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,production,2035,FA,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,production,2040,WI,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,production,2040,SP,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,production,2040,SU,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,production,2040,FA,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,production,2045,WI,1.8865225632667468
+scarce_forest_delay,scarce_forest,delay,production,2045,SP,1.976790735408438
+scarce_forest_delay,scarce_forest,delay,production,2045,SU,1.976790735408438
+scarce_forest_delay,scarce_forest,delay,production,2045,FA,1.976790735408438
+scarce_forest_delay,scarce_forest,delay,production,2050,WI,3.1479548783178997
+scarce_forest_delay,scarce_forest,delay,production,2050,SP,3.298581294552338
+scarce_forest_delay,scarce_forest,delay,production,2050,SU,3.298581294552338
+scarce_forest_delay,scarce_forest,delay,production,2050,FA,3.298581294552338
+scarce_forest_delay,scarce_forest,delay,use,2035,WI,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,use,2035,SP,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,use,2035,SU,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,use,2035,FA,0.5001274591285289
+scarce_forest_delay,scarce_forest,delay,use,2040,WI,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,use,2040,SP,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,use,2040,SU,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,use,2040,FA,1.4908942555471776
+scarce_forest_delay,scarce_forest,delay,use,2045,WI,1.953880031819176
+scarce_forest_delay,scarce_forest,delay,use,2045,SP,1.953880031819176
+scarce_forest_delay,scarce_forest,delay,use,2045,SU,1.953880031819176
+scarce_forest_delay,scarce_forest,delay,use,2045,FA,1.953880031819176
+scarce_forest_delay,scarce_forest,delay,use,2050,WI,3.2603512396705012
+scarce_forest_delay,scarce_forest,delay,use,2050,SP,3.2603512396705012
+scarce_forest_delay,scarce_forest,delay,use,2050,SU,3.2603512396705012
+scarce_forest_delay,scarce_forest,delay,use,2050,FA,3.2603512396705012
+scarce_forest_delay,scarce_forest,delay,to storage,2045,SP,0.02291070358926195
+scarce_forest_delay,scarce_forest,delay,to storage,2045,SU,0.02291070358926195
+scarce_forest_delay,scarce_forest,delay,to storage,2045,FA,0.02291070358926195
+scarce_forest_delay,scarce_forest,delay,to storage,2050,SP,0.03823005488183684
+scarce_forest_delay,scarce_forest,delay,to storage,2050,SU,0.03823005488183684
+scarce_forest_delay,scarce_forest,delay,to storage,2050,FA,0.03823005488183684
+scarce_forest_delay,scarce_forest,delay,from storage,2045,WI,0.06735746855243013
+scarce_forest_delay,scarce_forest,delay,from storage,2050,WI,0.11239636135260031
+scarce_forest_delay,scarce_forest,delay,storage level,2045,SP,0.02245248951747671
+scarce_forest_delay,scarce_forest,delay,storage level,2045,SU,0.04490497903495342
+scarce_forest_delay,scarce_forest,delay,storage level,2045,FA,0.06735746855243013
+scarce_forest_delay,scarce_forest,delay,storage level,2050,SP,0.0374654537842001
+scarce_forest_delay,scarce_forest,delay,storage level,2050,SU,0.0749309075684002
+scarce_forest_delay,scarce_forest,delay,storage level,2050,FA,0.11239636135260031
+electrons_win_ontime,electrons_win,ontime,production,2030,WI,0.093802646971425
+electrons_win_ontime,electrons_win,ontime,production,2030,SP,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,production,2030,SU,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,production,2030,FA,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,production,2035,WI,0.9417176126986826
+electrons_win_ontime,electrons_win,ontime,production,2035,SP,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,production,2035,SU,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,production,2035,FA,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,production,2040,WI,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,production,2040,SP,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,production,2040,SU,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,production,2040,FA,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,production,2045,WI,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,production,2045,SP,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,production,2045,SU,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,production,2045,FA,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,production,2050,WI,4.463330787029236
+electrons_win_ontime,electrons_win,ontime,production,2050,SP,4.4633307870292365
+electrons_win_ontime,electrons_win,ontime,production,2050,SU,4.4633307870292365
+electrons_win_ontime,electrons_win,ontime,production,2050,FA,4.4633307870292365
+electrons_win_ontime,electrons_win,ontime,use,2030,WI,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,use,2030,SP,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,use,2030,SU,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,use,2030,FA,0.09380264697142501
+electrons_win_ontime,electrons_win,ontime,use,2035,WI,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,use,2035,SP,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,use,2035,SU,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,use,2035,FA,0.9417176126986825
+electrons_win_ontime,electrons_win,ontime,use,2040,WI,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,use,2040,SP,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,use,2040,SU,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,use,2040,FA,1.8495324167418778
+electrons_win_ontime,electrons_win,ontime,use,2045,WI,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,use,2045,SP,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,use,2045,SU,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,use,2045,FA,2.4862745133169506
+electrons_win_ontime,electrons_win,ontime,use,2050,WI,4.4633307870292365
+electrons_win_ontime,electrons_win,ontime,use,2050,SP,4.4633307870292365
+electrons_win_ontime,electrons_win,ontime,use,2050,SU,4.4633307870292365
+electrons_win_ontime,electrons_win,ontime,use,2050,FA,4.4633307870292365
+electrons_win_delay,electrons_win,delay,production,2035,WI,0.5139313423660868
+electrons_win_delay,electrons_win,delay,production,2035,SP,0.5139313423660868
+electrons_win_delay,electrons_win,delay,production,2035,SU,0.5139313423660868
+electrons_win_delay,electrons_win,delay,production,2035,FA,0.5139313423660868
+electrons_win_delay,electrons_win,delay,production,2040,WI,1.9521553719380111
+electrons_win_delay,electrons_win,delay,production,2040,SP,1.952155371938011
+electrons_win_delay,electrons_win,delay,production,2040,SU,1.952155371938011
+electrons_win_delay,electrons_win,delay,production,2040,FA,1.952155371938011
+electrons_win_delay,electrons_win,delay,production,2045,WI,2.4862745133169506
+electrons_win_delay,electrons_win,delay,production,2045,SP,2.4862745133169506
+electrons_win_delay,electrons_win,delay,production,2045,SU,2.4862745133169506
+electrons_win_delay,electrons_win,delay,production,2045,FA,2.4862745133169506
+electrons_win_delay,electrons_win,delay,production,2050,WI,4.463330787029236
+electrons_win_delay,electrons_win,delay,production,2050,SP,4.4633307870292365
+electrons_win_delay,electrons_win,delay,production,2050,SU,4.4633307870292365
+electrons_win_delay,electrons_win,delay,production,2050,FA,4.4633307870292365
+electrons_win_delay,electrons_win,delay,use,2035,WI,0.5139313423660868
+electrons_win_delay,electrons_win,delay,use,2035,SP,0.5139313423660868
+electrons_win_delay,electrons_win,delay,use,2035,SU,0.5139313423660868
+electrons_win_delay,electrons_win,delay,use,2035,FA,0.5139313423660868
+electrons_win_delay,electrons_win,delay,use,2040,WI,1.952155371938011
+electrons_win_delay,electrons_win,delay,use,2040,SP,1.952155371938011
+electrons_win_delay,electrons_win,delay,use,2040,SU,1.952155371938011
+electrons_win_delay,electrons_win,delay,use,2040,FA,1.952155371938011
+electrons_win_delay,electrons_win,delay,use,2045,WI,2.4862745133169506
+electrons_win_delay,electrons_win,delay,use,2045,SP,2.4862745133169506
+electrons_win_delay,electrons_win,delay,use,2045,SU,2.4862745133169506
+electrons_win_delay,electrons_win,delay,use,2045,FA,2.4862745133169506
+electrons_win_delay,electrons_win,delay,use,2050,WI,4.4633307870292365
+electrons_win_delay,electrons_win,delay,use,2050,SP,4.4633307870292365
+electrons_win_delay,electrons_win,delay,use,2050,SU,4.4633307870292365
+electrons_win_delay,electrons_win,delay,use,2050,FA,4.4633307870292365
+forest_first_ontime_r02,forest_first,ontime,production,2030,WI,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,production,2030,SP,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,production,2030,SU,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,production,2030,FA,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,production,2035,WI,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,production,2035,SP,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,production,2035,SU,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,production,2035,FA,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,production,2040,WI,1.0022344725873684
+forest_first_ontime_r02,forest_first,ontime,production,2040,SP,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,production,2040,SU,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,production,2040,FA,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,production,2045,WI,1.7433902646467758
+forest_first_ontime_r02,forest_first,ontime,production,2045,SP,1.8268097029209585
+forest_first_ontime_r02,forest_first,ontime,production,2045,SU,1.8268097029209585
+forest_first_ontime_r02,forest_first,ontime,production,2045,FA,1.8268097029209585
+forest_first_ontime_r02,forest_first,ontime,production,2050,WI,2.697840181854251
+forest_first_ontime_r02,forest_first,ontime,production,2050,SP,2.826929070950117
+forest_first_ontime_r02,forest_first,ontime,production,2050,SU,2.826929070950117
+forest_first_ontime_r02,forest_first,ontime,production,2050,FA,2.826929070950117
+forest_first_ontime_r02,forest_first,ontime,use,2030,WI,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,use,2030,SP,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,use,2030,SU,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,use,2030,FA,0.04690132348571251
+forest_first_ontime_r02,forest_first,ontime,use,2035,WI,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,use,2035,SP,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,use,2035,SU,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,use,2035,FA,0.41615493884427135
+forest_first_ontime_r02,forest_first,ontime,use,2040,WI,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,use,2040,SP,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,use,2040,SU,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,use,2040,FA,1.0022344725873686
+forest_first_ontime_r02,forest_first,ontime,use,2045,WI,1.8056372566584753
+forest_first_ontime_r02,forest_first,ontime,use,2045,SP,1.8056372566584753
+forest_first_ontime_r02,forest_first,ontime,use,2045,SU,1.8056372566584753
+forest_first_ontime_r02,forest_first,ontime,use,2045,FA,1.8056372566584753
+forest_first_ontime_r02,forest_first,ontime,use,2050,WI,2.7941653935146182
+forest_first_ontime_r02,forest_first,ontime,use,2050,SP,2.7941653935146182
+forest_first_ontime_r02,forest_first,ontime,use,2050,SU,2.7941653935146182
+forest_first_ontime_r02,forest_first,ontime,use,2050,FA,2.7941653935146182
+forest_first_ontime_r02,forest_first,ontime,to storage,2045,SP,0.021172446262483158
+forest_first_ontime_r02,forest_first,ontime,to storage,2045,SU,0.021172446262483158
+forest_first_ontime_r02,forest_first,ontime,to storage,2045,FA,0.021172446262483158
+forest_first_ontime_r02,forest_first,ontime,to storage,2050,SP,0.032763677435498906
+forest_first_ontime_r02,forest_first,ontime,to storage,2050,SU,0.032763677435498906
+forest_first_ontime_r02,forest_first,ontime,to storage,2050,FA,0.032763677435498906
+forest_first_ontime_r02,forest_first,ontime,from storage,2045,WI,0.062246992011700475
+forest_first_ontime_r02,forest_first,ontime,from storage,2050,WI,0.09632521166036678
+forest_first_ontime_r02,forest_first,ontime,storage level,2045,SP,0.020748997337233493
+forest_first_ontime_r02,forest_first,ontime,storage level,2045,SU,0.041497994674466986
+forest_first_ontime_r02,forest_first,ontime,storage level,2045,FA,0.062246992011700475
+forest_first_ontime_r02,forest_first,ontime,storage level,2050,SP,0.03210840388678893
+forest_first_ontime_r02,forest_first,ontime,storage level,2050,SU,0.06421680777357786
+forest_first_ontime_r02,forest_first,ontime,storage level,2050,FA,0.09632521166036678
+forest_first_ontime_r07,forest_first,ontime,production,2030,WI,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,production,2030,SP,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,production,2030,SU,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,production,2030,FA,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,production,2035,WI,0.8107146302485708
+forest_first_ontime_r07,forest_first,ontime,production,2035,SP,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,production,2035,SU,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,production,2035,FA,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,production,2040,WI,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,production,2040,SP,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,production,2040,SU,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,production,2040,FA,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,production,2045,WI,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,production,2045,SP,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,production,2045,SU,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,production,2045,FA,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,production,2050,WI,2.7941653935146187
+forest_first_ontime_r07,forest_first,ontime,production,2050,SP,2.7941653935146182
+forest_first_ontime_r07,forest_first,ontime,production,2050,SU,2.7941653935146182
+forest_first_ontime_r07,forest_first,ontime,production,2050,FA,2.7941653935146182
+forest_first_ontime_r07,forest_first,ontime,use,2030,WI,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,use,2030,SP,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,use,2030,SU,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,use,2030,FA,0.0954312965624742
+forest_first_ontime_r07,forest_first,ontime,use,2035,WI,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,use,2035,SP,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,use,2035,SU,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,use,2035,FA,0.8107146302485707
+forest_first_ontime_r07,forest_first,ontime,use,2040,WI,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,use,2040,SP,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,use,2040,SU,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,use,2040,FA,1.5567353302782183
+forest_first_ontime_r07,forest_first,ontime,use,2045,WI,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,use,2045,SP,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,use,2045,SU,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,use,2045,FA,1.8056372566584753
+forest_first_ontime_r07,forest_first,ontime,use,2050,WI,2.7941653935146182
+forest_first_ontime_r07,forest_first,ontime,use,2050,SP,2.7941653935146182
+forest_first_ontime_r07,forest_first,ontime,use,2050,SU,2.7941653935146182
+forest_first_ontime_r07,forest_first,ontime,use,2050,FA,2.7941653935146182
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2030,WI,0.12279366509615473
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2030,SP,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2030,SU,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2030,FA,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2035,WI,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2035,SP,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2035,SU,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2035,FA,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2040,WI,1.227031399255436
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2040,SP,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2040,SU,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2040,FA,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2045,WI,1.7613586158051138
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2045,SP,1.8056372566584753
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2045,SU,1.8108189786260955
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2045,FA,1.8456378212758544
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2050,WI,2.697840181854251
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2050,SP,2.826929070950117
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2050,SU,2.826929070950117
+forest_first_ontime_nonco2x2,forest_first,ontime,production,2050,FA,2.826929070950117
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2030,WI,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2030,SP,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2030,SU,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2030,FA,0.12279366509615475
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2035,WI,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2035,SP,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2035,SU,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2035,FA,0.5675562048168467
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2040,WI,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2040,SP,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2040,SU,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2040,FA,1.2270313992554358
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2045,WI,1.8056372566584753
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2045,SP,1.8056372566584753
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2045,SU,1.8056372566584753
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2045,FA,1.8056372566584753
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2050,WI,2.7941653935146182
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2050,SP,2.7941653935146182
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2050,SU,2.7941653935146182
+forest_first_ontime_nonco2x2,forest_first,ontime,use,2050,FA,2.7941653935146182
+forest_first_ontime_nonco2x2,forest_first,ontime,to storage,2045,SU,0.005181721967620234
+forest_first_ontime_nonco2x2,forest_first,ontime,to storage,2045,FA,0.04000056461737911
+forest_first_ontime_nonco2x2,forest_first,ontime,to storage,2050,SP,0.032763677435498906
+forest_first_ontime_nonco2x2,forest_first,ontime,to storage,2050,SU,0.032763677435498906
+forest_first_ontime_nonco2x2,forest_first,ontime,to storage,2050,FA,0.032763677435498906
+forest_first_ontime_nonco2x2,forest_first,ontime,from storage,2045,WI,0.044278640853299356
+forest_first_ontime_nonco2x2,forest_first,ontime,from storage,2050,WI,0.09632521166036678
+forest_first_ontime_nonco2x2,forest_first,ontime,storage level,2045,SU,0.005078087528267829
+forest_first_ontime_nonco2x2,forest_first,ontime,storage level,2045,FA,0.044278640853299356
+forest_first_ontime_nonco2x2,forest_first,ontime,storage level,2050,SP,0.03210840388678893
+forest_first_ontime_nonco2x2,forest_first,ontime,storage level,2050,SU,0.06421680777357786
+forest_first_ontime_nonco2x2,forest_first,ontime,storage level,2050,FA,0.09632521166036678
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2030,WI,0.04926960584279999
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2030,SP,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2030,SU,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2030,FA,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2035,WI,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2035,SP,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2035,SU,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2035,FA,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2040,WI,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2040,SP,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2040,SU,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2040,FA,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2045,WI,1.8865225632667464
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2045,SP,1.9767907354084377
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2045,SU,1.9767907354084377
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2045,FA,1.9767907354084377
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2050,WI,3.1479548783179006
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2050,SP,3.2985812945523385
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2050,SU,3.2985812945523385
+scarce_forest_ontime_r02,scarce_forest,ontime,production,2050,FA,3.2985812945523385
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2030,WI,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2030,SP,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2030,SU,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2030,FA,0.0492696058428
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2035,WI,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2035,SP,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2035,SU,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2035,FA,0.7509873148894817
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2040,WI,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2040,SP,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2040,SU,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2040,FA,1.5511553740484536
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2045,WI,1.953880031819176
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2045,SP,1.953880031819176
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2045,SU,1.953880031819176
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2045,FA,1.953880031819176
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2050,WI,3.2603512396705012
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2050,SP,3.2603512396705012
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2050,SU,3.2603512396705012
+scarce_forest_ontime_r02,scarce_forest,ontime,use,2050,FA,3.2603512396705012
+scarce_forest_ontime_r02,scarce_forest,ontime,to storage,2045,SP,0.022910703589261727
+scarce_forest_ontime_r02,scarce_forest,ontime,to storage,2045,SU,0.022910703589261727
+scarce_forest_ontime_r02,scarce_forest,ontime,to storage,2045,FA,0.022910703589261727
+scarce_forest_ontime_r02,scarce_forest,ontime,to storage,2050,SP,0.03823005488183728
+scarce_forest_ontime_r02,scarce_forest,ontime,to storage,2050,SU,0.03823005488183728
+scarce_forest_ontime_r02,scarce_forest,ontime,to storage,2050,FA,0.03823005488183728
+scarce_forest_ontime_r02,scarce_forest,ontime,from storage,2045,WI,0.06735746855242947
+scarce_forest_ontime_r02,scarce_forest,ontime,from storage,2050,WI,0.1123963613526016
+scarce_forest_ontime_r02,scarce_forest,ontime,storage level,2045,SP,0.02245248951747649
+scarce_forest_ontime_r02,scarce_forest,ontime,storage level,2045,SU,0.04490497903495298
+scarce_forest_ontime_r02,scarce_forest,ontime,storage level,2045,FA,0.06735746855242947
+scarce_forest_ontime_r02,scarce_forest,ontime,storage level,2050,SP,0.037465453784200534
+scarce_forest_ontime_r02,scarce_forest,ontime,storage level,2050,SU,0.07493090756840107
+scarce_forest_ontime_r02,scarce_forest,ontime,storage level,2050,FA,0.1123963613526016
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2030,WI,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2030,SP,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2030,SU,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2030,FA,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2035,WI,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2035,SP,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2035,SU,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2035,FA,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2040,WI,1.5959701067507646
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2040,SP,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2040,SU,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2040,FA,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2045,WI,1.9538800318191758
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2045,SP,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2045,SU,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2045,FA,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2050,WI,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2050,SP,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2050,SU,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,production,2050,FA,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2030,WI,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2030,SP,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2030,SU,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2030,FA,0.10056146014243955
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2035,WI,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2035,SP,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2035,SU,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2035,FA,0.8312860088662917
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2040,WI,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2040,SP,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2040,SU,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2040,FA,1.5959701067507648
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2045,WI,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2045,SP,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2045,SU,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2045,FA,1.953880031819176
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2050,WI,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2050,SP,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2050,SU,3.2603512396705012
+scarce_forest_ontime_r07,scarce_forest,ontime,use,2050,FA,3.2603512396705012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2030,WI,0.06980749489344928
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2030,SP,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2030,SU,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2030,FA,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2035,WI,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2035,SP,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2035,SU,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2035,FA,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2040,WI,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2040,SP,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2040,SU,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2040,FA,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2045,WI,1.8865225632667464
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2045,SP,1.9767907354084377
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2045,SU,1.9767907354084377
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2045,FA,1.9767907354084377
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2050,WI,3.1479548783178997
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2050,SP,3.298581294552338
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2050,SU,3.298581294552338
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,production,2050,FA,3.298581294552338
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2030,WI,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2030,SP,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2030,SU,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2030,FA,0.06980749489344927
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2035,WI,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2035,SP,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2035,SU,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2035,FA,0.8459396458491142
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2040,WI,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2040,SP,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2040,SU,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2040,FA,1.5945625584132705
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2045,WI,1.953880031819176
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2045,SP,1.953880031819176
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2045,SU,1.953880031819176
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2045,FA,1.953880031819176
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2050,WI,3.2603512396705012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2050,SP,3.2603512396705012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2050,SU,3.2603512396705012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,use,2050,FA,3.2603512396705012
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,to storage,2045,SP,0.022910703589261727
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,to storage,2045,SU,0.022910703589261727
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,to storage,2045,FA,0.022910703589261727
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,to storage,2050,SP,0.03823005488183684
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,to storage,2050,SU,0.03823005488183684
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,to storage,2050,FA,0.03823005488183684
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,from storage,2045,WI,0.06735746855242947
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,from storage,2050,WI,0.11239636135260031
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,storage level,2045,SP,0.02245248951747649
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,storage level,2045,SU,0.04490497903495298
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,storage level,2045,FA,0.06735746855242947
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,storage level,2050,SP,0.0374654537842001
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,storage level,2050,SU,0.0749309075684002
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,storage level,2050,FA,0.11239636135260031
+electrons_win_ontime_r02,electrons_win,ontime,production,2030,WI,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,production,2030,SP,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,production,2030,SU,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,production,2030,FA,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,production,2035,WI,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,production,2035,SP,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,production,2035,SU,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,production,2035,FA,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,production,2040,WI,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,production,2040,SP,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,production,2040,SU,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,production,2040,FA,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,production,2045,WI,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,production,2045,SP,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,production,2045,SU,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,production,2045,FA,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,production,2050,WI,4.463330787029237
+electrons_win_ontime_r02,electrons_win,ontime,production,2050,SP,4.4633307870292365
+electrons_win_ontime_r02,electrons_win,ontime,production,2050,SU,4.4633307870292365
+electrons_win_ontime_r02,electrons_win,ontime,production,2050,FA,4.4633307870292365
+electrons_win_ontime_r02,electrons_win,ontime,use,2030,WI,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,use,2030,SP,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,use,2030,SU,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,use,2030,FA,0.09380264697142501
+electrons_win_ontime_r02,electrons_win,ontime,use,2035,WI,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,use,2035,SP,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,use,2035,SU,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,use,2035,FA,0.7452173288665722
+electrons_win_ontime_r02,electrons_win,ontime,use,2040,WI,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,use,2040,SP,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,use,2040,SU,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,use,2040,FA,1.777995857805514
+electrons_win_ontime_r02,electrons_win,ontime,use,2045,WI,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,use,2045,SP,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,use,2045,SU,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,use,2045,FA,2.4862745133169506
+electrons_win_ontime_r02,electrons_win,ontime,use,2050,WI,4.4633307870292365
+electrons_win_ontime_r02,electrons_win,ontime,use,2050,SP,4.4633307870292365
+electrons_win_ontime_r02,electrons_win,ontime,use,2050,SU,4.4633307870292365
+electrons_win_ontime_r02,electrons_win,ontime,use,2050,FA,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,production,2030,WI,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,production,2030,SP,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,production,2030,SU,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,production,2030,FA,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,production,2035,WI,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,production,2035,SP,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,production,2035,SU,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,production,2035,FA,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,production,2040,WI,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,production,2040,SP,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,production,2040,SU,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,production,2040,FA,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,production,2045,WI,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,production,2045,SP,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,production,2045,SU,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,production,2045,FA,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,production,2050,WI,4.463330787029237
+electrons_win_ontime_r07,electrons_win,ontime,production,2050,SP,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,production,2050,SU,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,production,2050,FA,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,use,2030,WI,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,use,2030,SP,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,use,2030,SU,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,use,2030,FA,0.14863252978148328
+electrons_win_ontime_r07,electrons_win,ontime,use,2035,WI,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,use,2035,SP,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,use,2035,SU,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,use,2035,FA,1.0444644167409196
+electrons_win_ontime_r07,electrons_win,ontime,use,2040,WI,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,use,2040,SP,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,use,2040,SU,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,use,2040,FA,1.9884706605564366
+electrons_win_ontime_r07,electrons_win,ontime,use,2045,WI,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,use,2045,SP,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,use,2045,SU,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,use,2045,FA,2.4862745133169506
+electrons_win_ontime_r07,electrons_win,ontime,use,2050,WI,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,use,2050,SP,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,use,2050,SU,4.4633307870292365
+electrons_win_ontime_r07,electrons_win,ontime,use,2050,FA,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2030,WI,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2030,SP,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2030,SU,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2030,FA,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2035,WI,0.968597050981247
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2035,SP,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2035,SU,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2035,FA,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2040,WI,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2040,SP,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2040,SU,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2040,FA,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2045,WI,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2045,SP,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2045,SU,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2045,FA,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2050,WI,4.463330787029236
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2050,SP,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2050,SU,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,production,2050,FA,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2030,WI,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2030,SP,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2030,SU,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2030,FA,0.11039844598211515
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2035,WI,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2035,SP,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2035,SU,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2035,FA,0.9685970509812469
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2040,WI,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2040,SP,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2040,SU,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2040,FA,1.883206678622591
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2045,WI,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2045,SP,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2045,SU,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2045,FA,2.4862745133169506
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2050,WI,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2050,SP,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2050,SU,4.4633307870292365
+electrons_win_ontime_nonco2x2,electrons_win,ontime,use,2050,FA,4.4633307870292365

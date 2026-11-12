@@ -1,0 +1,778 @@
+run,scenario,timing,uni,T,value
+forest_first_ontime,forest_first,ontime,electricity,2025,15.5584443370002
+forest_first_ontime,forest_first,ontime,electricity,2030,30.024248640746613
+forest_first_ontime,forest_first,ontime,electricity,2035,29.323329604651644
+forest_first_ontime,forest_first,ontime,electricity,2040,42.06351630325519
+forest_first_ontime,forest_first,ontime,electricity,2045,45.53284388223367
+forest_first_ontime,forest_first,ontime,electricity,2050,45.02497421874109
+forest_first_ontime,forest_first,ontime,electricity flat,2025,15.015986088306528
+forest_first_ontime,forest_first,ontime,electricity flat,2030,29.687817356373344
+forest_first_ontime,forest_first,ontime,electricity flat,2035,28.659838814128623
+forest_first_ontime,forest_first,ontime,electricity flat,2040,40.73891818635834
+forest_first_ontime,forest_first,ontime,electricity flat,2045,42.94804928946836
+forest_first_ontime,forest_first,ontime,electricity flat,2050,42.348367143722044
+forest_first_ontime,forest_first,ontime,district heat,2025,35.39091415365194
+forest_first_ontime,forest_first,ontime,district heat,2030,33.46765691144176
+forest_first_ontime,forest_first,ontime,district heat,2035,45.09807702390306
+forest_first_ontime,forest_first,ontime,district heat,2040,46.159393990403274
+forest_first_ontime,forest_first,ontime,district heat,2045,47.529696515771754
+forest_first_ontime,forest_first,ontime,district heat,2050,47.647725672027384
+forest_first_ontime,forest_first,ontime,hydrogen,2030,67.55538328990349
+forest_first_ontime,forest_first,ontime,hydrogen,2035,63.966257942554236
+forest_first_ontime,forest_first,ontime,hydrogen,2040,76.66038881475468
+forest_first_ontime,forest_first,ontime,hydrogen,2045,78.41231118393246
+forest_first_ontime,forest_first,ontime,hydrogen,2050,76.2237861514266
+forest_first_ontime,forest_first,ontime,biomethane price,2025,39.1304347826087
+forest_first_ontime,forest_first,ontime,biomethane price,2030,59.878107905566836
+forest_first_ontime,forest_first,ontime,biomethane price,2035,58.973894997610735
+forest_first_ontime,forest_first,ontime,biomethane price,2040,63.010579792350526
+forest_first_ontime,forest_first,ontime,biomethane price,2045,72.7042923752475
+forest_first_ontime,forest_first,ontime,biomethane price,2050,70.38608535381461
+forest_first_ontime,forest_first,ontime,gas grid,2025,35.0
+forest_first_ontime,forest_first,ontime,gas grid,2030,35.0
+forest_first_ontime,forest_first,ontime,gas grid,2035,35.0
+forest_first_ontime,forest_first,ontime,gas grid,2040,35.0
+forest_first_ontime,forest_first,ontime,gas grid,2045,35.0
+forest_first_ontime,forest_first,ontime,gas grid,2050,35.0
+forest_first_ontime,forest_first,ontime,forest biomass,2025,30.0
+forest_first_ontime,forest_first,ontime,forest biomass,2030,30.0
+forest_first_ontime,forest_first,ontime,forest biomass,2035,22.0
+forest_first_ontime,forest_first,ontime,forest biomass,2040,24.049993322120162
+forest_first_ontime,forest_first,ontime,forest biomass,2045,30.0
+forest_first_ontime,forest_first,ontime,forest biomass,2050,30.0
+forest_first_ontime,forest_first,ontime,HT heat,2025,40.885
+forest_first_ontime,forest_first,ontime,HT heat,2030,60.93994173123814
+forest_first_ontime,forest_first,ontime,HT heat,2035,60.065919036055675
+forest_first_ontime,forest_first,ontime,HT heat,2040,63.967825426527035
+forest_first_ontime,forest_first,ontime,HT heat,2045,73.33788055787814
+forest_first_ontime,forest_first,ontime,HT heat,2050,71.09707473544886
+forest_first_ontime,forest_first,ontime,CO2,2030,89.36263704644887
+forest_first_ontime,forest_first,ontime,CO2,2035,85.46808706836083
+forest_first_ontime,forest_first,ontime,CO2,2040,102.85455715806401
+forest_first_ontime,forest_first,ontime,CO2,2045,144.60650273983006
+forest_first_ontime,forest_first,ontime,CO2,2050,134.6217159433962
+forest_first_delay,forest_first,delay,electricity,2025,15.5584443370002
+forest_first_delay,forest_first,delay,electricity,2030,26.011513688916093
+forest_first_delay,forest_first,delay,electricity,2035,29.323329604651644
+forest_first_delay,forest_first,delay,electricity,2040,41.38587553668885
+forest_first_delay,forest_first,delay,electricity,2045,45.799029037176666
+forest_first_delay,forest_first,delay,electricity,2050,45.450079709998704
+forest_first_delay,forest_first,delay,electricity flat,2025,15.015986088306528
+forest_first_delay,forest_first,delay,electricity flat,2030,25.652573148
+forest_first_delay,forest_first,delay,electricity flat,2035,28.659838814128623
+forest_first_delay,forest_first,delay,electricity flat,2040,39.64460232384373
+forest_first_delay,forest_first,delay,electricity flat,2045,43.157030068609984
+forest_first_delay,forest_first,delay,electricity flat,2050,42.67936002631576
+forest_first_delay,forest_first,delay,district heat,2025,35.39091415365194
+forest_first_delay,forest_first,delay,district heat,2030,33.84101118776295
+forest_first_delay,forest_first,delay,district heat,2035,45.09807702390306
+forest_first_delay,forest_first,delay,district heat,2040,46.05096191817268
+forest_first_delay,forest_first,delay,district heat,2045,47.69629026734892
+forest_first_delay,forest_first,delay,district heat,2050,47.90045332281931
+forest_first_delay,forest_first,delay,hydrogen,2035,63.966257942554115
+forest_first_delay,forest_first,delay,hydrogen,2040,75.12841948333056
+forest_first_delay,forest_first,delay,hydrogen,2045,78.75445098637334
+forest_first_delay,forest_first,delay,hydrogen,2050,76.71748855272236
+forest_first_delay,forest_first,delay,biomethane price,2025,39.1304347826087
+forest_first_delay,forest_first,delay,biomethane price,2030,55.46133711491228
+forest_first_delay,forest_first,delay,biomethane price,2035,58.97389499761072
+forest_first_delay,forest_first,delay,biomethane price,2040,62.55951709580758
+forest_first_delay,forest_first,delay,biomethane price,2045,72.26521463734979
+forest_first_delay,forest_first,delay,biomethane price,2050,70.53732233102433
+forest_first_delay,forest_first,delay,gas grid,2025,35.0
+forest_first_delay,forest_first,delay,gas grid,2030,35.0
+forest_first_delay,forest_first,delay,gas grid,2035,35.0
+forest_first_delay,forest_first,delay,gas grid,2040,35.0
+forest_first_delay,forest_first,delay,gas grid,2045,35.0
+forest_first_delay,forest_first,delay,gas grid,2050,35.0
+forest_first_delay,forest_first,delay,forest biomass,2025,30.0
+forest_first_delay,forest_first,delay,forest biomass,2030,30.0
+forest_first_delay,forest_first,delay,forest biomass,2035,22.0
+forest_first_delay,forest_first,delay,forest biomass,2040,22.318630462945922
+forest_first_delay,forest_first,delay,forest biomass,2045,30.0
+forest_first_delay,forest_first,delay,forest biomass,2050,30.0
+forest_first_delay,forest_first,delay,HT heat,2025,40.885
+forest_first_delay,forest_first,delay,HT heat,2030,56.67063980413209
+forest_first_delay,forest_first,delay,HT heat,2035,60.065919036055654
+forest_first_delay,forest_first,delay,HT heat,2040,63.53182298699111
+forest_first_delay,forest_first,delay,HT heat,2045,72.91346291851988
+forest_first_delay,forest_first,delay,HT heat,2050,71.24326215355474
+forest_first_delay,forest_first,delay,CO2,2030,70.33909244250606
+forest_first_delay,forest_first,delay,CO2,2035,85.46808706836076
+forest_first_delay,forest_first,delay,CO2,2040,100.9117777534783
+forest_first_delay,forest_first,delay,CO2,2045,142.7153439436414
+forest_first_delay,forest_first,delay,CO2,2050,135.2731111635879
+scarce_forest_ontime,scarce_forest,ontime,electricity,2025,15.5584443370002
+scarce_forest_ontime,scarce_forest,ontime,electricity,2030,27.92814781695607
+scarce_forest_ontime,scarce_forest,ontime,electricity,2035,41.21500917497888
+scarce_forest_ontime,scarce_forest,ontime,electricity,2040,41.9512647006569
+scarce_forest_ontime,scarce_forest,ontime,electricity,2045,47.60495150284509
+scarce_forest_ontime,scarce_forest,ontime,electricity,2050,45.75434888750132
+scarce_forest_ontime,scarce_forest,ontime,electricity flat,2025,15.015986088306528
+scarce_forest_ontime,scarce_forest,ontime,electricity flat,2030,27.579958549125458
+scarce_forest_ontime,scarce_forest,ontime,electricity flat,2035,39.95395646118746
+scarce_forest_ontime,scarce_forest,ontime,electricity flat,2040,40.653087527877894
+scarce_forest_ontime,scarce_forest,ontime,electricity flat,2045,44.4820285640132
+scarce_forest_ontime,scarce_forest,ontime,electricity flat,2050,42.879827456426696
+scarce_forest_ontime,scarce_forest,ontime,district heat,2025,35.39091415365194
+scarce_forest_ontime,scarce_forest,ontime,district heat,2030,36.034830029603526
+scarce_forest_ontime,scarce_forest,ontime,district heat,2035,51.27673812440661
+scarce_forest_ontime,scarce_forest,ontime,district heat,2040,49.38373391342643
+scarce_forest_ontime,scarce_forest,ontime,district heat,2045,48.7372810227285
+scarce_forest_ontime,scarce_forest,ontime,district heat,2050,48.08598680223147
+scarce_forest_ontime,scarce_forest,ontime,hydrogen,2030,64.35708328618927
+scarce_forest_ontime,scarce_forest,ontime,hydrogen,2035,79.13052551971118
+scarce_forest_ontime,scarce_forest,ontime,hydrogen,2040,76.52593104799415
+scarce_forest_ontime,scarce_forest,ontime,hydrogen,2045,80.07327739351491
+scarce_forest_ontime,scarce_forest,ontime,hydrogen,2050,76.66844407289996
+scarce_forest_ontime,scarce_forest,ontime,biomethane price,2025,39.1304347826087
+scarce_forest_ontime,scarce_forest,ontime,biomethane price,2030,58.0183750912426
+scarce_forest_ontime,scarce_forest,ontime,biomethane price,2035,63.48464623080924
+scarce_forest_ontime,scarce_forest,ontime,biomethane price,2040,62.972005585721085
+scarce_forest_ontime,scarce_forest,ontime,biomethane price,2045,84.42189717034461
+scarce_forest_ontime,scarce_forest,ontime,biomethane price,2050,71.68260869565218
+scarce_forest_ontime,scarce_forest,ontime,gas grid,2025,35.0
+scarce_forest_ontime,scarce_forest,ontime,gas grid,2030,35.0
+scarce_forest_ontime,scarce_forest,ontime,gas grid,2035,35.0
+scarce_forest_ontime,scarce_forest,ontime,gas grid,2040,35.0
+scarce_forest_ontime,scarce_forest,ontime,gas grid,2045,35.0
+scarce_forest_ontime,scarce_forest,ontime,gas grid,2050,35.0
+scarce_forest_ontime,scarce_forest,ontime,forest biomass,2025,30.0
+scarce_forest_ontime,scarce_forest,ontime,forest biomass,2030,32.181662306423455
+scarce_forest_ontime,scarce_forest,ontime,forest biomass,2035,30.0
+scarce_forest_ontime,scarce_forest,ontime,forest biomass,2040,30.000000000000004
+scarce_forest_ontime,scarce_forest,ontime,forest biomass,2045,37.72515383858049
+scarce_forest_ontime,scarce_forest,ontime,forest biomass,2050,35.987753166348426
+scarce_forest_ontime,scarce_forest,ontime,HT heat,2025,40.885
+scarce_forest_ontime,scarce_forest,ontime,HT heat,2030,59.14230240050888
+scarce_forest_ontime,scarce_forest,ontime,HT heat,2035,64.4260635500834
+scarce_forest_ontime,scarce_forest,ontime,HT heat,2040,63.93053915053371
+scarce_forest_ontime,scarce_forest,ontime,HT heat,2045,84.66425339991586
+scarce_forest_ontime,scarce_forest,ontime,HT heat,2050,72.35030925093633
+scarce_forest_ontime,scarce_forest,ontime,CO2,2030,81.3525518911198
+scarce_forest_ontime,scarce_forest,ontime,CO2,2035,104.89641634992736
+scarce_forest_ontime,scarce_forest,ontime,CO2,2040,102.68841357145784
+scarce_forest_ontime,scarce_forest,ontime,CO2,2045,195.07558706328197
+scarce_forest_ontime,scarce_forest,ontime,CO2,2050,140.20599250936328
+scarce_forest_delay,scarce_forest,delay,electricity,2025,15.5584443370002
+scarce_forest_delay,scarce_forest,delay,electricity,2030,36.55375456128304
+scarce_forest_delay,scarce_forest,delay,electricity,2035,30.509318268714825
+scarce_forest_delay,scarce_forest,delay,electricity,2040,42.73903001987824
+scarce_forest_delay,scarce_forest,delay,electricity,2045,47.604951502845104
+scarce_forest_delay,scarce_forest,delay,electricity,2050,45.754348887501344
+scarce_forest_delay,scarce_forest,delay,electricity flat,2025,15.015986088306528
+scarce_forest_delay,scarce_forest,delay,electricity flat,2030,36.25395024719999
+scarce_forest_delay,scarce_forest,delay,electricity flat,2035,29.274540629065257
+scarce_forest_delay,scarce_forest,delay,electricity flat,2040,41.16963101345596
+scarce_forest_delay,scarce_forest,delay,electricity flat,2045,44.4820285640132
+scarce_forest_delay,scarce_forest,delay,electricity flat,2050,42.87982745642672
+scarce_forest_delay,scarce_forest,delay,district heat,2025,35.39091415365194
+scarce_forest_delay,scarce_forest,delay,district heat,2030,45.62882138857393
+scarce_forest_delay,scarce_forest,delay,district heat,2035,45.33235268192106
+scarce_forest_delay,scarce_forest,delay,district heat,2040,49.38373391342643
+scarce_forest_delay,scarce_forest,delay,district heat,2045,48.7344831507752
+scarce_forest_delay,scarce_forest,delay,district heat,2050,48.08598680223147
+scarce_forest_delay,scarce_forest,delay,hydrogen,2035,63.18953327740238
+scarce_forest_delay,scarce_forest,delay,hydrogen,2040,76.52593104799412
+scarce_forest_delay,scarce_forest,delay,hydrogen,2045,80.07327739351501
+scarce_forest_delay,scarce_forest,delay,hydrogen,2050,76.66844407289997
+scarce_forest_delay,scarce_forest,delay,biomethane price,2025,39.1304347826087
+scarce_forest_delay,scarce_forest,delay,biomethane price,2030,62.050119787413436
+scarce_forest_delay,scarce_forest,delay,biomethane price,2035,58.86136601997694
+scarce_forest_delay,scarce_forest,delay,biomethane price,2040,63.02331164873875
+scarce_forest_delay,scarce_forest,delay,biomethane price,2045,84.42189717034458
+scarce_forest_delay,scarce_forest,delay,biomethane price,2050,71.68260869565218
+scarce_forest_delay,scarce_forest,delay,gas grid,2025,35.0
+scarce_forest_delay,scarce_forest,delay,gas grid,2030,35.0
+scarce_forest_delay,scarce_forest,delay,gas grid,2035,35.0
+scarce_forest_delay,scarce_forest,delay,gas grid,2040,35.0
+scarce_forest_delay,scarce_forest,delay,gas grid,2045,35.0
+scarce_forest_delay,scarce_forest,delay,gas grid,2050,35.0
+scarce_forest_delay,scarce_forest,delay,forest biomass,2025,30.0
+scarce_forest_delay,scarce_forest,delay,forest biomass,2030,42.0
+scarce_forest_delay,scarce_forest,delay,forest biomass,2035,22.435413785580124
+scarce_forest_delay,scarce_forest,delay,forest biomass,2040,30.000000000000004
+scarce_forest_delay,scarce_forest,delay,forest biomass,2045,38.17030884799939
+scarce_forest_delay,scarce_forest,delay,forest biomass,2050,35.98775316634843
+scarce_forest_delay,scarce_forest,delay,HT heat,2025,40.885
+scarce_forest_delay,scarce_forest,delay,HT heat,2030,63.03943363434656
+scarce_forest_delay,scarce_forest,delay,HT heat,2035,59.95714721975864
+scarce_forest_delay,scarce_forest,delay,HT heat,2040,63.98013218673495
+scarce_forest_delay,scarce_forest,delay,HT heat,2045,84.66425339991584
+scarce_forest_delay,scarce_forest,delay,HT heat,2050,72.35030925093633
+scarce_forest_delay,scarce_forest,delay,CO2,2030,98.71774440271705
+scarce_forest_delay,scarce_forest,delay,CO2,2035,84.9834116965299
+scarce_forest_delay,scarce_forest,delay,CO2,2040,102.90939474175863
+scarce_forest_delay,scarce_forest,delay,CO2,2045,195.07558706328183
+scarce_forest_delay,scarce_forest,delay,CO2,2050,140.2059925093633
+electrons_win_ontime,electrons_win,ontime,electricity,2025,15.5584443370002
+electrons_win_ontime,electrons_win,ontime,electricity,2030,26.011513688916093
+electrons_win_ontime,electrons_win,ontime,electricity,2035,26.820693062607038
+electrons_win_ontime,electrons_win,ontime,electricity,2040,38.13496621857209
+electrons_win_ontime,electrons_win,ontime,electricity,2045,41.19436190992559
+electrons_win_ontime,electrons_win,ontime,electricity,2050,39.991628299616636
+electrons_win_ontime,electrons_win,ontime,electricity flat,2025,15.015986088306528
+electrons_win_ontime,electrons_win,ontime,electricity flat,2030,25.652573148
+electrons_win_ontime,electrons_win,ontime,electricity flat,2035,26.17239442834879
+electrons_win_ontime,electrons_win,ontime,electricity flat,2040,36.862706562461995
+electrons_win_ontime,electrons_win,ontime,electricity flat,2045,39.003048849991586
+electrons_win_ontime,electrons_win,ontime,electricity flat,2050,38.13804482550161
+electrons_win_ontime,electrons_win,ontime,district heat,2025,35.39091415365194
+electrons_win_ontime,electrons_win,ontime,district heat,2030,33.713975906806596
+electrons_win_ontime,electrons_win,ontime,district heat,2035,44.86337829042572
+electrons_win_ontime,electrons_win,ontime,district heat,2040,45.00888298131704
+electrons_win_ontime,electrons_win,ontime,district heat,2045,45.45062350575651
+electrons_win_ontime,electrons_win,ontime,district heat,2050,44.79527682150726
+electrons_win_ontime,electrons_win,ontime,hydrogen,2030,55.81988160625524
+electrons_win_ontime,electrons_win,ontime,hydrogen,2035,55.11509480786077
+electrons_win_ontime,electrons_win,ontime,hydrogen,2040,67.22705830842614
+electrons_win_ontime,electrons_win,ontime,hydrogen,2045,68.7840342117397
+electrons_win_ontime,electrons_win,ontime,hydrogen,2050,66.65905588878299
+electrons_win_ontime,electrons_win,ontime,biomethane price,2025,39.1304347826087
+electrons_win_ontime,electrons_win,ontime,biomethane price,2030,52.05804663688729
+electrons_win_ontime,electrons_win,ontime,biomethane price,2035,56.74874404511771
+electrons_win_ontime,electrons_win,ontime,biomethane price,2040,60.517384049869335
+electrons_win_ontime,electrons_win,ontime,biomethane price,2045,78.94245149403872
+electrons_win_ontime,electrons_win,ontime,biomethane price,2050,66.72739429265305
+electrons_win_ontime,electrons_win,ontime,gas grid,2025,35.0
+electrons_win_ontime,electrons_win,ontime,gas grid,2030,35.0
+electrons_win_ontime,electrons_win,ontime,gas grid,2035,35.0
+electrons_win_ontime,electrons_win,ontime,gas grid,2040,35.0
+electrons_win_ontime,electrons_win,ontime,gas grid,2045,35.0
+electrons_win_ontime,electrons_win,ontime,gas grid,2050,35.0
+electrons_win_ontime,electrons_win,ontime,forest biomass,2025,30.0
+electrons_win_ontime,electrons_win,ontime,forest biomass,2030,30.0
+electrons_win_ontime,electrons_win,ontime,forest biomass,2035,22.0
+electrons_win_ontime,electrons_win,ontime,forest biomass,2040,22.64395956776942
+electrons_win_ontime,electrons_win,ontime,forest biomass,2045,30.0
+electrons_win_ontime,electrons_win,ontime,forest biomass,2050,30.0
+electrons_win_ontime,electrons_win,ontime,HT heat,2025,40.885
+electrons_win_ontime,electrons_win,ontime,HT heat,2030,53.38097971421365
+electrons_win_ontime,electrons_win,ontime,HT heat,2035,57.915062290289946
+electrons_win_ontime,electrons_win,ontime,HT heat,2040,61.55787347462824
+electrons_win_ontime,electrons_win,ontime,HT heat,2045,79.3677575901664
+electrons_win_ontime,electrons_win,ontime,HT heat,2050,67.5605414765455
+electrons_win_ontime,electrons_win,ontime,CO2,2030,55.680725215057585
+electrons_win_ontime,electrons_win,ontime,CO2,2035,75.88410356511373
+electrons_win_ontime,electrons_win,ontime,CO2,2040,92.11607362303269
+electrons_win_ontime,electrons_win,ontime,CO2,2045,171.47497834511051
+electrons_win_ontime,electrons_win,ontime,CO2,2050,118.86330875112732
+electrons_win_delay,electrons_win,delay,electricity,2025,15.5584443370002
+electrons_win_delay,electrons_win,delay,electricity,2030,26.011513688916093
+electrons_win_delay,electrons_win,delay,electricity,2035,26.17831215353501
+electrons_win_delay,electrons_win,delay,electricity,2040,38.920998055118645
+electrons_win_delay,electrons_win,delay,electricity,2045,41.19436190992559
+electrons_win_delay,electrons_win,delay,electricity,2050,39.991628299616636
+electrons_win_delay,electrons_win,delay,electricity flat,2025,15.015986088306528
+electrons_win_delay,electrons_win,delay,electricity flat,2030,25.652573148
+electrons_win_delay,electrons_win,delay,electricity flat,2035,25.529995318361106
+electrons_win_delay,electrons_win,delay,electricity flat,2040,37.646730533872535
+electrons_win_delay,electrons_win,delay,electricity flat,2045,39.00304884999157
+electrons_win_delay,electrons_win,delay,electricity flat,2050,38.1380448255016
+electrons_win_delay,electrons_win,delay,district heat,2025,35.39091415365194
+electrons_win_delay,electrons_win,delay,district heat,2030,33.713975906806596
+electrons_win_delay,electrons_win,delay,district heat,2035,44.802019465753794
+electrons_win_delay,electrons_win,delay,district heat,2040,44.94433021321739
+electrons_win_delay,electrons_win,delay,district heat,2045,45.45062350575651
+electrons_win_delay,electrons_win,delay,district heat,2050,44.79527682150726
+electrons_win_delay,electrons_win,delay,hydrogen,2035,54.15144202067416
+electrons_win_delay,electrons_win,delay,hydrogen,2040,68.39735828011999
+electrons_win_delay,electrons_win,delay,hydrogen,2045,68.7840342117397
+electrons_win_delay,electrons_win,delay,hydrogen,2050,66.65905588878297
+electrons_win_delay,electrons_win,delay,biomethane price,2025,39.1304347826087
+electrons_win_delay,electrons_win,delay,biomethane price,2030,52.0580466368873
+electrons_win_delay,electrons_win,delay,biomethane price,2035,56.469577349272456
+electrons_win_delay,electrons_win,delay,biomethane price,2040,60.85679985395643
+electrons_win_delay,electrons_win,delay,biomethane price,2045,78.94245149403872
+electrons_win_delay,electrons_win,delay,biomethane price,2050,66.72739429265306
+electrons_win_delay,electrons_win,delay,gas grid,2025,35.0
+electrons_win_delay,electrons_win,delay,gas grid,2030,35.0
+electrons_win_delay,electrons_win,delay,gas grid,2035,35.0
+electrons_win_delay,electrons_win,delay,gas grid,2040,35.0
+electrons_win_delay,electrons_win,delay,gas grid,2045,35.0
+electrons_win_delay,electrons_win,delay,gas grid,2050,35.0
+electrons_win_delay,electrons_win,delay,forest biomass,2025,30.0
+electrons_win_delay,electrons_win,delay,forest biomass,2030,30.0
+electrons_win_delay,electrons_win,delay,forest biomass,2035,22.0
+electrons_win_delay,electrons_win,delay,forest biomass,2040,22.354532763338025
+electrons_win_delay,electrons_win,delay,forest biomass,2045,30.0
+electrons_win_delay,electrons_win,delay,forest biomass,2050,30.0
+electrons_win_delay,electrons_win,delay,HT heat,2025,40.885
+electrons_win_delay,electrons_win,delay,HT heat,2030,53.38097971421365
+electrons_win_delay,electrons_win,delay,HT heat,2035,57.64521652082466
+electrons_win_delay,electrons_win,delay,HT heat,2040,61.88595673164158
+electrons_win_delay,electrons_win,delay,HT heat,2045,79.3677575901664
+electrons_win_delay,electrons_win,delay,HT heat,2050,67.56054147654551
+electrons_win_delay,electrons_win,delay,CO2,2030,55.680725215057585
+electrons_win_delay,electrons_win,delay,CO2,2035,74.68170019349556
+electrons_win_delay,electrons_win,delay,CO2,2040,93.5779768990633
+electrons_win_delay,electrons_win,delay,CO2,2045,171.47497834511051
+electrons_win_delay,electrons_win,delay,CO2,2050,118.86330875112739
+forest_first_ontime_r02,forest_first,ontime,electricity,2025,15.5584443370002
+forest_first_ontime_r02,forest_first,ontime,electricity,2030,25.22842063955816
+forest_first_ontime_r02,forest_first,ontime,electricity,2035,28.092766920536917
+forest_first_ontime_r02,forest_first,ontime,electricity,2040,36.43308365663577
+forest_first_ontime_r02,forest_first,ontime,electricity,2045,40.891082319942825
+forest_first_ontime_r02,forest_first,ontime,electricity,2050,39.651074048457275
+forest_first_ontime_r02,forest_first,ontime,electricity flat,2025,15.015986088306528
+forest_first_ontime_r02,forest_first,ontime,electricity flat,2030,24.86508737334212
+forest_first_ontime_r02,forest_first,ontime,electricity flat,2035,27.45179186847333
+forest_first_ontime_r02,forest_first,ontime,electricity flat,2040,35.1817940379448
+forest_first_ontime_r02,forest_first,ontime,electricity flat,2045,38.17162081326727
+forest_first_ontime_r02,forest_first,ontime,electricity flat,2050,37.03992351224565
+forest_first_ontime_r02,forest_first,ontime,district heat,2025,35.39091415365194
+forest_first_ontime_r02,forest_first,ontime,district heat,2030,32.8357639885578
+forest_first_ontime_r02,forest_first,ontime,district heat,2035,42.411657130339194
+forest_first_ontime_r02,forest_first,ontime,district heat,2040,43.5577047027293
+forest_first_ontime_r02,forest_first,ontime,district heat,2045,41.950469462738866
+forest_first_ontime_r02,forest_first,ontime,district heat,2050,42.301567572357584
+forest_first_ontime_r02,forest_first,ontime,hydrogen,2030,58.187285591196364
+forest_first_ontime_r02,forest_first,ontime,hydrogen,2035,60.81686177904366
+forest_first_ontime_r02,forest_first,ontime,hydrogen,2040,67.20186802365936
+forest_first_ontime_r02,forest_first,ontime,hydrogen,2045,69.69692958693379
+forest_first_ontime_r02,forest_first,ontime,hydrogen,2050,66.72926810145708
+forest_first_ontime_r02,forest_first,ontime,biomethane price,2025,39.1304347826087
+forest_first_ontime_r02,forest_first,ontime,biomethane price,2030,51.49907079847255
+forest_first_ontime_r02,forest_first,ontime,biomethane price,2035,56.758425133704954
+forest_first_ontime_r02,forest_first,ontime,biomethane price,2040,58.953153087465175
+forest_first_ontime_r02,forest_first,ontime,biomethane price,2045,68.47381453282165
+forest_first_ontime_r02,forest_first,ontime,biomethane price,2050,61.86552270068985
+forest_first_ontime_r02,forest_first,ontime,gas grid,2025,35.0
+forest_first_ontime_r02,forest_first,ontime,gas grid,2030,35.0
+forest_first_ontime_r02,forest_first,ontime,gas grid,2035,35.0
+forest_first_ontime_r02,forest_first,ontime,gas grid,2040,35.0
+forest_first_ontime_r02,forest_first,ontime,gas grid,2045,35.0
+forest_first_ontime_r02,forest_first,ontime,gas grid,2050,35.0
+forest_first_ontime_r02,forest_first,ontime,forest biomass,2025,30.000000000000004
+forest_first_ontime_r02,forest_first,ontime,forest biomass,2030,29.108622473526793
+forest_first_ontime_r02,forest_first,ontime,forest biomass,2035,22.0
+forest_first_ontime_r02,forest_first,ontime,forest biomass,2040,25.09755506137743
+forest_first_ontime_r02,forest_first,ontime,forest biomass,2045,30.0
+forest_first_ontime_r02,forest_first,ontime,forest biomass,2050,29.999999999999996
+forest_first_ontime_r02,forest_first,ontime,HT heat,2025,40.885
+forest_first_ontime_r02,forest_first,ontime,HT heat,2030,52.84066717882032
+forest_first_ontime_r02,forest_first,ontime,HT heat,2035,57.924420142920525
+forest_first_ontime_r02,forest_first,ontime,HT heat,2040,60.04586966488529
+forest_first_ontime_r02,forest_first,ontime,HT heat,2045,69.24865155748176
+forest_first_ontime_r02,forest_first,ontime,HT heat,2050,62.86099994705748
+forest_first_ontime_r02,forest_first,ontime,CO2,2030,53.27315137918885
+forest_first_ontime_r02,forest_first,ontime,CO2,2035,75.92580113768048
+forest_first_ontime_r02,forest_first,ontime,CO2,2040,85.3787492531271
+forest_first_ontime_r02,forest_first,ontime,CO2,2045,126.38534349342655
+forest_first_ontime_r02,forest_first,ontime,CO2,2050,97.92266331757794
+forest_first_ontime_r07,forest_first,ontime,electricity,2025,15.5584443370002
+forest_first_ontime_r07,forest_first,ontime,electricity,2030,26.005440387485248
+forest_first_ontime_r07,forest_first,ontime,electricity,2035,43.180374158628794
+forest_first_ontime_r07,forest_first,ontime,electricity,2040,52.999264685133845
+forest_first_ontime_r07,forest_first,ontime,electricity,2045,51.38667025157903
+forest_first_ontime_r07,forest_first,ontime,electricity,2050,50.00520622365619
+forest_first_ontime_r07,forest_first,ontime,electricity flat,2025,15.01598608830653
+forest_first_ontime_r07,forest_first,ontime,electricity flat,2030,25.646465778657465
+forest_first_ontime_r07,forest_first,ontime,electricity flat,2035,42.85613151699643
+forest_first_ontime_r07,forest_first,ontime,electricity flat,2040,50.898049546737276
+forest_first_ontime_r07,forest_first,ontime,electricity flat,2045,49.376816037076324
+forest_first_ontime_r07,forest_first,ontime,electricity flat,2050,48.01932124477355
+forest_first_ontime_r07,forest_first,ontime,district heat,2025,35.39091415365195
+forest_first_ontime_r07,forest_first,ontime,district heat,2030,34.04573515772837
+forest_first_ontime_r07,forest_first,ontime,district heat,2035,51.545297707560074
+forest_first_ontime_r07,forest_first,ontime,district heat,2040,56.80104314196607
+forest_first_ontime_r07,forest_first,ontime,district heat,2045,54.4263246716587
+forest_first_ontime_r07,forest_first,ontime,district heat,2050,54.12617562666218
+forest_first_ontime_r07,forest_first,ontime,hydrogen,2030,64.55373626722478
+forest_first_ontime_r07,forest_first,ontime,hydrogen,2035,88.56132536615146
+forest_first_ontime_r07,forest_first,ontime,hydrogen,2040,93.74436348336343
+forest_first_ontime_r07,forest_first,ontime,hydrogen,2045,89.61417028819831
+forest_first_ontime_r07,forest_first,ontime,hydrogen,2050,86.16382387671283
+forest_first_ontime_r07,forest_first,ontime,biomethane price,2025,39.130434782608695
+forest_first_ontime_r07,forest_first,ontime,biomethane price,2030,61.124049249364205
+forest_first_ontime_r07,forest_first,ontime,biomethane price,2035,68.1986978997494
+forest_first_ontime_r07,forest_first,ontime,biomethane price,2040,71.68260869565219
+forest_first_ontime_r07,forest_first,ontime,biomethane price,2045,89.3428163253634
+forest_first_ontime_r07,forest_first,ontime,biomethane price,2050,71.68260869565219
+forest_first_ontime_r07,forest_first,ontime,gas grid,2025,35.0
+forest_first_ontime_r07,forest_first,ontime,gas grid,2030,35.0
+forest_first_ontime_r07,forest_first,ontime,gas grid,2035,35.0
+forest_first_ontime_r07,forest_first,ontime,gas grid,2040,35.0
+forest_first_ontime_r07,forest_first,ontime,gas grid,2045,35.0
+forest_first_ontime_r07,forest_first,ontime,gas grid,2050,35.0
+forest_first_ontime_r07,forest_first,ontime,forest biomass,2025,30.0
+forest_first_ontime_r07,forest_first,ontime,forest biomass,2030,29.993086895086876
+forest_first_ontime_r07,forest_first,ontime,forest biomass,2035,25.804348892618574
+forest_first_ontime_r07,forest_first,ontime,forest biomass,2040,27.232022069489158
+forest_first_ontime_r07,forest_first,ontime,forest biomass,2045,30.0
+forest_first_ontime_r07,forest_first,ontime,forest biomass,2050,30.0
+forest_first_ontime_r07,forest_first,ontime,HT heat,2025,40.885000000000005
+forest_first_ontime_r07,forest_first,ontime,HT heat,2030,62.14428310013833
+forest_first_ontime_r07,forest_first,ontime,HT heat,2035,68.98272062571608
+forest_first_ontime_r07,forest_first,ontime,HT heat,2040,72.35030925093635
+forest_first_ontime_r07,forest_first,ontime,HT heat,2045,89.42087098942437
+forest_first_ontime_r07,forest_first,ontime,HT heat,2050,72.35030925093633
+forest_first_ontime_r07,forest_first,ontime,CO2,2030,94.72905107404056
+forest_first_ontime_r07,forest_first,ontime,CO2,2035,125.20038421240379
+forest_first_ontime_r07,forest_first,ontime,CO2,2040,140.20599250936337
+forest_first_ontime_r07,forest_first,ontime,CO2,2045,216.27055720662133
+forest_first_ontime_r07,forest_first,ontime,CO2,2050,140.2059925093633
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity,2025,15.5584443370002
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity,2030,37.52848103180279
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity,2035,29.323329604651644
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity,2040,42.06351630325517
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity,2045,45.53661117882494
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity,2050,45.02749438524518
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity flat,2025,15.015986088306528
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity flat,2030,37.23414440209147
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity flat,2035,28.659838814128623
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity flat,2040,40.73891818635834
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity flat,2045,42.95055858113435
+forest_first_ontime_nonco2x2,forest_first,ontime,electricity flat,2050,42.349842681980256
+forest_first_ontime_nonco2x2,forest_first,ontime,district heat,2025,35.39091415365194
+forest_first_ontime_nonco2x2,forest_first,ontime,district heat,2030,32.58462546265157
+forest_first_ontime_nonco2x2,forest_first,ontime,district heat,2035,45.09807702390306
+forest_first_ontime_nonco2x2,forest_first,ontime,district heat,2040,46.15939399040326
+forest_first_ontime_nonco2x2,forest_first,ontime,district heat,2045,47.53138364043892
+forest_first_ontime_nonco2x2,forest_first,ontime,district heat,2050,47.64846594822665
+forest_first_ontime_nonco2x2,forest_first,ontime,hydrogen,2030,79.00558941156557
+forest_first_ontime_nonco2x2,forest_first,ontime,hydrogen,2035,63.966257942554236
+forest_first_ontime_nonco2x2,forest_first,ontime,hydrogen,2040,76.66038881475467
+forest_first_ontime_nonco2x2,forest_first,ontime,hydrogen,2045,78.41231118393246
+forest_first_ontime_nonco2x2,forest_first,ontime,hydrogen,2050,76.22133841501156
+forest_first_ontime_nonco2x2,forest_first,ontime,biomethane price,2025,39.1304347826087
+forest_first_ontime_nonco2x2,forest_first,ontime,biomethane price,2030,63.1865778051419
+forest_first_ontime_nonco2x2,forest_first,ontime,biomethane price,2035,58.973894997610735
+forest_first_ontime_nonco2x2,forest_first,ontime,biomethane price,2040,63.01057979235051
+forest_first_ontime_nonco2x2,forest_first,ontime,biomethane price,2045,72.77119283515881
+forest_first_ontime_nonco2x2,forest_first,ontime,biomethane price,2050,70.46842680666448
+forest_first_ontime_nonco2x2,forest_first,ontime,gas grid,2025,35.0
+forest_first_ontime_nonco2x2,forest_first,ontime,gas grid,2030,35.0
+forest_first_ontime_nonco2x2,forest_first,ontime,gas grid,2035,35.0
+forest_first_ontime_nonco2x2,forest_first,ontime,gas grid,2040,35.0
+forest_first_ontime_nonco2x2,forest_first,ontime,gas grid,2045,35.0
+forest_first_ontime_nonco2x2,forest_first,ontime,gas grid,2050,35.0
+forest_first_ontime_nonco2x2,forest_first,ontime,forest biomass,2025,30.0
+forest_first_ontime_nonco2x2,forest_first,ontime,forest biomass,2030,30.0
+forest_first_ontime_nonco2x2,forest_first,ontime,forest biomass,2035,22.0
+forest_first_ontime_nonco2x2,forest_first,ontime,forest biomass,2040,24.049993322120137
+forest_first_ontime_nonco2x2,forest_first,ontime,forest biomass,2045,30.0
+forest_first_ontime_nonco2x2,forest_first,ontime,forest biomass,2050,30.0
+forest_first_ontime_nonco2x2,forest_first,ontime,HT heat,2025,40.885
+forest_first_ontime_nonco2x2,forest_first,ontime,HT heat,2030,64.13794714911381
+forest_first_ontime_nonco2x2,forest_first,ontime,HT heat,2035,60.065919036055675
+forest_first_ontime_nonco2x2,forest_first,ontime,HT heat,2040,63.967825426527035
+forest_first_ontime_nonco2x2,forest_first,ontime,HT heat,2045,73.40254731917534
+forest_first_ontime_nonco2x2,forest_first,ontime,HT heat,2050,71.17666693979793
+forest_first_ontime_nonco2x2,forest_first,ontime,CO2,2030,103.61260103338272
+forest_first_ontime_nonco2x2,forest_first,ontime,CO2,2035,85.46808706836083
+forest_first_ontime_nonco2x2,forest_first,ontime,CO2,2040,102.85455715806397
+forest_first_ontime_nonco2x2,forest_first,ontime,CO2,2045,144.8946507881372
+forest_first_ontime_nonco2x2,forest_first,ontime,CO2,2050,134.97637014106425
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity,2025,15.5584443370002
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity,2030,26.01151368891611
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity,2035,27.80602644154329
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity,2040,38.10860742543353
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity,2045,40.83373258346966
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity,2050,39.62839909696818
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity flat,2025,15.015986088306528
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity flat,2030,25.65257314800001
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity flat,2035,26.610035440012876
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity flat,2040,36.51096091368778
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity flat,2045,37.95945792593983
+scarce_forest_ontime_r02,scarce_forest,ontime,electricity flat,2050,37.02222028225922
+scarce_forest_ontime_r02,scarce_forest,ontime,district heat,2025,35.39091415365194
+scarce_forest_ontime_r02,scarce_forest,ontime,district heat,2030,33.613229251127336
+scarce_forest_ontime_r02,scarce_forest,ontime,district heat,2035,46.12148348285152
+scarce_forest_ontime_r02,scarce_forest,ontime,district heat,2040,45.413666946391515
+scarce_forest_ontime_r02,scarce_forest,ontime,district heat,2045,42.734725382438604
+scarce_forest_ontime_r02,scarce_forest,ontime,district heat,2050,42.13484330347344
+scarce_forest_ontime_r02,scarce_forest,ontime,hydrogen,2030,59.382154880995564
+scarce_forest_ontime_r02,scarce_forest,ontime,hydrogen,2035,57.903832862217136
+scarce_forest_ontime_r02,scarce_forest,ontime,hydrogen,2040,68.20616040321336
+scarce_forest_ontime_r02,scarce_forest,ontime,hydrogen,2045,69.37495360332449
+scarce_forest_ontime_r02,scarce_forest,ontime,hydrogen,2050,66.70240188107446
+scarce_forest_ontime_r02,scarce_forest,ontime,biomethane price,2025,39.1304347826087
+scarce_forest_ontime_r02,scarce_forest,ontime,biomethane price,2030,49.359031596460305
+scarce_forest_ontime_r02,scarce_forest,ontime,biomethane price,2035,56.0238048730465
+scarce_forest_ontime_r02,scarce_forest,ontime,biomethane price,2040,59.30961575301848
+scarce_forest_ontime_r02,scarce_forest,ontime,biomethane price,2045,71.68260869565218
+scarce_forest_ontime_r02,scarce_forest,ontime,biomethane price,2050,64.75941316998225
+scarce_forest_ontime_r02,scarce_forest,ontime,gas grid,2025,35.0
+scarce_forest_ontime_r02,scarce_forest,ontime,gas grid,2030,35.0
+scarce_forest_ontime_r02,scarce_forest,ontime,gas grid,2035,35.0
+scarce_forest_ontime_r02,scarce_forest,ontime,gas grid,2040,35.0
+scarce_forest_ontime_r02,scarce_forest,ontime,gas grid,2045,35.0
+scarce_forest_ontime_r02,scarce_forest,ontime,gas grid,2050,35.0
+scarce_forest_ontime_r02,scarce_forest,ontime,forest biomass,2025,30.000000000000004
+scarce_forest_ontime_r02,scarce_forest,ontime,forest biomass,2030,30.000000000000004
+scarce_forest_ontime_r02,scarce_forest,ontime,forest biomass,2035,27.97771770226344
+scarce_forest_ontime_r02,scarce_forest,ontime,forest biomass,2040,28.4169114070269
+scarce_forest_ontime_r02,scarce_forest,ontime,forest biomass,2045,32.89250537631499
+scarce_forest_ontime_r02,scarce_forest,ontime,forest biomass,2050,32.22862871204122
+scarce_forest_ontime_r02,scarce_forest,ontime,HT heat,2025,40.885
+scarce_forest_ontime_r02,scarce_forest,ontime,HT heat,2030,50.772080439258175
+scarce_forest_ontime_r02,scarce_forest,ontime,HT heat,2035,57.21432766966917
+scarce_forest_ontime_r02,scarce_forest,ontime,HT heat,2040,60.39043061611424
+scarce_forest_ontime_r02,scarce_forest,ontime,HT heat,2045,72.35030925093633
+scarce_forest_ontime_r02,scarce_forest,ontime,HT heat,2050,65.65826807415289
+scarce_forest_ontime_r02,scarce_forest,ontime,CO2,2030,44.05575406715107
+scarce_forest_ontime_r02,scarce_forest,ontime,CO2,2035,72.76170638203551
+scarce_forest_ontime_r02,scarce_forest,ontime,CO2,2040,86.91407534071627
+scarce_forest_ontime_r02,scarce_forest,ontime,CO2,2045,140.20599250936326
+scarce_forest_ontime_r02,scarce_forest,ontime,CO2,2050,110.38698556359394
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity,2025,15.5584443370002
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity,2030,46.939330425837284
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity,2035,46.00815943990053
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity,2040,43.297340151836615
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity,2045,57.08935597256293
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity,2050,56.63034145439549
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity flat,2025,15.01598608830653
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity flat,2030,46.697783533260115
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity flat,2035,45.30784054125664
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity flat,2040,41.941470887628995
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity flat,2045,53.690280416519606
+scarce_forest_ontime_r07,scarce_forest,ontime,electricity flat,2050,53.074570528277604
+scarce_forest_ontime_r07,scarce_forest,ontime,district heat,2025,35.39091415365195
+scarce_forest_ontime_r07,scarce_forest,ontime,district heat,2030,46.809911328153724
+scarce_forest_ontime_r07,scarce_forest,ontime,district heat,2035,57.6850571875074
+scarce_forest_ontime_r07,scarce_forest,ontime,district heat,2040,53.75740515144056
+scarce_forest_ontime_r07,scarce_forest,ontime,district heat,2045,57.63888456448143
+scarce_forest_ontime_r07,scarce_forest,ontime,district heat,2050,58.193104996276986
+scarce_forest_ontime_r07,scarce_forest,ontime,hydrogen,2030,96.23174454933832
+scarce_forest_ontime_r07,scarce_forest,ontime,hydrogen,2035,91.07881291272813
+scarce_forest_ontime_r07,scarce_forest,ontime,hydrogen,2040,80.29329564308938
+scarce_forest_ontime_r07,scarce_forest,ontime,hydrogen,2045,95.45428488493238
+scarce_forest_ontime_r07,scarce_forest,ontime,hydrogen,2050,93.046194857675
+scarce_forest_ontime_r07,scarce_forest,ontime,biomethane price,2025,39.130434782608695
+scarce_forest_ontime_r07,scarce_forest,ontime,biomethane price,2030,70.29448042944651
+scarce_forest_ontime_r07,scarce_forest,ontime,biomethane price,2035,69.00483115362839
+scarce_forest_ontime_r07,scarce_forest,ontime,biomethane price,2040,66.26008520719581
+scarce_forest_ontime_r07,scarce_forest,ontime,biomethane price,2045,94.02773287278305
+scarce_forest_ontime_r07,scarce_forest,ontime,biomethane price,2050,91.30434782608697
+scarce_forest_ontime_r07,scarce_forest,ontime,gas grid,2025,35.0
+scarce_forest_ontime_r07,scarce_forest,ontime,gas grid,2030,35.0
+scarce_forest_ontime_r07,scarce_forest,ontime,gas grid,2035,35.0
+scarce_forest_ontime_r07,scarce_forest,ontime,gas grid,2040,35.0
+scarce_forest_ontime_r07,scarce_forest,ontime,gas grid,2045,35.0
+scarce_forest_ontime_r07,scarce_forest,ontime,gas grid,2050,35.0
+scarce_forest_ontime_r07,scarce_forest,ontime,forest biomass,2025,30.0
+scarce_forest_ontime_r07,scarce_forest,ontime,forest biomass,2030,44.09913711986268
+scarce_forest_ontime_r07,scarce_forest,ontime,forest biomass,2035,32.38451183798624
+scarce_forest_ontime_r07,scarce_forest,ontime,forest biomass,2040,30.0
+scarce_forest_ontime_r07,scarce_forest,ontime,forest biomass,2045,42.0
+scarce_forest_ontime_r07,scarce_forest,ontime,forest biomass,2050,42.5547351884439
+scarce_forest_ontime_r07,scarce_forest,ontime,HT heat,2025,40.885000000000005
+scarce_forest_ontime_r07,scarce_forest,ontime,HT heat,2030,71.00852835197689
+scarce_forest_ontime_r07,scarce_forest,ontime,HT heat,2035,69.76193838851509
+scarce_forest_ontime_r07,scarce_forest,ontime,HT heat,2040,67.10883508885652
+scarce_forest_ontime_r07,scarce_forest,ontime,HT heat,2045,93.94936571832238
+scarce_forest_ontime_r07,scarce_forest,ontime,HT heat,2050,91.31691011235957
+scarce_forest_ontime_r07,scarce_forest,ontime,CO2,2030,134.22716289836507
+scarce_forest_ontime_r07,scarce_forest,ontime,CO2,2035,128.67249373285634
+scarce_forest_ontime_r07,scarce_forest,ontime,CO2,2040,116.85055426320295
+scarce_forest_ontime_r07,scarce_forest,ontime,CO2,2045,236.44903671797945
+scarce_forest_ontime_r07,scarce_forest,ontime,CO2,2050,224.7191011235955
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity,2025,15.5584443370002
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity,2030,27.9239386506103
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity,2035,41.21500917497888
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity,2040,42.2048193726829
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity,2045,47.60495150284509
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity,2050,45.754348887501344
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity flat,2025,15.015986088306528
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity flat,2030,27.575725771650056
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity flat,2035,39.95395646118746
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity flat,2040,40.81934518212747
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity flat,2045,44.48202856401319
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,electricity flat,2050,42.87982745642672
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,district heat,2025,35.39091415365194
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,district heat,2030,36.065075901193
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,district heat,2035,51.27673812440661
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,district heat,2040,49.38373391342643
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,district heat,2045,48.73638048358544
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,district heat,2050,48.08598680223147
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,hydrogen,2030,64.35066080088393
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,hydrogen,2035,79.13052551971117
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,hydrogen,2040,76.52593104799413
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,hydrogen,2045,80.07327739351491
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,hydrogen,2050,76.66844407289997
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,biomethane price,2025,39.1304347826087
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,biomethane price,2030,58.952122139131276
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,biomethane price,2035,63.48464623080924
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,biomethane price,2040,62.9885192499609
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,biomethane price,2045,84.42189717034462
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,biomethane price,2050,71.68260869565218
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gas grid,2025,35.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gas grid,2030,35.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gas grid,2035,35.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gas grid,2040,35.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gas grid,2045,35.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,gas grid,2050,35.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,forest biomass,2025,30.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,forest biomass,2030,32.17687110531538
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,forest biomass,2035,30.0
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,forest biomass,2040,30.000000000000004
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,forest biomass,2045,37.86843398770603
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,forest biomass,2050,35.98775316634843
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,HT heat,2025,40.885
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,HT heat,2030,60.04487313825592
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,HT heat,2035,64.4260635500834
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,HT heat,2040,63.946501450119605
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,HT heat,2045,84.66425339991589
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,HT heat,2050,72.35030925093633
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,CO2,2030,85.37430883895485
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,CO2,2035,104.89641634992736
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,CO2,2040,102.75953984065556
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,CO2,2045,195.07558706328203
+scarce_forest_ontime_nonco2x2,scarce_forest,ontime,CO2,2050,140.2059925093633
+electrons_win_ontime_r02,electrons_win,ontime,electricity,2025,15.5584443370002
+electrons_win_ontime_r02,electrons_win,ontime,electricity,2030,20.612708618035448
+electrons_win_ontime_r02,electrons_win,ontime,electricity,2035,23.01234546481541
+electrons_win_ontime_r02,electrons_win,ontime,electricity,2040,31.205393905473123
+electrons_win_ontime_r02,electrons_win,ontime,electricity,2045,35.82520316327988
+electrons_win_ontime_r02,electrons_win,ontime,electricity,2050,35.10856858331315
+electrons_win_ontime_r02,electrons_win,ontime,electricity flat,2025,15.015986088306528
+electrons_win_ontime_r02,electrons_win,ontime,electricity flat,2030,20.223483722477468
+electrons_win_ontime_r02,electrons_win,ontime,electricity flat,2035,22.384829676082127
+electrons_win_ontime_r02,electrons_win,ontime,electricity flat,2040,29.98143272497836
+electrons_win_ontime_r02,electrons_win,ontime,electricity flat,2045,32.990625768879546
+electrons_win_ontime_r02,electrons_win,ontime,electricity flat,2050,33.493410127081155
+electrons_win_ontime_r02,electrons_win,ontime,district heat,2025,35.39091415365194
+electrons_win_ontime_r02,electrons_win,ontime,district heat,2030,27.687525708523726
+electrons_win_ontime_r02,electrons_win,ontime,district heat,2035,41.930261192281655
+electrons_win_ontime_r02,electrons_win,ontime,district heat,2040,41.30102880604728
+electrons_win_ontime_r02,electrons_win,ontime,district heat,2045,40.98148442081667
+electrons_win_ontime_r02,electrons_win,ontime,district heat,2050,39.262651814895335
+electrons_win_ontime_r02,electrons_win,ontime,hydrogen,2030,46.351927390141185
+electrons_win_ontime_r02,electrons_win,ontime,hydrogen,2035,48.65298040685502
+electrons_win_ontime_r02,electrons_win,ontime,hydrogen,2040,56.2924831043413
+electrons_win_ontime_r02,electrons_win,ontime,hydrogen,2045,59.2667693944205
+electrons_win_ontime_r02,electrons_win,ontime,hydrogen,2050,58.95427004521091
+electrons_win_ontime_r02,electrons_win,ontime,biomethane price,2025,39.1304347826087
+electrons_win_ontime_r02,electrons_win,ontime,biomethane price,2030,48.957796734408966
+electrons_win_ontime_r02,electrons_win,ontime,biomethane price,2035,53.536725755993444
+electrons_win_ontime_r02,electrons_win,ontime,biomethane price,2040,55.9985622626924
+electrons_win_ontime_r02,electrons_win,ontime,biomethane price,2045,73.22295568382562
+electrons_win_ontime_r02,electrons_win,ontime,biomethane price,2050,64.28289489784531
+electrons_win_ontime_r02,electrons_win,ontime,gas grid,2025,35.0
+electrons_win_ontime_r02,electrons_win,ontime,gas grid,2030,35.0
+electrons_win_ontime_r02,electrons_win,ontime,gas grid,2035,35.0
+electrons_win_ontime_r02,electrons_win,ontime,gas grid,2040,35.0
+electrons_win_ontime_r02,electrons_win,ontime,gas grid,2045,35.0
+electrons_win_ontime_r02,electrons_win,ontime,gas grid,2050,35.0
+electrons_win_ontime_r02,electrons_win,ontime,forest biomass,2025,30.000000000000004
+electrons_win_ontime_r02,electrons_win,ontime,forest biomass,2030,23.85465939975038
+electrons_win_ontime_r02,electrons_win,ontime,forest biomass,2035,22.0
+electrons_win_ontime_r02,electrons_win,ontime,forest biomass,2040,22.0
+electrons_win_ontime_r02,electrons_win,ontime,forest biomass,2045,30.0
+electrons_win_ontime_r02,electrons_win,ontime,forest biomass,2050,29.999999999999996
+electrons_win_ontime_r02,electrons_win,ontime,HT heat,2025,40.885
+electrons_win_ontime_r02,electrons_win,ontime,HT heat,2030,50.384242163067256
+electrons_win_ontime_r02,electrons_win,ontime,HT heat,2035,54.81028811892618
+electrons_win_ontime_r02,electrons_win,ontime,HT heat,2040,57.1899278694219
+electrons_win_ontime_r02,electrons_win,ontime,HT heat,2045,73.83922653388329
+electrons_win_ontime_r02,electrons_win,ontime,HT heat,2050,65.19765997969617
+electrons_win_ontime_r02,electrons_win,ontime,CO2,2030,42.32758893097491
+electrons_win_ontime_r02,electrons_win,ontime,CO2,2035,62.04956786289305
+electrons_win_ontime_r02,electrons_win,ontime,CO2,2040,72.6529835284504
+electrons_win_ontime_r02,electrons_win,ontime,CO2,2045,146.8404458292114
+electrons_win_ontime_r02,electrons_win,ontime,CO2,2050,108.33456603940861
+electrons_win_ontime_r07,electrons_win,ontime,electricity,2025,15.5584443370002
+electrons_win_ontime_r07,electrons_win,ontime,electricity,2030,26.011513688916086
+electrons_win_ontime_r07,electrons_win,ontime,electricity,2035,42.921558795101156
+electrons_win_ontime_r07,electrons_win,ontime,electricity,2040,51.76144641419804
+electrons_win_ontime_r07,electrons_win,ontime,electricity,2045,49.78510484533761
+electrons_win_ontime_r07,electrons_win,ontime,electricity,2050,48.15065099787136
+electrons_win_ontime_r07,electrons_win,ontime,electricity flat,2025,15.01598608830653
+electrons_win_ontime_r07,electrons_win,ontime,electricity flat,2030,25.652573147999988
+electrons_win_ontime_r07,electrons_win,ontime,electricity flat,2035,42.64571151067236
+electrons_win_ontime_r07,electrons_win,ontime,electricity flat,2040,50.20979581317625
+electrons_win_ontime_r07,electrons_win,ontime,electricity flat,2045,48.1356358299778
+electrons_win_ontime_r07,electrons_win,ontime,electricity flat,2050,46.55180964467981
+electrons_win_ontime_r07,electrons_win,ontime,district heat,2025,35.39091415365195
+electrons_win_ontime_r07,electrons_win,ontime,district heat,2030,33.995217431152135
+electrons_win_ontime_r07,electrons_win,ontime,district heat,2035,53.196777573081356
+electrons_win_ontime_r07,electrons_win,ontime,district heat,2040,55.201186122748446
+electrons_win_ontime_r07,electrons_win,ontime,district heat,2045,53.50338694128916
+electrons_win_ontime_r07,electrons_win,ontime,district heat,2050,52.98554351521488
+electrons_win_ontime_r07,electrons_win,ontime,hydrogen,2030,57.6981117695834
+electrons_win_ontime_r07,electrons_win,ontime,hydrogen,2035,82.28262961049039
+electrons_win_ontime_r07,electrons_win,ontime,hydrogen,2040,88.07704411848783
+electrons_win_ontime_r07,electrons_win,ontime,hydrogen,2045,83.75244101406008
+electrons_win_ontime_r07,electrons_win,ontime,hydrogen,2050,80.43054953959789
+electrons_win_ontime_r07,electrons_win,ontime,biomethane price,2025,39.130434782608695
+electrons_win_ontime_r07,electrons_win,ontime,biomethane price,2030,59.59254094921316
+electrons_win_ontime_r07,electrons_win,ontime,biomethane price,2035,66.77461657283867
+electrons_win_ontime_r07,electrons_win,ontime,biomethane price,2040,71.68260869565219
+electrons_win_ontime_r07,electrons_win,ontime,biomethane price,2045,89.95909609070179
+electrons_win_ontime_r07,electrons_win,ontime,biomethane price,2050,74.96035180714574
+electrons_win_ontime_r07,electrons_win,ontime,gas grid,2025,35.0
+electrons_win_ontime_r07,electrons_win,ontime,gas grid,2030,35.0
+electrons_win_ontime_r07,electrons_win,ontime,gas grid,2035,35.0
+electrons_win_ontime_r07,electrons_win,ontime,gas grid,2040,35.0
+electrons_win_ontime_r07,electrons_win,ontime,gas grid,2045,35.0
+electrons_win_ontime_r07,electrons_win,ontime,gas grid,2050,35.0
+electrons_win_ontime_r07,electrons_win,ontime,forest biomass,2025,30.0
+electrons_win_ontime_r07,electrons_win,ontime,forest biomass,2030,30.0
+electrons_win_ontime_r07,electrons_win,ontime,forest biomass,2035,25.76367484431808
+electrons_win_ontime_r07,electrons_win,ontime,forest biomass,2040,28.13755878022895
+electrons_win_ontime_r07,electrons_win,ontime,forest biomass,2045,31.19240242329033
+electrons_win_ontime_r07,electrons_win,ontime,forest biomass,2050,33.38968041995374
+electrons_win_ontime_r07,electrons_win,ontime,HT heat,2025,40.885000000000005
+electrons_win_ontime_r07,electrons_win,ontime,HT heat,2030,60.663909395655274
+electrons_win_ontime_r07,electrons_win,ontime,HT heat,2035,67.60618708084658
+electrons_win_ontime_r07,electrons_win,ontime,HT heat,2040,72.35030925093635
+electrons_win_ontime_r07,electrons_win,ontime,HT heat,2045,90.0165741659086
+electrons_win_ontime_r07,electrons_win,ontime,HT heat,2050,75.51861379869943
+electrons_win_ontime_r07,electrons_win,ontime,CO2,2030,88.13266700971954
+electrons_win_ontime_r07,electrons_win,ontime,CO2,2035,119.06670059462344
+electrons_win_ontime_r07,electrons_win,ontime,CO2,2040,140.20599250936337
+electrons_win_ontime_r07,electrons_win,ontime,CO2,2045,218.92494570901516
+electrons_win_ontime_r07,electrons_win,ontime,CO2,2050,154.32361265250032
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity,2025,15.5584443370002
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity,2030,26.011513688916093
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity,2035,26.820693062607038
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity,2040,38.1349662185721
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity,2045,41.19436190992559
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity,2050,39.991628299616636
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity flat,2025,15.015986088306528
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity flat,2030,25.652573148
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity flat,2035,26.17239442834879
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity flat,2040,36.862706562462016
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity flat,2045,39.003048849991586
+electrons_win_ontime_nonco2x2,electrons_win,ontime,electricity flat,2050,38.1380448255016
+electrons_win_ontime_nonco2x2,electrons_win,ontime,district heat,2025,35.39091415365194
+electrons_win_ontime_nonco2x2,electrons_win,ontime,district heat,2030,33.89301853523972
+electrons_win_ontime_nonco2x2,electrons_win,ontime,district heat,2035,44.86337829042572
+electrons_win_ontime_nonco2x2,electrons_win,ontime,district heat,2040,45.00888298131705
+electrons_win_ontime_nonco2x2,electrons_win,ontime,district heat,2045,45.45062350575651
+electrons_win_ontime_nonco2x2,electrons_win,ontime,district heat,2050,44.79527682150726
+electrons_win_ontime_nonco2x2,electrons_win,ontime,hydrogen,2030,55.81988160625517
+electrons_win_ontime_nonco2x2,electrons_win,ontime,hydrogen,2035,55.11509480786077
+electrons_win_ontime_nonco2x2,electrons_win,ontime,hydrogen,2040,67.22705830842615
+electrons_win_ontime_nonco2x2,electrons_win,ontime,hydrogen,2045,68.78403421173972
+electrons_win_ontime_nonco2x2,electrons_win,ontime,hydrogen,2050,66.65905588878297
+electrons_win_ontime_nonco2x2,electrons_win,ontime,biomethane price,2025,39.1304347826087
+electrons_win_ontime_nonco2x2,electrons_win,ontime,biomethane price,2030,56.8546202180198
+electrons_win_ontime_nonco2x2,electrons_win,ontime,biomethane price,2035,56.74874404511771
+electrons_win_ontime_nonco2x2,electrons_win,ontime,biomethane price,2040,60.51738404986933
+electrons_win_ontime_nonco2x2,electrons_win,ontime,biomethane price,2045,78.94245149403874
+electrons_win_ontime_nonco2x2,electrons_win,ontime,biomethane price,2050,66.72739429265306
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gas grid,2025,35.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gas grid,2030,35.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gas grid,2035,35.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gas grid,2040,35.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gas grid,2045,35.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,gas grid,2050,35.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,forest biomass,2025,30.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,forest biomass,2030,30.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,forest biomass,2035,22.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,forest biomass,2040,22.64395956776944
+electrons_win_ontime_nonco2x2,electrons_win,ontime,forest biomass,2045,30.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,forest biomass,2050,30.0
+electrons_win_ontime_nonco2x2,electrons_win,ontime,HT heat,2025,40.885
+electrons_win_ontime_nonco2x2,electrons_win,ontime,HT heat,2030,58.01740342829102
+electrons_win_ontime_nonco2x2,electrons_win,ontime,HT heat,2035,57.915062290289946
+electrons_win_ontime_nonco2x2,electrons_win,ontime,HT heat,2040,61.55787347462824
+electrons_win_ontime_nonco2x2,electrons_win,ontime,HT heat,2045,79.3677575901664
+electrons_win_ontime_nonco2x2,electrons_win,ontime,HT heat,2050,67.56054147654551
+electrons_win_ontime_nonco2x2,electrons_win,ontime,CO2,2030,76.34012453454217
+electrons_win_ontime_nonco2x2,electrons_win,ontime,CO2,2035,75.88410356511373
+electrons_win_ontime_nonco2x2,electrons_win,ontime,CO2,2040,92.11607362303268
+electrons_win_ontime_nonco2x2,electrons_win,ontime,CO2,2045,171.47497834511057
+electrons_win_ontime_nonco2x2,electrons_win,ontime,CO2,2050,118.86330875112739
