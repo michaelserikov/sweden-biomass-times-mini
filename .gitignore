@@ -9,3 +9,4 @@ model/*.gdx
 results/*.gdx
 results/logs/
 results/residuals/gdx/
+results/g1/gdx/

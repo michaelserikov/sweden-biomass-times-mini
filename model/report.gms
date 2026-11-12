@@ -7,12 +7,13 @@ Sets
           BIOF_CCS 'biofuels with CO2 capture (BECCS)'
           DH       'district heating and CHP'
           DH_CCS   'CHP with CO2 capture (BECCS)'
-          INDUSTRY 'industry' /
+          INDUSTRY 'industry'
+          BIOMETHANE 'bio-SNG by gasification and methanation' /
    PRC_BCAT(PRC,BCAT)
-        / BF_FT.BIOFUEL, BF_FTC.BIOF_CCS, (CHP_BIO, HET_BOB).DH, CHP_BCS.DH_CCS, IND_BIO.INDUSTRY /
+        / BF_FT.BIOFUEL, BF_FTC.BIOF_CCS, (CHP_BIO, HET_BOB).DH, CHP_BCS.DH_CCS, IND_BIO.INDUSTRY, BG_SNG.BIOMETHANE /
    ENC(COM) 'energy commodities (TWh) for the energy-conservation check'
         / ELC, HET, BIO_SOL, BLQ, WST, HEFA_FS, NG, OIL_JET, OIL_DSL, COA,
-          BIO_JET, BIO_DSL, BIO_NAP, SYN_JET, H2, IND, AVF, DSL, DST /;
+          BIO_JET, BIO_DSL, BIO_NAP, SYN_JET, H2, IND, AVF, DSL, DST, DIG, BMG, IHT /;
 
 Parameters
    REP_ACT(PRC,T)       'annual activity'
@@ -41,7 +42,12 @@ Parameters
    REP_COST(*)          'system cost (MEUR)'
    REP_CAL(CALITEM,*)   'calibration 2025 (TWh)'
    REP_CHECK(*)         'model checks (0 = pass)'
-   REP_SCN(*)           'scenario parameters';
+   REP_SCN(*)           'scenario parameters'
+   REP_H2SEAS(*,T,SEAS) 'hydrogen by season: production, use, storage (TWh)'
+   REP_H2PRICE(T,*)     'hydrogen shadow price by season and use-weighted (EUR/MWh)'
+   REP_BMG(PRC,T)       'biomethane production (+) and use (-) (TWh)'
+   REP_IHT(PRC,T)       'high-temperature industrial heat by process (TWh)'
+   REP_COMPRICE(*,T)    'commodity shadow prices (EUR/MWh; CO2 EUR/t)';
 
 REP_ACT(PRC,T)  = sum(S$PRC_TS(PRC,S), VAR_ACT.l(PRC,T,S));
 REP_FLO(PRC,COM,IO,T) = PRC_ACTFLO(PRC,COM,IO) * REP_ACT(PRC,T);
@@ -72,11 +78,37 @@ REP_CO2BAL('net',T)      = VAR_EMIS.l('CO2_EMIS',T) - VAR_EMIS.l('CO2_STG',T);
 REP_CO2BAL('captured biogenic',T) = sum(PRC, REP_FLO(PRC,'CO2_CAP','OUT',T));
 REP_CO2BAL('used for e-kerosene',T) = REP_FLO('EF_EKER','CO2_CAP','IN',T);
 REP_CO2BAL('international aviation (memo)',T) = VAR_EMIS.l('CO2_INTAV',T);
+REP_CO2BAL('biogenic carbon debt',T) = VAR_EMIS.l('CO2_BIOD',T);
+REP_CO2BAL('net incl. carbon debt',T) = VAR_EMIS.l('CO2_EMIS',T) + VAR_EMIS.l('CO2_BIOD',T) - VAR_EMIS.l('CO2_STG',T);
+REP_CO2BAL('biomethane credit',T) = -FLO_EMIS('GAS_BMG','CO2_EMIS') * REP_ACT('GAS_BMG',T);
 
 REP_ELCPRICE(T,TS) = EQ_COMBAL.m('ELC',T,TS) / ANNF(T);
 REP_ELCAVG(T) = sum(TS, REP_ELCPRICE(T,TS) * DEM('ELC',T,TS)) / sum(TS, DEM('ELC',T,TS));
-REP_CO2PRICE(T)$(YEAR(T) > 2025) = -(EQ_CO2GROSS.m(T) + EQ_CO2NET.m(T)) / ANNF(T);
+REP_CO2PRICE(T)$(YEAR(T) > 2025) = -(EQ_CO2GROSS.m(T) + EQ_CO2NET.m(T)) / ANNF(T) + CO2PR(T);
 REP_BIOPRICE(T) = EQ_COMBAL.m('BIO_SOL',T,'ANNUAL') / ANNF(T);
+
+* v0.2: hydrogen by season, biomethane, high-temperature heat, prices
+REP_H2SEAS('production',T,SEAS) = sum(PRC$PRC_ACTFLO(PRC,'H2','OUT'), PRC_ACTFLO(PRC,'H2','OUT')
+   * (sum(TS$(TS_SEAS(TS,SEAS) and PRC_TS(PRC,TS)), VAR_ACT.l(PRC,T,TS)) + FRS(SEAS)*VAR_ACT.l(PRC,T,'ANNUAL')));
+REP_H2SEAS('use',T,SEAS) = sum(PRC$PRC_ACTFLO(PRC,'H2','IN'), PRC_ACTFLO(PRC,'H2','IN')
+   * (sum(TS$(TS_SEAS(TS,SEAS) and PRC_TS(PRC,TS)), VAR_ACT.l(PRC,T,TS)) + FRS(SEAS)*VAR_ACT.l(PRC,T,'ANNUAL')));
+REP_H2SEAS('to storage',T,SEAS)   = VAR_SIN.l(T,SEAS);
+REP_H2SEAS('from storage',T,SEAS) = VAR_SOUT.l(T,SEAS);
+REP_H2SEAS('storage level',T,SEAS) = VAR_SLEV.l(T,SEAS);
+REP_H2PRICE(T,SEAS) = EQ_H2BAL.m(T,SEAS) / ANNF(T);
+REP_H2PRICE(T,'use-weighted')$sum(SEAS, REP_H2SEAS('use',T,SEAS))
+   = sum(SEAS, REP_H2PRICE(T,SEAS) * REP_H2SEAS('use',T,SEAS)) / sum(SEAS, REP_H2SEAS('use',T,SEAS));
+REP_BMG(PRC,T) = REP_FLO(PRC,'BMG','OUT',T) - REP_FLO(PRC,'BMG','IN',T);
+REP_IHT(PRC,T) = REP_FLO(PRC,'IHT','OUT',T);
+REP_COMPRICE('electricity',T) = REP_ELCAVG(T);
+REP_COMPRICE('electricity flat',T) = sum(TS, REP_ELCPRICE(T,TS) * G_YRFR(TS));
+REP_COMPRICE('district heat',T) = sum(TS, EQ_COMBAL.m('HET',T,TS) / ANNF(T) * DEM('HET',T,TS)) / sum(TS, DEM('HET',T,TS));
+REP_COMPRICE('hydrogen',T)    = REP_H2PRICE(T,'use-weighted');
+REP_COMPRICE('biomethane price',T)  = EQ_COMBAL.m('BMG',T,'ANNUAL') / ANNF(T);
+REP_COMPRICE('gas grid',T)    = EQ_COMBAL.m('NG',T,'ANNUAL') / ANNF(T);
+REP_COMPRICE('forest biomass',T) = REP_BIOPRICE(T);
+REP_COMPRICE('HT heat',T)     = EQ_COMBAL.m('IHT',T,'ANNUAL') / ANNF(T);
+REP_COMPRICE('CO2',T)         = REP_CO2PRICE(T);
 
 REP_PEAK('peak load',T)       = PEAK_LOAD(T);
 REP_PEAK('required',T)        = PEAK_LOAD(T) * (1 + COM_PKRSV('ELC'));
@@ -94,6 +126,9 @@ REP_COST('NPV variable')    = sum((PRC,T,S)$PRC_TS(PRC,S), ANNF(T) * ACT_COST(PR
 REP_COST('NPV resources')   = sum((RES,T), ANNF(T) * RES_COST(RES) * VAR_SUP.l(RES,T));
 REP_COST('NPV export revenue') = sum((PRC_EXP,T), ANNF(T) * IRE_PRICE(PRC_EXP) * VAR_ACT.l(PRC_EXP,T,'ANNUAL'));
 REP_COST('NPV unserved')    = sum((COM,T,S), ANNF(T) * DUM_COST * VAR_DUM.l(COM,T,S));
+REP_COST('NPV CO2 payments') = sum(T, ANNF(T) * CO2PR(T) * (VAR_EMIS.l('CO2_EMIS',T) + VAR_EMIS.l('CO2_BIOD',T)
+                                                         - NEGCR * VAR_EMIS.l('CO2_STG',T)));
+REP_COST('NPV system cost excl. CO2') = VAR_OBJ.l - REP_COST('NPV CO2 payments');
 
 * calibration against statistics (SCB electricity supply 2025, preliminary;
 * district heating: SCB 2023 total supply)
@@ -131,6 +166,10 @@ REP_SCN('DLY_START') = DLY_START;
 REP_SCN('G_DRATE')   = G_DRATE;
 REP_SCN('NONCO2')    = NONCO2;
 REP_SCN('E_BASE')    = E_BASE;
+REP_SCN('PRICEMODE') = PRICEMODE;
+REP_SCN('CO2P45')    = CO2P45;
+REP_SCN('NEGCR')     = NEGCR;
+REP_SCN('BIOC')      = BIOC;
 
 display REP_CHECK, REP_CAL, REP_BIOALLOC, REP_CO2BAL, REP_CO2PRICE, REP_ELCAVG, REP_COST;
 
